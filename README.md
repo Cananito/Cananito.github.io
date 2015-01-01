@@ -1,4 +1,3 @@
-Cananito.github.io
-==================
+# Cananito.github.io
 
 My site.
