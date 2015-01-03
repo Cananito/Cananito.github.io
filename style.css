@@ -9,9 +9,11 @@ a {
 
 h1 {
 	margin-left: 30px;
-	font-size: 48px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 38px;
 	font-weight: bold;
-	line-height: 30px;
+/*	line-height: 52px;*/
 	color: #444444;
 }
 
@@ -34,5 +36,5 @@ div#content {
 
 span {
 	margin-left: 30px;
-	font-size: 36px;
+	font-size: 32px;
 }
