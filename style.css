@@ -16,9 +16,10 @@ h1 {
 	color: #444444;
 }
 
-h1 a {
-	color: #444444;
-	text-decoration: none;
+h4 {
+	margin-left: 30px;
+	margin-top: 25px;
+	margin-bottom: -20px;
 }
 
 hr {
