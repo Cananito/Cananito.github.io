@@ -23,7 +23,7 @@ class Stitcher(HTMLParser):
         self.feed(template_html)
 
     def stitched(self, content_html):
-        content_html_lines = content_html.split("\n")
+        content_html_lines = content_html.splitlines()
         indented_content_html_lines = ["        " + s
                                        for s
                                        in content_html_lines]
