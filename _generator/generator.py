@@ -94,7 +94,13 @@ if __name__ == "__main__":
         relpaths = [content_dir_relpath]
 
     template_html_relpath = script_relpath + "/template.html"
-    template_html = open(template_html_relpath).read()
+    template_html = None
+    with open(template_html_relpath) as template_html_fileobject:
+        template_html = template_html_fileobject.read()
+        template_html_fileobject.close()
+    if not template_html:
+        sys.stdout.write("Couldn't load template.html!")
+        sys.exit(1)
     stitcher = Stitcher(template_html)
 
     # TODO: In a recursive loop, stitch all files.
