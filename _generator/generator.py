@@ -9,13 +9,6 @@ from enum import Enum
 from html.parser import HTMLParser
 
 
-def _contents_of_file_relpath(file_relpath):
-    contents = None
-    with open(file_relpath) as fileobject:
-        contents = fileobject.read()
-        fileobject.close()
-    return contents
-
 class Stage(Enum):
     BEFORE_CONTENT = 0
     AFTER_CONTENT = 1
@@ -31,93 +24,152 @@ class Stitcher(HTMLParser):
 
     def stitched(self, content_html):
         content_html_lines = content_html.split("\n")
-        indented_content_html_lines = ["        " + s for s in content_html_lines]
+        indented_content_html_lines = ["        " + s
+                                       for s
+                                       in content_html_lines]
         indented_content_html = "\n".join(indented_content_html_lines)
-        return self.before_content_html + "\n" + indented_content_html + self.after_content_html
+        return (self.before_content_html +
+                "\n" +
+                indented_content_html +
+                self.after_content_html)
 
     def handle_starttag(self, tag, attrs):
         needs_to_change_stage = False
-        self.append_to_current_segment("<")
-        self.append_to_current_segment(tag)
+        self.__append_to_current_segment("<")
+        self.__append_to_current_segment(tag)
         for pair in attrs:
-            self.append_to_current_segment(" ")
-            self.append_to_current_segment(pair[0])
-            self.append_to_current_segment("=")
-            self.append_to_current_segment("\"")
-            self.append_to_current_segment(pair[1])
-            self.append_to_current_segment("\"")
+            self.__append_to_current_segment(" ")
+            self.__append_to_current_segment(pair[0])
+            self.__append_to_current_segment("=")
+            self.__append_to_current_segment("\"")
+            self.__append_to_current_segment(pair[1])
+            self.__append_to_current_segment("\"")
             if tag == "div" and pair[0] == "id" and pair[1] == "content":
                 needs_to_change_stage = True
-        self.append_to_current_segment(">")
+        self.__append_to_current_segment(">")
         if needs_to_change_stage:
             self.stage = Stage.AFTER_CONTENT
 
     def handle_endtag(self, tag):
-        self.append_to_current_segment("</")
-        self.append_to_current_segment(tag)
-        self.append_to_current_segment(">")
+        self.__append_to_current_segment("</")
+        self.__append_to_current_segment(tag)
+        self.__append_to_current_segment(">")
 
     def handle_startendtag(self, tag, attrs):
-        self.append_to_current_segment("<")
-        self.append_to_current_segment(tag)
-        self.append_to_current_segment(" />")
+        self.__append_to_current_segment("<")
+        self.__append_to_current_segment(tag)
+        self.__append_to_current_segment(" />")
 
     def handle_data(self, data):
-        self.append_to_current_segment(data)
+        self.__append_to_current_segment(data)
 
     def handle_entityref(self, name):
-        self.append_to_current_segment("&")
-        self.append_to_current_segment(name)
-        self.append_to_current_segment(";")
+        self.__append_to_current_segment("&")
+        self.__append_to_current_segment(name)
+        self.__append_to_current_segment(";")
 
     def handle_charref(self, name):
-        self.append_to_current_segment("&#")
-        self.append_to_current_segment(name)
-        self.append_to_current_segment(";")
+        self.__append_to_current_segment("&#")
+        self.__append_to_current_segment(name)
+        self.__append_to_current_segment(";")
 
     def handle_decl(self, decl):
-        self.append_to_current_segment("<!")
-        self.append_to_current_segment(decl)
-        self.append_to_current_segment(">")
+        self.__append_to_current_segment("<!")
+        self.__append_to_current_segment(decl)
+        self.__append_to_current_segment(">")
 
-    def append_to_current_segment(self, s):
+    def __append_to_current_segment(self, s):
         if self.stage == Stage.BEFORE_CONTENT:
             self.before_content_html += s
         elif self.stage == Stage.AFTER_CONTENT:
             self.after_content_html += s
 
 
+class Generator(object):
+    def __init__(self, relpaths):
+        self.script_dir_path = os.path.dirname(os.path.abspath(__file__))
+        self.content_dir_path = os.path.join(self.script_dir_path, "content")
+        self.root_output_dir_path = os.path.split(self.script_dir_path)[0]
+
+        self.paths = [os.path.abspath(relpath) for relpath in relpaths]
+        if not self.paths:
+            self.paths = [self.content_dir_path]
+
+        template_html_path = os.path.join(self.script_dir_path,
+                                             "template.html")
+        template_html = self.__contents_of_file_path(template_html_path)
+        if not template_html:
+            sys.stdout.write("Couldn't load template.html!")
+            sys.exit(1)
+        self.stitcher = Stitcher(template_html)
+
+    def generate(self):
+        for path in self.paths:
+            if os.path.isdir(path):
+                for root, subdirs, files in os.walk(path):
+                    for f in files:
+                        file_path = os.path.join(root, f)
+                        self.__generate_for_file(file_path)
+            elif os.path.isfile(path):
+                self.__generate_for_file(path)
+            else:
+                sys.stdout.write("Found a path that's neither a directory nor "
+                                 "a file!")
+                sys.exit(1)
+
+    def __contents_of_file_path(self, file_path):
+        contents = None
+        with open(file_path) as fileobject:
+            contents = fileobject.read()
+            fileobject.close()
+        return contents
+
+    def ___write_contents_to_file_path(self, contents, file_path):
+        with open(file_path) as fileobject:
+            fileobject.write(contents, "w")
+            fileobject.close()
+
+    def __generate_for_file(self, file_path):
+        if not file_path.startswith(self.content_dir_path):
+            sys.stdout.write("The following file isn't in the "
+                             "/_generator/content/ subtree, so skipping it: " +
+                             file_path + "\n")
+            return
+
+        # Build output path.
+        file_relpath_to_content_dir_path = os.path.relpath(file_path, self.content_dir_path)
+        output_path = os.path.join(self.root_output_dir_path, file_relpath_to_content_dir_path)
+
+        # Read contents of input path.
+        file_content_html = self.__contents_of_file_path(file_path)
+        if file_content_html:
+            sys.stdout.write("Generating full HTML for " +
+                             file_path +
+                             " in " +
+                             output_path +
+                             "\n")
+            # Stitch.
+            stitched_html = self.stitcher.stitched(file_content_html)
+            # Write contents to output path.
+            # TODO: Delete print and uncomment write!
+            sys.stdout.write(stitched_html + "\n")
+            # self.___write_contents_to_file_path(stitched_html, output_path)
+        else:
+            sys.stdout.write("Couldn't load " + file_path + "! Skipping.\n")
+            return
+
+
+
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Generates full HTML pages by inserting content HTML snippets into a template HTML file.")
+    parser = argparse.ArgumentParser(
+        description="Generates full HTML pages by inserting content HTML "
+                    "snippets into a template HTML file. The script can be ran "
+                    "from anywhere in the file system, but all input HTML must "
+                    "be in `.../_generator/content/` (where ... is the output "
+                    "directory).")
     parser.add_argument("--version", "-v", action="version", version="1.0")
-    parser.add_argument("relpaths", action="store", nargs="*", help="All the file and directory paths that get processed.")
+    parser.add_argument("relpaths", action="store", nargs="*",
+                        help="All the file and directory paths to process. "
+                             "Default is `.../_generator/content/`")
     args = parser.parse_args()
-
-    script_relpath = os.path.dirname(os.path.relpath(__file__))
-    if not script_relpath:
-        script_relpath = "."
-
-    relpaths = args.relpaths
-    if not relpaths:
-        content_dir_relpath = os.path.join(script_relpath, "content")
-        relpaths = [content_dir_relpath]
-
-    template_html_relpath = os.path.join(script_relpath, "template.html")
-    template_html = _contents_of_file_relpath(template_html_relpath)
-    if not template_html:
-        sys.stdout.write("Couldn't load template.html!")
-        sys.exit(1)
-    stitcher = Stitcher(template_html)
-
-    # TODO: In a recursive loop, stitch all files.
-
-    # Verifying going up relative paths:
-    # root_relpath = os.path.join(script_relpath, "..")
-    # index_html_relpath = os.path.join(root_relpath, "index.html")
-    # index_html = open(index_html_relpath).read()
-    # sys.stdout.write(">>> index.html:\n")
-    # sys.stdout.write(index_html + "\n")
-
-    # Verifying stitcher:
-    # s = stitcher.stitched("HELLO WORLDDDDDDDDDDDDDDDDDDDDd")
-    # sys.stdout.write(s + "\n")
+    g = Generator(args.relpaths).generate()
