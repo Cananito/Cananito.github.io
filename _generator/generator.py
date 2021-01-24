@@ -58,6 +58,13 @@ class Stitcher(HTMLParser):
     def handle_startendtag(self, tag, attrs):
         self.__append_to_current_segment("<")
         self.__append_to_current_segment(tag)
+        for pair in attrs:
+            self.__append_to_current_segment(" ")
+            self.__append_to_current_segment(pair[0])
+            self.__append_to_current_segment("=")
+            self.__append_to_current_segment("\"")
+            self.__append_to_current_segment(pair[1])
+            self.__append_to_current_segment("\"")
         self.__append_to_current_segment(" />")
 
     def handle_data(self, data):
