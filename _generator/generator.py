@@ -9,6 +9,13 @@ from enum import Enum
 from html.parser import HTMLParser
 
 
+def _contents_of_file_relpath(file_relpath):
+    contents = None
+    with open(file_relpath) as fileobject:
+        contents = fileobject.read()
+        fileobject.close()
+    return contents
+
 class Stage(Enum):
     BEFORE_CONTENT = 0
     AFTER_CONTENT = 1
@@ -87,17 +94,16 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     script_relpath = os.path.dirname(os.path.relpath(__file__))
+    if not script_relpath:
+        script_relpath = "."
 
     relpaths = args.relpaths
     if not relpaths:
-        content_dir_relpath = script_relpath + "/content"
+        content_dir_relpath = os.path.join(script_relpath, "content")
         relpaths = [content_dir_relpath]
 
-    template_html_relpath = script_relpath + "/template.html"
-    template_html = None
-    with open(template_html_relpath) as template_html_fileobject:
-        template_html = template_html_fileobject.read()
-        template_html_fileobject.close()
+    template_html_relpath = os.path.join(script_relpath, "template.html")
+    template_html = _contents_of_file_relpath(template_html_relpath)
     if not template_html:
         sys.stdout.write("Couldn't load template.html!")
         sys.exit(1)
@@ -106,8 +112,8 @@ if __name__ == "__main__":
     # TODO: In a recursive loop, stitch all files.
 
     # Verifying going up relative paths:
-    # root_relpath = script_relpath + "/.."
-    # index_html_relpath = root_relpath + "/index.html"
+    # root_relpath = os.path.join(script_relpath, "..")
+    # index_html_relpath = os.path.join(root_relpath, "index.html")
     # index_html = open(index_html_relpath).read()
     # sys.stdout.write(">>> index.html:\n")
     # sys.stdout.write(index_html + "\n")
