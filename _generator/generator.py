@@ -16,56 +16,14 @@ class Stage(Enum):
     AFTER_CONTENT = 3
 
 
-class Stitcher(HTMLParser):
-    def __init__(self, template_html):
+class Parser(HTMLParser):
+    def __init__(self):
         HTMLParser.__init__(self)
-
         self.stage = Stage.BEFORE_TITLE
         self.before_title_html = ""
         self.title_html = ""
         self.after_title_before_content_html = ""
         self.after_content_html = ""
-
-        self.feed(template_html)
-
-    def stitched(self, content_html):
-        content_html_lines = content_html.splitlines()
-        title_html = self.title_html
-
-        # Clear lines in before title.
-        while content_html_lines and content_html_lines[0] == "":
-            content_html_lines.pop(0)
-
-        # Title.
-        if content_html_lines:
-            first_line = content_html_lines[0]
-            if first_line.startswith("<title>") and first_line.endswith("</title>"):
-                title_html = content_html_lines.pop(0)
-            elif first_line.startswith("<title>"):
-                title_end_found = False
-                while not title_end_found:
-                    first_line = content_html_lines.pop(0)
-                    if first_line.endswith("</title>"):
-                        title_end_found = True
-                    title_html += first_line
-
-        # Clear lines in between title and content.
-        while content_html_lines and content_html_lines[0] == "":
-            content_html_lines.pop(0)
-
-        # Content.
-        indented_content_html_lines = ["        " + s
-                                       for s
-                                       in content_html_lines]
-        indented_content_html = "\n".join(indented_content_html_lines)
-
-        # Actual stitch.
-        return (self.before_title_html +
-                title_html +
-                self.after_title_before_content_html +
-                "\n" +
-                indented_content_html +
-                self.after_content_html)
 
     def handle_starttag(self, tag, attrs):
         # Handle the title tag.
@@ -142,6 +100,51 @@ class Stitcher(HTMLParser):
         else:
             sys.stdout.write("Got into a bad state. Exiting!\n")
             sys.exit(1)
+
+class Stitcher(object):
+    def __init__(self, template_html):
+        self.parser = Parser()
+        self.parser.feed(template_html)
+
+    def stitched(self, content_html):
+        content_html_lines = content_html.splitlines()
+        title_html = self.parser.title_html
+
+        # Clear lines in before title.
+        while content_html_lines and content_html_lines[0] == "":
+            content_html_lines.pop(0)
+
+        # Title.
+        if content_html_lines:
+            first_line = content_html_lines[0]
+            if (first_line.startswith("<title>") and
+                first_line.endswith("</title>")):
+                title_html = content_html_lines.pop(0)
+            elif first_line.startswith("<title>"):
+                title_end_found = False
+                while not title_end_found:
+                    first_line = content_html_lines.pop(0)
+                    if first_line.endswith("</title>"):
+                        title_end_found = True
+                    title_html += first_line
+
+        # Clear lines in between title and content.
+        while content_html_lines and content_html_lines[0] == "":
+            content_html_lines.pop(0)
+
+        # Content.
+        indented_content_html_lines = ["        " + s
+                                       for s
+                                       in content_html_lines]
+        indented_content_html = "\n".join(indented_content_html_lines)
+
+        # Actual stitch.
+        return (self.parser.before_title_html +
+                title_html +
+                self.parser.after_title_before_content_html +
+                "\n" +
+                indented_content_html +
+                self.parser.after_content_html)
 
 
 class Generator(object):
