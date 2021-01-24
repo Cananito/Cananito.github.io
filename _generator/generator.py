@@ -10,31 +10,53 @@ from html.parser import HTMLParser
 
 
 class Stage(Enum):
-    BEFORE_CONTENT = 0
-    AFTER_CONTENT = 1
+    BEFORE_TITLE = 0
+    TITLE = 1
+    AFTER_TITLE_BEFORE_CONTENT = 2
+    AFTER_CONTENT = 3
 
 
 class Stitcher(HTMLParser):
     def __init__(self, template_html):
         HTMLParser.__init__(self)
-        self.stage = Stage.BEFORE_CONTENT
-        self.before_content_html = ""
+
+        self.stage = Stage.BEFORE_TITLE
+        self.before_title_html = ""
+        self.title_html = ""
+        self.after_title_before_content_html = ""
         self.after_content_html = ""
+
         self.feed(template_html)
 
     def stitched(self, content_html):
+        # Title.
+        # TODO: Implement!
+        title_html = self.title_html
+
+        # Content.
         content_html_lines = content_html.splitlines()
         indented_content_html_lines = ["        " + s
                                        for s
                                        in content_html_lines]
         indented_content_html = "\n".join(indented_content_html_lines)
-        return (self.before_content_html +
+
+        # Actual stitch.
+        return (self.before_title_html +
+                title_html +
+                self.after_title_before_content_html +
                 "\n" +
                 indented_content_html +
                 self.after_content_html)
 
     def handle_starttag(self, tag, attrs):
-        needs_to_change_stage = False
+        # Handle the title tag.
+        if tag == "title":
+            if self.title_html:
+                sys.stdout.write("There's more than one title tags in the "
+                                 "template! Exiting.\n")
+                sys.exit(1)
+            self.stage = Stage.TITLE
+        change_to_after_content_stage = False
         self.__append_to_current_segment("<")
         self.__append_to_current_segment(tag)
         for pair in attrs:
@@ -44,16 +66,20 @@ class Stitcher(HTMLParser):
             self.__append_to_current_segment("\"")
             self.__append_to_current_segment(pair[1])
             self.__append_to_current_segment("\"")
+            # Handle the div#content tag.
             if tag == "div" and pair[0] == "id" and pair[1] == "content":
-                needs_to_change_stage = True
+                change_to_after_content_stage = True
         self.__append_to_current_segment(">")
-        if needs_to_change_stage:
+        if change_to_after_content_stage:
             self.stage = Stage.AFTER_CONTENT
 
     def handle_endtag(self, tag):
         self.__append_to_current_segment("</")
         self.__append_to_current_segment(tag)
         self.__append_to_current_segment(">")
+        # Handle the title tag.
+        if tag == "title":
+            self.stage = Stage.AFTER_TITLE_BEFORE_CONTENT
 
     def handle_startendtag(self, tag, attrs):
         self.__append_to_current_segment("<")
@@ -86,10 +112,17 @@ class Stitcher(HTMLParser):
         self.__append_to_current_segment(">")
 
     def __append_to_current_segment(self, s):
-        if self.stage == Stage.BEFORE_CONTENT:
-            self.before_content_html += s
+        if self.stage == Stage.BEFORE_TITLE:
+            self.before_title_html += s
+        elif self.stage == Stage.TITLE:
+            self.title_html += s
+        elif self.stage == Stage.AFTER_TITLE_BEFORE_CONTENT:
+            self.after_title_before_content_html += s
         elif self.stage == Stage.AFTER_CONTENT:
             self.after_content_html += s
+        else:
+            sys.stdout.write("Got into a bad state. Exiting!\n")
+            sys.exit(1)
 
 
 class Generator(object):
