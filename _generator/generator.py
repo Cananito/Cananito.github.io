@@ -132,8 +132,8 @@ class Generator(object):
         return contents
 
     def ___write_contents_to_file_path(self, contents, file_path):
-        with open(file_path) as fileobject:
-            fileobject.write(contents, "w")
+        with open(file_path, "w") as fileobject:
+            fileobject.write(contents)
             fileobject.close()
 
     def __generate_for_file(self, file_path):
@@ -158,9 +158,7 @@ class Generator(object):
             # Stitch.
             stitched_html = self.stitcher.stitched(file_content_html)
             # Write contents to output path.
-            # TODO: Delete print and uncomment write!
-            sys.stdout.write(stitched_html + "\n")
-            # self.___write_contents_to_file_path(stitched_html, output_path)
+            self.___write_contents_to_file_path(stitched_html, output_path)
         else:
             sys.stdout.write("Couldn't load " + file_path + "! Skipping.\n")
             return
