@@ -13,7 +13,9 @@ class Stage(Enum):
     BEFORE_TITLE = 0
     TITLE = 1
     AFTER_TITLE_BEFORE_CONTENT = 2
-    AFTER_CONTENT = 3
+    AFTER_CONTENT_BEFORE_FOOTER = 3
+    FOOTER = 4
+    AFTER_FOOTER = 5
 
 
 class Parser(HTMLParser):
@@ -23,7 +25,9 @@ class Parser(HTMLParser):
         self.before_title_html = ""
         self.title_html = ""
         self.after_title_before_content_html = ""
-        self.after_content_html = ""
+        self.after_content_before_footer_html = ""
+        self.footer_html = ""
+        self.after_footer_html = ""
 
     def handle_starttag(self, tag, attrs):
         # Handle the title tag.
@@ -33,6 +37,14 @@ class Parser(HTMLParser):
                                  "template! Exiting.\n")
                 sys.exit(1)
             self.stage = Stage.TITLE
+        # Handle the footer tag.
+        if tag == "footer":
+            if self.footer_html:
+                sys.stdout.write("There's more than one foter tags in the "
+                                 "template! Exiting.\n")
+                sys.exit(1)
+            self.stage = Stage.FOOTER
+
         change_to_after_content_stage = False
         self.__append_to_current_segment("<")
         self.__append_to_current_segment(tag)
@@ -48,7 +60,7 @@ class Parser(HTMLParser):
                 change_to_after_content_stage = True
         self.__append_to_current_segment(">")
         if change_to_after_content_stage:
-            self.stage = Stage.AFTER_CONTENT
+            self.stage = Stage.AFTER_CONTENT_BEFORE_FOOTER
 
     def handle_endtag(self, tag):
         self.__append_to_current_segment("</")
@@ -57,6 +69,9 @@ class Parser(HTMLParser):
         # Handle the title tag.
         if tag == "title":
             self.stage = Stage.AFTER_TITLE_BEFORE_CONTENT
+        # Handle the footer tag.
+        if tag == "footer":
+            self.stage = Stage.AFTER_FOOTER
 
     def handle_startendtag(self, tag, attrs):
         self.__append_to_current_segment("<")
@@ -95,8 +110,12 @@ class Parser(HTMLParser):
             self.title_html += s
         elif self.stage == Stage.AFTER_TITLE_BEFORE_CONTENT:
             self.after_title_before_content_html += s
-        elif self.stage == Stage.AFTER_CONTENT:
-            self.after_content_html += s
+        elif self.stage == Stage.AFTER_CONTENT_BEFORE_FOOTER:
+            self.after_content_before_footer_html += s
+        elif self.stage == Stage.FOOTER:
+            self.footer_html += s
+        elif self.stage == Stage.AFTER_FOOTER:
+            self.after_footer_html += s
         else:
             sys.stdout.write("Got into a bad state. Exiting!\n")
             sys.exit(1)
@@ -106,7 +125,7 @@ class Stitcher(object):
         self.parser = Parser()
         self.parser.feed(template_html)
 
-    def stitched(self, content_html):
+    def stitched(self, content_html, generate_footer):
         content_html_lines = content_html.splitlines()
         title_html = self.parser.title_html
 
@@ -138,13 +157,20 @@ class Stitcher(object):
                                        in content_html_lines]
         indented_content_html = "\n".join(indented_content_html_lines)
 
+        # Footer.
+        footer_html = ""
+        if generate_footer:
+            footer_html = self.parser.footer_html
+
         # Actual stitch.
         return (self.parser.before_title_html +
                 title_html +
                 self.parser.after_title_before_content_html +
                 "\n" +
                 indented_content_html +
-                self.parser.after_content_html)
+                self.parser.after_content_before_footer_html +
+                footer_html +
+                self.parser.after_footer_html)
 
 
 class Generator(object):
@@ -210,8 +236,12 @@ class Generator(object):
                              " in " +
                              output_path +
                              "\n")
+            generate_footer = True
+            basename = os.path.basename(file_path)
+            if basename == "index.html" or basename == "404.html":
+                generate_footer = False
             # Stitch.
-            stitched_html = self.stitcher.stitched(file_content_html)
+            stitched_html = self.stitcher.stitched(file_content_html, generate_footer)
             # Write contents to output path.
             self.___write_contents_to_file_path(stitched_html, output_path)
         else:
