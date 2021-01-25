@@ -129,7 +129,7 @@ class Stitcher(object):
         content_html_lines = content_html.splitlines()
         title_html = self.parser.title_html
 
-        # Clear lines in before title.
+        # Clear lines before title.
         while content_html_lines and content_html_lines[0] == "":
             content_html_lines.pop(0)
 
