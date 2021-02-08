@@ -3,7 +3,14 @@
 <p>Given that interviewing for software engineering roles in big tech companies is a skill of its own, <strong>the goal of this document</strong> is solely to help people gain or improve that skill and increase their chances of getting a job at a big tech company. It does not argue for or against the interview process and neither does it propose something better.</p>
 <h2>General Preparation</h2>
 <h3>Big O Notation</h3>
-<p>Not always, but in most interview exercises/problems you’ll be asked to identify the time/runtime or space/memory complexity of a method or algorithm. Be familiar with both the <a href="https://en.wikipedia.org/wiki/Big_O_notation#Orders_of_common_functions">notation and their name</a>. Mainly: O(1) = constant, O(log n) = logarithmic, O(n) = linear, O(n^2) = quadratic, O(c^n) = exponential.</p>
+<p>Not always, but in most interview exercises/problems you’ll be asked to identify the time/runtime or space/memory complexity of a method or algorithm. Be familiar with both the <a href="https://en.wikipedia.org/wiki/Big_O_notation#Orders_of_common_functions">notation and their name</a>. Mainly:</p>
+<ul>
+    <li>O(1) = constant.</li>
+    <li>O(log n) = logarithmic.</li>
+    <li>O(n) = linear.</li>
+    <li>O(n^2) = quadratic.</li>
+    <li>O(c^n) = exponential.</li>
+</ul>
 <p>This will be asked with one of three purposes:</p>
 <ul>
     <li>The interviewer simply wants to assess you have the skill to correctly identify complexity.</li>
@@ -112,4 +119,86 @@
 <h3>iOS with Swift</h3>
 <p>TODO: Need to update with latest language features!</p>
 <ul>
+    <li>
+        <a href="https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/AutomaticReferenceCounting.html">Memory management.</a>
+        <ul>
+            <li>How ARC works.</li>
+            <li>How ARC compares to garbage collection.</li>
+            <li>`weak` and `unowned` references.</li>
+            <li>How to prevent memory leaks: retain cycles via property ownership (solved with `weak` or `unowned` references) and closure scope capturing (solved with closure capture lists).</li>
+        </ul>
+    </li>
+    <li>Reference vs value semantics: classes, structs, `inout`.</li>
+    <li>Optionals, <a href="https://developer.apple.com/library/prerelease/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID333">optional binding</a>, and <a href="https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/OptionalChaining.html">optional chaining</a>.</li>
+    <li>Enums: `indirect` (<a href="https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Enumerations.html#//apple_ref/doc/uid/TP40014097-CH12-ID536">recursive enumerations</a>), <a href="https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Enumerations.html#//apple_ref/doc/uid/TP40014097-CH12-ID149">raw values</a>, and <a href="https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Enumerations.html#//apple_ref/doc/uid/TP40014097-CH12-ID148">associated values</a>.</li>
+    <li>Generics: <a href="https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Generics.html#//apple_ref/doc/uid/TP40014097-CH26-ID182">type parameters</a> and <a href="https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Generics.html#//apple_ref/doc/uid/TP40014097-CH26-ID189">associated types</a>.</li>
+    <li><a href="https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TypeCasting.html">Type casting</a> (checking types and downcasting).</li>
+    <li><a href="https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Protocols.html#//apple_ref/doc/uid/TP40014097-CH25-ID284">Optional protocol requirements</a>.</li>
+    <li><a href="https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/AccessControl.html#//apple_ref/doc/uid/TP40014097-CH41-ID5">Access control levels</a>: `open`, `public`, `internal`, `fileprivate`, `private`.</li>
+    <li>`<a href="https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Statements.html#//apple_ref/doc/uid/TP40014097-CH33-ID524">guard</a>` branch statement.</li>
+    <li>Closure syntax. Some companies/interviewers will require you to know it, some others are a bit more forgiving/flexible. So just to be safe, memorize <a href="http://goshdarnclosuresyntax.com/">http://goshdarnclosuresyntax.com/</a>.</li>
+    <li>Extending classes via class extensions vs subclassing.</li>
 </ul>
+<h3>Android</h3>
+<p>TODO!</p>
+<h3>Front End</h3>
+<p>TODO!</p>
+<h3>Back End</h3>
+<p>TODO!</p>
+<h2>The Interview</h2>
+<h3>Choosing a Language</h3>
+<p>It’s very likely you’ll have a choice on which language to use. Always pick the one you’re most familiar with or know the best.</p>
+<p>That said, there are a few things to consider:</p>
+<ul>
+    <li>If it’s not a popular one, odds are your recruiter won’t find interviewers that are familiar with it, and your odds of succeeding may be lower since interviewers not familiar with it won’t be able to make as good of an assessment.</li>
+    <li>If you’re interviewing for an iOS or Android role but you’re not very familiar with Objective-C/Swift or Java (respectively), you should still stick to your main language. It’ll make it a bit harder or error-prone for the recruiter to find the correct interviewers, but the odds of you succeeding will likely be higher.</li>
+    <li>If you’re interviewing for an iOS role and the language you’re familiar the most is Objective-C, it’s tempting to choose a less verbose one because it’ll take less whiteboard space. It’s highly suggested you stick to Objective-C.</li>
+</ul>
+<h3>Syntax Errors</h3>
+<p>Most companies are forgiving when it comes to syntax errors (Facebook might be the most strict). That said, you should strive to avoid them and write code that essentially compiles.</p>
+<h3>Interviewer Notes</h3>
+<p>Interviewers both take notes and copy your code. For note taking they’ll either use their computer or pen and paper (although some with great memory don’t take notes). For the copy of your code though, they’ll either type it live into their computer or take pictures of the whiteboard and then transcribe it all into their computers once the interview is over.</p>
+<p>Many times the interviewers that write your code live into their computers won’t tell you about it at the beginning, so it throws people off sometimes: it’s either distracting or it makes it feel like they’re not paying attention. With that said, know that they *are* paying attention (which may make it less distracting).</p>
+<h3>Before The Problem(s)</h3>
+<p>The first 3-10 minutes of the interview are likely for the interviewer to ask you domain specific questions, behavioral questions, about your resume, or to answer any questions you have about the company or the interviewer’s job (this last one is most likely to happen at the end of the interview).</p>
+<h3>The Problem(s)</h3>
+<p>The key to performing well in the interview is communication and verbalizing most—if not all—of your thoughts.</p>
+<p>The other thing you should keep in mind is that in most—if not all cases—you want to have a working solution fully coded, rather than a highly optimized solution that’s incomplete or contains many errors.</p>
+<p>The following steps are a good recipe to succeed:</p>
+<p>
+    TI = The interviewer.<br />
+    Y = You.
+</p>
+<ol>
+    <li>TI: They will describe the problem to you.</li>
+    <li>Y: Ask questions that clarify or reveal the specific edge cases of the problem. If the interviewer didn’t give you input examples, it might be a good idea to ask for some. If you don’t have any questions, at the very list verify that you understood the problem by saying out loud what you need to do. A few examples of questions: “do I have to worry about case sensitivity?”, “can you remind me of the definition of x?”, “can the input be a negative number?”, “is there a specific memory or runtime complexity I should aim for?”, etc.</li>
+    <li>Y: Once everything is cleared out, vaguely describe the first solution that comes to mind. If multiple solutions came to mind before or during your description of the first solution, continue by mentioning/describing them. If you gave more than one, tell the interviewer what are the pros and cons of each one and which one you’d like to go with.</li>
+    <li>TI: They might have a different opinion on what solution you should go with. Odds are they’re trying to guide you in the right direction, so it’s recommended you gracefully take their recommendation (after understanding and evaluating/assessing it, never take recommendations blindly!).</li>
+    <li>Y: Try and give them all the steps of the solution‘s implementation verbally. In some cases this is not feasible or very hard to do so, but try. In some cases the steps are simply the main lines of a method. In other cases the steps are a bit bigger, general, and/or abstract.</li>
+    <li>TI: If they detect an issue in your steps hopefully they’ll bring it up. They might also have new questions or suggestions for you. But at this stage it’s likely that not much conversation around the solution needs to take place anymore.</li>
+    <li>Y: Announce you’ll now proceed to write code and do so. If you can, speak and write at the same time. If this is hard, try doing the speaking before or after you write each line of code.</li>
+    <li>Y: Once you’re done writing the code you needed to write, tell the interviewer: “I’m now going to test the code to see if it works. Do you have any question, comment, or suggestion before I do so?”. If they do have one, address it.</li>
+    <li>Y: (VERY IMPORTANT STEP!) Now proceed to test the code by making a line by line dry run<span style="color: #892bf5; font-weight: bold;">*</span> with a couple or few different inputs (if you were giving examples of them, use those) and going line by line of all the code you wrote. For example: “Ok let’s say we pass in 5, so x = 5, x square is 25, if x is greater than 10 we do this, then we return true. If we pass in 1, x = 1, x square is 1, if x is less than 10 we do this, we return false”.</li>
+    <li>Y: If you found errors or issues, address them. If not, tell the interviewer that is your solution.</li>
+    <li>TI: 3 things can happen now: they’ll add something new to the problem, they’ll give you a new problem, or you’re done with the interview. If it’s one of the first two, simply repeat from step 1.</li>
+</ol>
+<p><span style="color: #892bf5; font-weight: bold;">*</span> There are very few interviewers who’s expectation of testing the code isn’t a line by line dry run of your code, but to write actual unit tests. Make sure to ask the interviewer what are their expectations when it comes to testing the code.</p>
+<h3>After The Problem(s)</h3>
+<p>You’ll likely get 5 minutes at the end of the interview to ask questions to the interviewer (if this didn’t happen at the beginning). For the most part (if not the sole purpose of) this is for you to genuinely learn about the company through the interviewer.</p>
+<h2>Practicing and Other Resources</h2>
+<p>TODO: Links to coding challenge websites like LeetCode.</p>
+<p>TODO: <a href="https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850">Cracking the Coding Interview</a> by Gayle Laakmann McDowell</p>
+<p>TODO: Cracking the Coding Interview videos: <a href="https://vimeo.com/ondemand/ctci">https://vimeo.com/ondemand/ctci</a></p>
+<h2>Specific Companies</h2>
+<h3>Google</h3>
+<p>TODO: Process (recruiter contact, schedule phone interview, schedule on-site interview, interviewers submit feedback, recruiter decides whether to send review packets to committee, committee makes a hiring decision, review packet is sent to Larry (or a VP?) for a quick last check, offer is extended).</p>
+<p>TODO: Practice in a Google Doc for phone interview. Tools, Preferences..., Uncheck: “Automatically capitalize words” and “Use smart quotes”.</p>
+<p>TODO: On-site: 5 interviews of 45 mins each. 1 hour for lunch with a Googler, free to ask anything, you don’t get evaluated.</p>
+<p>TODO: Google Hiring Process videos:</p>
+<ul>
+    <li>How We Hire: <a href="https://www.youtube.com/watch?v=k-baHBzWe4k">https://www.youtube.com/watch?v=k-baHBzWe4k</a></li>
+    <li>Prepare for a Google Engineering Interview: <a href="https://www.youtube.com/watch?v=ko-KkSmp-Lk">https://www.youtube.com/watch?v=ko-KkSmp-Lk</a></li>
+    <li>Example Coding/Engineering Interview: <a href="https://www.youtube.com/watch?v=XKu_SEDAykw">https://www.youtube.com/watch?v=XKu_SEDAykw</a></li>
+</ul>
+<h3>Facebook</h3>
+<p>TODO!</p>
