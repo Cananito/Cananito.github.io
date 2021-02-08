@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Rogelio Gudino - Interviewing For Big Tech Companies (Software Engineering)</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <style>
+        html {
+            background-color: #fff;
+            font-family: Avenir, sans-serif;
+            color: #444444;
+            font-size: 125%;
+            margin-left: 1.5%;
+            margin-top: 0.75%;
+            margin-bottom: 0.75%;
+        }
+
+        a {
+            color: #6498cc;
+        }
+
+        span#my-name {
+            font-size: 28px;
+            font-weight: bold;
+        }
+    </style>
+
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-39831434-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+</head>
+<body>
+    <span id="my-name">Rogelio Gudino</span>
+    <hr />
+    <div id="content">
+        <h1>Interviewing For Big Tech Companies (Software Engineering)</h1>
+        <p>Given that interviewing for software engineering roles in big tech companies is a skill of its own, <strong>the goal of this document</strong> is solely to help people gain or improve that skill and increase their chances of getting a job at a big tech company. It does not argue for or against the interview process and neither does it propose something better.</p>
+        <h2>General Preparation</h2>
+        <h3>Big O Notation</h3>
+        <p>Not always, but in most interview exercises/problems you’ll be asked to identify the time/runtime or space/memory complexity of a method or algorithm. Be familiar with both the <a href="https://en.wikipedia.org/wiki/Big_O_notation#Orders_of_common_functions">notation and their name</a>. Mainly: O(1) = constant, O(log n) = logarithmic, O(n) = linear, O(n^2) = quadratic, O(c^n) = exponential.</p>
+        <p>This will be asked with one of three purposes:</p>
+        <ul>
+            <li>The interviewer simply wants to assess you have the skill to correctly identify complexity.</li>
+            <li>You presented more than one solution and the interviewer wants you to go with the most optimal.</li>
+            <li>Your solution is not as optimal as the interviewer expects, so once you identify the complexity, they’ll tell you what’s the complexity of the solution they expect from you.</li>
+        </ul>
+        <h3>Basic Data Structures</h3>
+        <ul>
+            <li>Hash Map/Table (A.K.A. Dictionary).</li>
+            <li>Linked List (singly and doubly).</li>
+            <li>Queue.</li>
+            <li>Stack.</li>
+            <li>Set.</li>
+        </ul>
+        <p>You won’t necessarily be asked to implement these, but you’ll very likely be using them as part of your solutions. So it’s very important you’re very familiar with them: how they’re implemented, and the runtime complexity of all their operations (read, add, remove, etc.).</p>
+        <h3>Binary Trees</h3>
+        <ul>
+            <li>Implementation (modeling it).</li>
+            <li>Traversals: pre, in, post.</li>
+            <li>Depth-First Search.</li>
+            <li>Inserting.</li>
+            <li>Runtime complexity of all operations.</li>
+        </ul>
+        <p>Less important, but be familiar with:</p>
+        <ul>
+            <li>Breadth-First Search.</li>
+            <li>Deleting.</li>
+            <li>Balancing.</li>
+        </ul>
+        <h3>Algorithm Techniques/Methods</h3>
+        <ul>
+            <li>Recursion.</li>
+            <li>Dynamic Programming.</li>
+        </ul>
+        <h3>Other Topics</h3>
+        <p>These are either less likely to come up or just need to have a notion about them:</p>
+        <ul>
+            <li>Sorting algorithms: Extremely unlikely you’ll need to implement one. They’ll likely come up in conversation only when you sort something via standard library methods in order to assess your runtime complexity identification skills of a given solution.</li>
+            <li>
+                Trees: Mainly for modeling. Outside of that, might be useful to be aware/familiar with some concrete types of trees:
+                <ul>
+                    <li>Binary tree.</li>
+                    <li>Ternary tree.</li>
+                    <li>N-ary tree.</li>
+                    <li>Binary search tree.</li>
+                    <li>B-tree.</li>
+                    <li>AVL tree.</li>
+                    <li>Red-black tree.</li>
+                    <li>B-tree.</li>
+                    <li>Trie.</li>
+                </ul>
+            </li>
+            <li>Threading/locking/async: Interviewers might add this aspect to their problem to test knowledge around it.</li>
+            <li>Binary search on both binary trees and arrays: Also unlikely for you to have to code it up, but will be useful to know how it’s done.</li>
+            <li>Bitmasks and bitwise operations: These tend to show up in tricky questions (which are likely banned from most companies) that involve performance.</li>
+            <li>Heaps and priority queues: // TODO.</li>
+            <li>
+                Graphs: // TODO. Outside of that, might be useful to be aware/familiar with some concrete types of graphs:
+                <ul>
+                    <li>Directed graph.</li>
+                    <li>Undirected graph.</li>
+                    <li>Directed acyclic (DAG).</li>
+                </ul>
+            </li>
+            <li>ArrayDeque (A.K.A./and/or: Circular Buffer, Ring Buffer, ArrayQueue): Will probably never come up, but they’re interesting! (For iOS folks, NSMutableArray is <a href="http://ciechanowski.me/blog/2014/03/05/exposing-nsmutablearray/">implemented this way</a>, which is why inserting and removing objects at index 0 is super fast!)</li>
+        </ul>
+        <h3>Whiteboard</h3>
+        <p>This is optional, but because onsite interviews will very likely be on a whiteboard, it’s recommended that you practice solving problems in one. If you’re not used to writing code in one, odds are it’ll hurt you a tiny bit since you’ll either run out of space, write extremely slow, find yourself erasing a lot, trying to fit stuff you missed in tight spaces, etc.</p>
+        <p>A few tips are:</p>
+        <ul>
+            <li>Start at the very top left or as close as you can get to that corner.</li>
+            <li>Do not write things down as they come to your mind. Quite the opposite, try to have a rough draft of the whole code in your head before writing it down. This will save you from erasing or doing weird contortions in order to fit missing code.</li>
+            <li>Use a right corner for non-code, like input and output examples.</li>
+        </ul>
+        <h2>Domain Specific Preparation</h2>
+        <h3>iOS with Objective-C</h3>
+        <ul>
+            <li>
+                Memory management.
+                <ul>
+                    <li>How ARC works.</li>
+                    <li>How ARC compares to garbage collection.</li>
+                    <li>Ownership property attributes: `strong`, `weak`, `assign` (with both objects and primitives), `copy`, etc.</li>
+                    <li>How to prevent memory leaks: retain cycles via property ownership attributes and block scope capturing.</li>
+                </ul>
+            </li>
+            <li>Delegates, notification center, target/action, KVO, responder chain, handler/callback blocks.</li>
+            <li>
+                Copying.
+                <ul>
+                    <li>NSCopying protocol: `- copyWithZone:`.</li>
+                    <li>NSMutableCopying protocol: `-mutableCopyWithZone:`.</li>
+                    <li>NSObject class: `- copy` and `- mutableCopy`.</li>
+                </ul>
+            </li>
+            <li>
+                Equality.
+                <ul>
+                    <li>NSObject protocol: `- isEqual:` and `- hash`.</li>
+                    <li>NSObject class: default implementation of that protocol.</li>
+                </ul>
+            </li>
+            <li>Block syntax. Some companies/interviewers will require you to know it, some others are a bit more forgiving/flexible. So just to be safe, memorize <a href="http://goshdarnblocksyntax.com/">http://goshdarnblocksyntax.com/</a>.</li>
+            <li>Extending classes via categories (and/or class extensions) vs subclassing.</li>
+        </ul>
+        <h3>iOS with Swift</h3>
+        <p>TODO: Need to update with latest language features!</p>
+        <ul>
+        </ul>
+    </div>
+</body>
+<footer>
+    <hr />
+    <p style="text-align: center;"><a href="/">Home</a></p>
+</footer>
+</html>
