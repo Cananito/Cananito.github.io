@@ -233,10 +233,11 @@ class Generator(object):
                              file_path + "\n")
             return
 
-        # TODO: Adjust destination file path to always be .html!!
-
         # Build output path.
         file_relpath_to_content_dir_path = os.path.relpath(file_path, self.content_dir_path)
+        file_relpath_to_content_dir_path_splitext = os.path.splitext(file_relpath_to_content_dir_path)
+        if file_relpath_to_content_dir_path_splitext[1] == ".md":
+            file_relpath_to_content_dir_path = file_relpath_to_content_dir_path_splitext[0] + ".html"
         output_path = os.path.join(self.root_output_dir_path, file_relpath_to_content_dir_path)
 
         # Read contents of input path.
