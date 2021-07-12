@@ -2,6 +2,7 @@
 # coding=utf-8
 
 import argparse
+import markdown
 import os
 import sys
 
@@ -125,9 +126,11 @@ class Stitcher(object):
         self.parser = Parser()
         self.parser.feed(template_html)
 
-    def stitched(self, content_html, generate_footer):
+    def stitched(self, content_html, title, generate_footer):
         content_html_lines = content_html.splitlines()
         title_html = self.parser.title_html
+        if title:
+            title_html = "<title>" + title + " - Rogelio Gudino</title>"
 
         # Clear lines before title.
         while content_html_lines and content_html_lines[0] == "":
@@ -205,6 +208,12 @@ class Generator(object):
                                  "a file!")
                 sys.exit(1)
 
+    def __lines_of_file_path(self, file_path):
+        lines = None
+        with open(file_path) as fileobject:
+          lines = fileobject.readlines()
+        return lines
+
     def __contents_of_file_path(self, file_path):
         contents = None
         with open(file_path) as fileobject:
@@ -224,30 +233,41 @@ class Generator(object):
                              file_path + "\n")
             return
 
+        # TODO: Adjust destination file path to always be .html!!
+
         # Build output path.
         file_relpath_to_content_dir_path = os.path.relpath(file_path, self.content_dir_path)
         output_path = os.path.join(self.root_output_dir_path, file_relpath_to_content_dir_path)
 
         # Read contents of input path.
-        file_content_html = self.__contents_of_file_path(file_path)
-        if file_content_html:
-            sys.stdout.write("Generating full HTML for " +
-                             file_path +
-                             " in " +
-                             output_path +
-                             "\n")
-            generate_footer = True
-            basename = os.path.basename(file_path)
-            if basename == "index.html" or basename == "404.html":
-                generate_footer = False
-            # Stitch.
-            stitched_html = self.stitcher.stitched(file_content_html, generate_footer)
-            # Write contents to output path.
-            self.___write_contents_to_file_path(stitched_html, output_path)
-        else:
+        file_lines = self.__lines_of_file_path(file_path)
+        if not file_lines:
             sys.stdout.write("Couldn't load " + file_path + "! Skipping.\n")
             return
 
+        # Extract metadata.
+        title = None
+        if file_lines[0].startswith("% title: "):
+            title = file_lines[0][len("% title: "):].strip()
+            file_lines.pop(0)
+        generate_footer = False
+        if file_lines[0].startswith("% generate_footer"):
+            generate_footer = True
+            file_lines.pop(0)
+
+        # Convert from Markdown to HTML.
+        file_markdown = "".join(file_lines)
+        file_html = markdown.markdown(file_markdown)
+
+        sys.stdout.write("Generating full HTML for " +
+                         file_path +
+                         " in " +
+                         output_path +
+                         "\n")
+        # Stitch.
+        stitched_html = self.stitcher.stitched(file_html, title, generate_footer)
+        # Write contents to output path.
+        self.___write_contents_to_file_path(stitched_html, output_path)
 
 
 if __name__ == "__main__":
