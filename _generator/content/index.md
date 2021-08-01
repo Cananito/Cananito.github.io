@@ -9,6 +9,6 @@
 * Hobbies include golf 🏌️‍♂️, books 📚, and wine 🍷.
 
 <hr />
-[Reading List](reading-list.html)
+[Books I’ve Read](books.html)
 
 [Interviewing For Big Tech Companies (Software Engineering)](interviewing-for-big-tech-cos-swe.html)

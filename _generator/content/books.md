@@ -1,7 +1,7 @@
-% title: Reading List
+% title: Books
 % generate_footer
 
-# Reading List
+# Books I’ve Read
 
 ## 2021
 
