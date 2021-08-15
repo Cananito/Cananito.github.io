@@ -1,6 +1,6 @@
 # Cananito.github.io
 
-My site. [cananito.com](https://cananito.com)
+My site: [cananito.com](https://cananito.com), [rogeliogudino.com](http://rogeliogudino.com), or [cananito.github.io](https://cananito.github.io).
 
 ## Generator
 
