@@ -9,7 +9,7 @@
 * Hobbies include golf 🏌️‍♂️, books 📚, and wine 🍷.
 
 <hr />
-[Books I’ve Read](books.html)
+[Books](books.html)
 
 [Golf](golf.html)
 

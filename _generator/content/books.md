@@ -1,9 +1,11 @@
 % title: Books
 % generate_footer
 
-# Books I’ve Read
+# Books
 
-## 2021
+## Books I’ve Read
+
+### 2021
 
 **Circe** ~ Madeline Miller  
 Started: 2021/May/11  
@@ -33,7 +35,7 @@ Rating: 4/5
 
 I thought I wouldn't enjoy mystery books but this made me realize I do. The audiobook format wasn't great though, specially the beginning of the book.
 
-## 2020
+### 2020
 
 **A Course Called Ireland** ~ Tom Coyne  
 Started: 2020/Aug/09  
@@ -56,7 +58,7 @@ Rating: 2.5/5
 
 Went expecting to learn and be educated, but since the format of the book was a letter to the author's son it it didn't lend itself for that. I also found myself disagreeing more often than not.
 
-## 2019
+### 2019
 
 **The Subtle Art of Not Giving a Fuck** ~ Mark Manson  
 Started: 2019/Dec/21  
@@ -111,7 +113,7 @@ Rating: 4/5
 
 Went in interested because I wanted to learn more about Thor, Odin, and Loki. What I really enjoyed was that you could read chapters as standalone.
 
-## 2018
+### 2018
 
 **Born a Crime** ~ Trevor Noah  
 Started: 2018  
@@ -120,7 +122,7 @@ Rating: 5/5
 
 This is probably going to be one of my favorite books for a long while. It was pretty funny, learned a lot about South Africa, and it has a good few paragraphs about economic justice (pages 186-190, about the CD writer). The funniest parts were most interactions with his mother and the concert at a school with the kid called Hitler.
 
-## 2013
+### 2013
 
 **REMOTE** ~ David Heinemeier Hansson and Jason Fried  
 Started: 2013  
@@ -129,7 +131,7 @@ Rating: 4/5
 
 Read this at a time when I was very opposed to working out of an office. The book is obviously very opinionated in favor of remote work, and not sure how objective it is, despite all the evidence they show.
 
-## 2001
+### 2001
 
 **Harry Potter and the Sorcerer’s Stone** ~ J. K. Rowling  
 Started: 2001  
@@ -138,7 +140,7 @@ Rating: 5/5
 
 First book I remember comprehending from start to finish.
 
-## ????
+### ????
 
 **Viajes de Gulliver** ~ Jonathan Swift  
 
