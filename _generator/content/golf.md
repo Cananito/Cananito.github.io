@@ -43,8 +43,6 @@ TODO!
 
 TODO!
 
-TODO: golf bag, covers, clubs, Approach G80, glove, brush, towels, tees, balls
-
 ## Scorecards
 
 TODO!
