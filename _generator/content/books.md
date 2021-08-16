@@ -19,14 +19,14 @@ Started: 2021/Mar/09
 Finished: 2021/May/01  
 Rating: 3/5
 
-Enjoyed the first book way more than this one. I liked the worldbuilding, but thought the ending was "meh" and that the book had too many "woke" / socially progressive elements.
+Enjoyed the first book way more than this one. I liked the worldbuilding, but thought the ending was “meh” and that the book had too many “woke” / socially progressive elements.
 
 **The Ocean at the End of the Lane** (audiobook) ~ Neil Gaiman  
 Started: 2021/Jan/18  
 Finished: 2021/Feb/06  
 Rating: 2/5
 
-I'm pretty glad I read this as an audiobook, otherwise I'm not sure I would've finished it. I felt there was a lot of potential to expand on the magic, but instead it was just a bunch of bizarre stuff, a pretty underwhelming plot, and a very "meh" ending.
+I'm pretty glad I read this as an audiobook, otherwise I'm not sure I would've finished it. I felt there was a lot of potential to expand on the magic, but instead it was just a bunch of bizarre stuff, a pretty underwhelming plot, and a very “meh” ending.
 
 **The Mysterious Affair at Styles** (audiobook) ~ Agatha Christie  
 Started: 2021/Jan/16  
@@ -65,7 +65,7 @@ Started: 2019/Dec/21
 Finished: 2019/Dec/31  
 Rating: 5/5
 
-Had me nodding throughout, even though I didn't learn anything particularly groundbreaking. A lot of people would probably be turned off by the "bro" style of the author but I really enjoyed it and laughed a lot.
+Had me nodding throughout, even though I didn't learn anything particularly groundbreaking. A lot of people would probably be turned off by the “bro” style of the author but I really enjoyed it and laughed a lot.
 
 For some reason the thing that stuck with me the most for no particular reason was this part where he talks about the difference between fault and responsibility. That there are things that are not your fault but are your responsibility, and you shouldn’t deal with them by blaming and blaming and blaming whoever was at fault. Some examples he gives are:
 
