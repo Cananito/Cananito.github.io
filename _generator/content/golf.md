@@ -21,7 +21,9 @@ Golf is frustratingly hard, both mechanically and mentally. Most of the time you
 
 #### Simple Yet Complicated
 
-TODO!
+I love the fact that at its core, golf is pretty simple: put the ball the hole with as few strokes as possible.
+
+But I'm also fascinated by complicated it gets: which club to use, play it safe or take a risk, putting vs short game vs long game, so many rules, etc.
 
 #### Individual or Team
 
