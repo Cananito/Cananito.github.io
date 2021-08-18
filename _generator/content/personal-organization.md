@@ -36,7 +36,7 @@ I try to capture any task in my BuJo, no matter how small it is, and as soon as 
 <pre><code>
 * Replace sofa.
   x Order new sofa online.
-    - https://some-website.com/sofas/model777
+    - https://some-website.com/sofa777
   ~ Dump old sofa.
   * Give old sofa to Alice and Bob.
     - Tel: (123) 456-7890
