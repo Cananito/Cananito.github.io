@@ -132,28 +132,6 @@ class Stitcher(object):
         if title:
             title_html = "<title>" + title + " - Rogelio Gudino</title>"
 
-        # Clear lines before title.
-        while content_html_lines and content_html_lines[0] == "":
-            content_html_lines.pop(0)
-
-        # Title.
-        if content_html_lines:
-            first_line = content_html_lines[0]
-            if (first_line.startswith("<title>") and
-                first_line.endswith("</title>")):
-                title_html = content_html_lines.pop(0)
-            elif first_line.startswith("<title>"):
-                title_end_found = False
-                while not title_end_found:
-                    first_line = content_html_lines.pop(0)
-                    if first_line.endswith("</title>"):
-                        title_end_found = True
-                    title_html += first_line
-
-        # Clear lines in between title and content.
-        while content_html_lines and content_html_lines[0] == "":
-            content_html_lines.pop(0)
-
         # Content.
         indented_content_html_lines = ["        " + s
                                        for s
