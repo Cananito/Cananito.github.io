@@ -127,15 +127,15 @@ class Stitcher(object):
         self.parser.feed(template_html)
 
     def stitched(self, content_html, title, generate_footer):
-        content_html_lines = content_html.splitlines()
+        # Title.
         title_html = self.parser.title_html
         if title:
             title_html = "<title>" + title + " - Rogelio Gudino</title>"
 
         # Content.
-        indented_content_html_lines = ["        " + s
-                                       for s
-                                       in content_html_lines]
+        content_html_lines = content_html.splitlines()
+        indented_content_html_lines = self.__indented_html_lines(
+            content_html_lines)
         indented_content_html = "\n".join(indented_content_html_lines)
 
         # Footer.
@@ -152,6 +152,31 @@ class Stitcher(object):
                 self.parser.after_content_before_footer_html +
                 footer_html +
                 self.parser.after_footer_html)
+
+    def __indented_html_lines(self, html_lines):
+        """Indented HTML lines.
+
+        Returns the passed-in |html_lines| indented by 8 spaces, except for
+        lines within a <pre> block.
+        """
+        indented_html_lines = []
+        in_pre_block = False
+        for line in html_lines:
+            # First check if we're done with the pre block.
+            if in_pre_block and line.endswith("</pre>"):
+                in_pre_block = False
+
+            # Then append the line.
+            if not in_pre_block:
+                indented_html_lines.append("        " + line)
+            else:
+                indented_html_lines.append(line)
+
+            # Finally check if we're starting a pre block.
+            if not in_pre_block and line.startswith("<pre>"):
+                in_pre_block = True
+
+        return indented_html_lines
 
 
 class Generator(object):
@@ -212,11 +237,14 @@ class Generator(object):
             return
 
         # Build output path.
-        file_relpath_to_content_dir_path = os.path.relpath(file_path, self.content_dir_path)
-        file_relpath_to_content_dir_path_splitext = os.path.splitext(file_relpath_to_content_dir_path)
+        file_relpath_to_content_dir_path = os.path.relpath(
+            file_path, self.content_dir_path)
+        file_relpath_to_content_dir_path_splitext = os.path.splitext(
+            file_relpath_to_content_dir_path)
         if file_relpath_to_content_dir_path_splitext[1] == ".md":
             file_relpath_to_content_dir_path = file_relpath_to_content_dir_path_splitext[0] + ".html"
-        output_path = os.path.join(self.root_output_dir_path, file_relpath_to_content_dir_path)
+        output_path = os.path.join(self.root_output_dir_path,
+                                   file_relpath_to_content_dir_path)
 
         # Read contents of input path.
         file_lines = self.__lines_of_file_path(file_path)
@@ -244,7 +272,8 @@ class Generator(object):
                          output_path +
                          "\n")
         # Stitch.
-        stitched_html = self.stitcher.stitched(file_html, title, generate_footer)
+        stitched_html = self.stitcher.stitched(file_html, title,
+                                               generate_footer)
         # Write contents to output path.
         self.___write_contents_to_file_path(stitched_html, output_path)
 
