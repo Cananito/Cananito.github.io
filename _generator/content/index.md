@@ -6,13 +6,12 @@
 * Studied Computer Science at CETYS Universidad (2008-2012).
 * Living in Mountain View, CA.
 * Lived in San Diego, Mount Shasta, and Tijuana.
-* Hobbies include golf 🏌️‍♂️, books 📚, and wine 🍷.
 
 <hr />
-[Books](books.html)
+📚 [Books](books.html)
 
-[Golf](golf.html)
+🏌️‍♂️ [Golf](golf.html)
 
-[Personal Organization](personal-organization.html)
+✅ [Personal Organization](personal-organization.html)
 
-[Interviewing For Big Tech Companies (Software Engineering)](interviewing-for-big-tech-cos-swe.html)
+🏢 [Interviewing For Big Tech Companies (Software Engineering)](interviewing-for-big-tech-cos-swe.html)
