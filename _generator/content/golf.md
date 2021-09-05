@@ -41,7 +41,7 @@ I’m very much an indoors person and have always disliked outdoor activities. D
 
 #### Walking
 
-TODO!
+TBD!
 
 #### Hard Yet Rewarding
 
@@ -55,17 +55,16 @@ But I’m also fascinated by complicated it gets: which club to use, play it saf
 
 #### Individual or Team
 
-TODO!
+TBD!
 
 #### Stroke or Match Play
 
-TODO!
+TBD!
 
 #### Wonkery: Gear and Swing Mechanics
 
-TODO!
+TBD!
 
 #### Life Analogies
 
-TODO!
-
+TBD!
