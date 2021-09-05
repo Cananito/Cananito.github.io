@@ -10,8 +10,10 @@
 <hr />
 📚 [Books](books.html)
 
-🏌️‍♂️ [Golf](golf.html)
-
 ✅ [Personal Organization](personal-organization.html)
+
+🏋️‍♂️ [Fitness](fitness.html)
+
+🏌️‍♂️ [Golf](golf.html)
 
 🏢 [Interviewing For Big Tech Companies (Software Engineering)](interviewing-for-big-tech-cos-swe.html)
