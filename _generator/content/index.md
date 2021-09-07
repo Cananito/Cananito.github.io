@@ -8,14 +8,16 @@
 * Lived in San Diego, Mount Shasta, and Tijuana.
 
 <hr />
-📚 [Books](books.html)
+📚 [Books](books.html) 📖
 
-✅ [Personal Organization](personal-organization.html)
+✅ [Personal Organization](personal-organization.html) 📆
 
-🏋️‍♂️ [Fitness](fitness.html)
+🏋️‍♂️ [Fitness](fitness.html) 💪
 
-🏌️‍♂️ [Golf](golf.html)
+🏌️‍♂️ [Golf](golf.html) ⛳️
 
-🍷 [Wine](wine.html)
+⚫️ [Go](go.html) ⚪️
+
+🍷 [Wine](wine.html) 🍇
 
 🏢 [Interviewing For Big Tech Companies (Software Engineering)](interviewing-for-big-tech-cos-swe.html)
