@@ -7,6 +7,19 @@
 
 ### 2021
 
+**Go: A Complete Introduction to the Game** ~ Cho Chikun  
+Started: 2021/Sep/04  
+Finished: 2021/Sep/26  
+Rating: 5/5
+
+Could’ve been my obsession with learning and playing Go, but really enjoyed this book and super excited to continue learning and playing. It interweaves the teaching chapters with cultural ones: history and adoption around the world, tournament scene, equipment, intelligence benefits, computer bots, and a ton of resources to continue learning and improving.
+
+The only complaint I have is that the book has a few mistakes. The ones I found are:
+
+* Page 88 (Chapter Eight: Life and Death): “<strike>Black</strike><strong>White</strong> then makes a placement with 3, killing the black group.”
+* Page 123 (Chapter Eleven: An Example Game): “Figure 3 (31-64)” is missing moves 63 Black and 64 White. They’re supposed to appear 2 rows below move 60 White (see “Figure 4 (65-80)” for exact placement).
+* Page 134 (Go Books from Kiseido): “Most <strike>u</strike><strong>i</strong>ssues from #72 on are available and many earlier issues are also available.”
+
 **Circe** ~ Madeline Miller  
 Started: 2021/May/11  
 Finished: 2021/Jul/25  
