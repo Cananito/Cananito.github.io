@@ -5,9 +5,9 @@
 
 ## Current Handicap
 
-_Last updated: Jun 06, 2021_
+_Last updated: Oct 10, 2021_
 
-Beginner without an official handicap, shooting around +50 (extrapolating from the last 3 9-hole games I played).
+Beginner without an official handicap, shooting around +51 (based on the last 3 games I played and extrapolating the 9-hole rounds).
 
 ## What’s In The Bag
 
