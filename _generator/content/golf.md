@@ -11,32 +11,185 @@ Beginner without an official handicap, shooting around +51 (based on the last 3 
 
 ## What’s In The Bag
 
-### 2020, May
+### Clubs
 
 Most of my clubs come from the [Tour Edge HP25](https://www.touredge.com/hp25mensfullset) full set I bought back in 2017, but I’ve since: swapped the bag, swapped the head covers, stopped carrying the woods, and swapped wedges.
 
-* Driver: Tour Edge HP25, 10.5° loft, 60° lie, 44.50" R/S flex 75g graphite shaft.
-* 4 Hybrid: Tour Edge HP25, 24° loft, 60.5° lie, 38.75" R/S flex 75g graphite shaft.
-* 5 Iron: Tour Edge HP25, 27° loft, 61° lie, 37.75" R/S flex 110g steel shaft.
-* 6 Iron: Tour Edge HP25, 30° loft, 61.5° lie, 37.25" R/S flex 110g steel shaft.
-* 7 Iron: Tour Edge HP25, 34° loft, 62.5° lie, 36.75" R/S flex 110g steel shaft.
-* 8 Iron: Tour Edge HP25, 38° loft, 63.5° lie, 36.25" R/S flex 110g steel shaft.
-* 9 Iron: Tour Edge HP25, 42° loft, 64° lie, 35.75" R/S flex 110g steel shaft.
-* Pitching Wedge: Tour Edge HP25, 46° loft, 65° lie, 35.25" R/S flex 110g steel shaft.
-* Gap Wedge: Kirkland Signature, 52° loft, 64° lie, 10° bounce, 35.5" True Temper wedge flex shaft.
-* Sand Wedge: Kirkland Signature, 56° loft, 64° lie, 10° bounce, 35.25" True Temper wedge flex shaft.
-* Lob Wedge: Kirkland Signature, 60° loft, 64° lie, 8° bounce, 35" True Temper wedge flex shaft.
-* Putter: Tour Edge HP25, 4° loft, 71° lie, 35" R/S flex 110g steel shaft.
-* Misc:
-    * Random assortment of [white 2017 Callaway Supersoft](https://www.amazon.com/gp/product/B01MZ0POPN), [red 2021 Callaway Supersoft](https://www.amazon.com/gp/product/B08TDWG62C), and [Kirkland Signature v2.0](https://www.costco.com/kirkland-signature-3-piece-v2.0-urethane-cover-golf-ball%2c-2-dozen.product.100695987.html) balls.
-    * [Garmin Approach G80](https://buy.garmin.com/en-US/US/p/597253) handheld GPS + launch monitor.
-    * [Gray Original Jones Lancer bag](https://www.jonessportsco.com/collections/carry-bags/products/original-jones-lancer?variant=31624055128117).
-    * Seamus head covers ([Sloan Square Steel](https://www.seamusgolf.com/products/sloan-square-steel) for my driver, [Strathclyde Blue Ancient](https://www.seamusgolf.com/products/strathclyde-blue-ancient?variant=565505329) for my hybrid, and [Sloan Square Steel](https://www.seamusgolf.com/products/sloan-square-steel-magnet-putter-cover) for my putter).
-    * [Callaway Dawn Patrol glove](https://www.amazon.com/gp/product/B00G9R2Z10).
-    * [Pride Professional Tee System yellow (2 3/4") tees](https://www.amazon.com/gp/product/B01DYHTOQQ).
-    * [GoSports Rubber Golf Tees](https://www.amazon.com/gp/product/B08BX8G1Y8) for the driving range.
-    * [microfiber greens towel](https://www.amazon.com/gp/product/B008SCGR0E). Not recommeded if you have a carry bag since it catches loose grass and whatnot.
-    * [Yoport brush and club groove cleaner](https://www.amazon.com/gp/product/B072LVWPWC).
+<div class="table-container">
+    <table>
+        <tr>
+            <th rowspan="2">Club</th>
+            <th rowspan="2">Brand & Model</th>
+            <th rowspan="2">Loft</th>
+            <th rowspan="2">Lie</th>
+            <th rowspan="2">Bounce</th>
+            <th colspan="5">Shaft</th>
+        </tr>
+        <tr>
+            <th>Brand</th>
+            <th>Length</th>
+            <th>Flex</th>
+            <th>Weight</th>
+            <th>Material</th>
+        </tr>
+        <tr>
+            <td>Driver</td>
+            <td>Tour Edge HP25</td>
+            <td>10.5°</td>
+            <td>60°</td>
+            <td>N/A</td>
+            <td>Tour Edge</td>
+            <td>44.5"</td>
+            <td>R/S</td>
+            <td>75g</td>
+            <td>Graphite</td>
+        </tr>
+        <tr>
+            <td>4 Hyrid</td>
+            <td>Tour Edge HP25</td>
+            <td>24°</td>
+            <td>60.5°</td>
+            <td>N/A</td>
+            <td>Tour Edge</td>
+            <td>38.75"</td>
+            <td>R/S</td>
+            <td>75g</td>
+            <td>Graphite</td>
+        </tr>
+        <tr>
+            <td>5 Iron</td>
+            <td>Tour Edge HP25</td>
+            <td>27°</td>
+            <td>61°</td>
+            <td>N/A</td>
+            <td>Tour Edge</td>
+            <td>37.75"</td>
+            <td>R/S</td>
+            <td>110g</td>
+            <td>Steel</td>
+        </tr>
+        <tr>
+            <td>6 Iron</td>
+            <td>Tour Edge HP25</td>
+            <td>30°</td>
+            <td>61.5°</td>
+            <td>N/A</td>
+            <td>Tour Edge</td>
+            <td>37.25"</td>
+            <td>R/S</td>
+            <td>110g</td>
+            <td>Steel</td>
+        </tr>
+        <tr>
+            <td>7 Iron</td>
+            <td>Tour Edge HP25</td>
+            <td>34°</td>
+            <td>62.5°</td>
+            <td>N/A</td>
+            <td>Tour Edge</td>
+            <td>36.75"</td>
+            <td>R/S</td>
+            <td>110g</td>
+            <td>Steel</td>
+        </tr>
+        <tr>
+            <td>8 Iron</td>
+            <td>Tour Edge HP25</td>
+            <td>38°</td>
+            <td>63.5°</td>
+            <td>N/A</td>
+            <td>Tour Edge</td>
+            <td>36.25"</td>
+            <td>R/S</td>
+            <td>110g</td>
+            <td>Steel</td>
+        </tr>
+        <tr>
+            <td>9 Iron</td>
+            <td>Tour Edge HP25</td>
+            <td>42°</td>
+            <td>64°</td>
+            <td>N/A</td>
+            <td>Tour Edge</td>
+            <td>35.75"</td>
+            <td>R/S</td>
+            <td>110g</td>
+            <td>Steel</td>
+        </tr>
+        <tr>
+            <td>Pitching Wedge</td>
+            <td>Tour Edge HP25</td>
+            <td>46°</td>
+            <td>65°</td>
+            <td>N/A</td>
+            <td>Tour Edge</td>
+            <td>35.25"</td>
+            <td>R/S</td>
+            <td>110g</td>
+            <td>Steel</td>
+        </tr>
+        <tr>
+            <td>Gap Wedge</td>
+            <td>Kirkland Signature</td>
+            <td>52°</td>
+            <td>64°</td>
+            <td>10°</td>
+            <td>True Temper</td>
+            <td>35.5"</td>
+            <td>Wedge</td>
+            <td>?</td>
+            <td>Steel</td>
+        </tr>
+        <tr>
+            <td>Sand Wedge</td>
+            <td>Kirkland Signature</td>
+            <td>56°</td>
+            <td>64°</td>
+            <td>10°</td>
+            <td>True Temper</td>
+            <td>35.25"</td>
+            <td>Wedge</td>
+            <td>?</td>
+            <td>Steel</td>
+        </tr>
+        <tr>
+            <td>Lob Wedge</td>
+            <td>Kirkland Signature</td>
+            <td>60°</td>
+            <td>64°</td>
+            <td>8°</td>
+            <td>True Temper</td>
+            <td>35"</td>
+            <td>Wedge</td>
+            <td>?</td>
+            <td>Steel</td>
+        </tr>
+        <tr>
+            <td>Putter</td>
+            <td>Tour Edge HP25</td>
+            <td>4°</td>
+            <td>71°</td>
+            <td>N/A</td>
+            <td>Tour Edge</td>
+            <td>35"</td>
+            <td>R/S</td>
+            <td>110g</td>
+            <td>Steel</td>
+        </tr>
+    </table>
+</div>
+
+### Misc
+
+* Random assortment of [white 2017 Callaway Supersoft](https://www.amazon.com/gp/product/B01MZ0POPN), [red 2021 Callaway Supersoft](https://www.amazon.com/gp/product/B08TDWG62C), and [Kirkland Signature v2.0](https://www.costco.com/kirkland-signature-3-piece-v2.0-urethane-cover-golf-ball%2c-2-dozen.product.100695987.html) balls.
+* [Garmin Approach G80](https://buy.garmin.com/en-US/US/p/597253) handheld GPS + launch monitor.
+* [Gray Original Jones Lancer bag](https://www.jonessportsco.com/collections/carry-bags/products/original-jones-lancer?variant=31624055128117).
+* Seamus head covers ([Sloan Square Steel](https://www.seamusgolf.com/products/sloan-square-steel) for my driver, [Strathclyde Blue Ancient](https://www.seamusgolf.com/products/strathclyde-blue-ancient?variant=565505329) for my hybrid, and [Sloan Square Steel](https://www.seamusgolf.com/products/sloan-square-steel-magnet-putter-cover) for my putter).
+* [Callaway Dawn Patrol glove](https://www.amazon.com/gp/product/B00G9R2Z10).
+* [Pride Professional Tee System yellow (2 3/4") tees](https://www.amazon.com/gp/product/B01DYHTOQQ).
+* [GoSports Rubber Golf Tees](https://www.amazon.com/gp/product/B08BX8G1Y8) for the driving range.
+* [microfiber greens towel](https://www.amazon.com/gp/product/B008SCGR0E). Not recommeded if you have a carry bag since it catches loose grass and whatnot.
+* [Yoport brush and club groove cleaner](https://www.amazon.com/gp/product/B072LVWPWC).
 
 ## Why I Love Golf
 
