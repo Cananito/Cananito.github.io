@@ -13,13 +13,20 @@ Beginner without an official handicap, shooting around +51 (based on the last 3 
 
 ### 2020, May
 
-All of my clubs come from the [Tour Edge HP25](https://www.touredge.com/hp25mensfullset) full set I bought back in 2017, but I’ve since: swapped the bag, swapped the head covers, and stopped carrying the woods.
+Most of my clubs come from the [Tour Edge HP25](https://www.touredge.com/hp25mensfullset) full set I bought back in 2017, but I’ve since: swapped the bag, swapped the head covers, stopped carrying the woods, and swapped wedges.
 
-* Driver: Tour Edge HP25, 10.5°, 44.50" R/S flex 75g graphite shaft.
-* Hybrid (4): Tour Edge HP25, 24°, 38.75" R/S flex 75g graphite shaft.
-* Irons (5-PW): Tour Edge HP25, 27°-46°, 37.75"-35.25" R/S flex 110g steel shafts.
-* Wedges (SW): Tour Edge HP25, 55°, 35.25" R/S flex 110g steel shaft.
-* Putter: Tour Edge HP25.
+* Driver: Tour Edge HP25, 10.5° loft, 60° lie, 44.50" R/S flex 75g graphite shaft.
+* 4 Hybrid: Tour Edge HP25, 24° loft, 60.5° lie, 38.75" R/S flex 75g graphite shaft.
+* 5 Iron: Tour Edge HP25, 27° loft, 61° lie, 37.75" R/S flex 110g steel shaft.
+* 6 Iron: Tour Edge HP25, 30° loft, 61.5° lie, 37.25" R/S flex 110g steel shaft.
+* 7 Iron: Tour Edge HP25, 34° loft, 62.5° lie, 36.75" R/S flex 110g steel shaft.
+* 8 Iron: Tour Edge HP25, 38° loft, 63.5° lie, 36.25" R/S flex 110g steel shaft.
+* 9 Iron: Tour Edge HP25, 42° loft, 64° lie, 35.75" R/S flex 110g steel shaft.
+* Pitching Wedge: Tour Edge HP25, 46° loft, 65° lie, 35.25" R/S flex 110g steel shaft.
+* Gap Wedge: Kirkland Signature, 52° loft, 64° lie, 10° bounce, 35.5" True Temper wedge flex shaft.
+* Sand Wedge: Kirkland Signature, 56° loft, 64° lie, 10° bounce, 35.25" True Temper wedge flex shaft.
+* Lob Wedge: Kirkland Signature, 60° loft, 64° lie, 8° bounce, 35" True Temper wedge flex shaft.
+* Putter: Tour Edge HP25, 4° loft, 71° lie, 35" R/S flex 110g steel shaft.
 * Misc:
     * Random assortment of [white 2017 Callaway Supersoft](https://www.amazon.com/gp/product/B01MZ0POPN), [red 2021 Callaway Supersoft](https://www.amazon.com/gp/product/B08TDWG62C), and [Kirkland Signature v2.0](https://www.costco.com/kirkland-signature-3-piece-v2.0-urethane-cover-golf-ball%2c-2-dozen.product.100695987.html) balls.
     * [Garmin Approach G80](https://buy.garmin.com/en-US/US/p/597253) handheld GPS + launch monitor.
