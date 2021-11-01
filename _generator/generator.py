@@ -123,6 +123,7 @@ class Parser(HTMLParser):
 
 class Stitcher(object):
     def __init__(self, template_html):
+        # TODO: Stop parsing HTML and just do token replacement.
         self.parser = Parser()
         self.parser.feed(template_html)
 
