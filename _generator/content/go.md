@@ -3,4 +3,4 @@
 
 # Go
 
-My Online-Go.com profile: [https://online-go.com/player/948468/cananito](https://online-go.com/player/948468/cananito).
+My Online-Go.com profile: [online-go.com/player/948468/cananito](https://online-go.com/player/948468/cananito).
