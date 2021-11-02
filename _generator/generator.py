@@ -237,6 +237,11 @@ class Generator(object):
                              file_path + "\n")
             return
 
+        if not os.path.basename(file_path).endswith(".md") and not os.path.basename(file_path).endswith(".html"):
+            sys.stdout.write("Skipping encountered a non-Markdown or non-HTML "
+                             "file: " + file_path + "\n")
+            return
+
         # Build output path.
         file_relpath_to_content_dir_path = os.path.relpath(
             file_path, self.content_dir_path)
