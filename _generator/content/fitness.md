@@ -19,3 +19,4 @@ Less frequently and/or as assistance:
 * Chin ups.
 * Barbell row.
 * Barbell curls.
+* Overhead squat.
