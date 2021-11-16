@@ -3,7 +3,7 @@
 
 # Cooking
 
-The following are recipes I enjoy making.
+I don't like cooking, but I do enjoy making and eating the following recipes.
 
 ## Pizza Margherita
 
