@@ -60,8 +60,51 @@ Optional:
 1. Put pizza on peel.
 1. Bake for 5-8 mins.
 
+### Result
+
 <img src="images/cooking-pizza-result.jpeg" alt="Pizza result" style="width: 269px; height: 231px;" />
 
 ## Arroz con Leche
 
-TBD!
+### Ingredients
+
+* 1 cup of rice.
+* 1/2 gal of milk.
+* 1 can of Carnation (evaporated milk). 360 g (339.9 ml).
+* 2 cinnamon sticks.
+* 1 can of La Lechera (condensed milk). 375 g (284.1 ml).
+* Vanilla extract.
+
+### Tools
+
+Required:
+
+* Steel pot.
+* Wooden spoon.
+* Plastic bowl.
+
+### Steps
+
+1. Add the rice to bowl of room temperature water, leave it there for at least 2 hours.
+1. Drain the water out and rinse the rice a few times until the water is clear.
+1. Set-up a stainless steel pot in the stove.
+1. Add the 1/2 gal of milk to the pot.
+1. Add the Carnation to the pot.
+1. Heat the pot up a bit.
+1. Add rice to the pot.
+1. Add 2 cinnamon sticks to the pot.
+1. Stir the pot semi-frequently until the milk is fluffy/frothy.
+1. Add the La Lechera.
+1. Stir the pot constantly for 30-45 mins.
+  * The longer you stir, the more solid its consistency will be.
+1. Add ~2 caps of vanilla extract.
+1. Stir for at least 30 seconds.
+1. Turn off the stove and let it cool for a while.
+1. Transfer it to the plastic bowl and let it cool down.
+1. Store in the fridge.
+
+### Result
+
+My first attempt, where I accidentally ended up with a bunch of chunks of cinnamon and added too much vanilla:
+
+<img src="images/cooking-arroz-con-leche-result.jpeg" alt="Arroz con leche result" style="width: 269px; height: 231px;" />
