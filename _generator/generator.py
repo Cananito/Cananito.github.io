@@ -131,7 +131,7 @@ class Stitcher(object):
         # Title.
         title_html = self.parser.title_html
         if title:
-            title_html = "<title>" + title + " - Rogelio Gudino</title>"
+            title_html = "<title>" + title + " - Rogelio Gudiño</title>"
 
         # Content.
         content_html_lines = content_html.splitlines()
