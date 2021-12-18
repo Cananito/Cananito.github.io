@@ -7,6 +7,19 @@
 
 ### 2021
 
+**81 Little Lions** ~ Immanuel deVillers  
+Started: 2021/Dec/17  
+Finished: 2021/Dec/17  
+Rating: 4/5
+
+Great little Go book focused on the 9x9 board. Some key takeaways:
+
+* Get good at life and death problems. Practice at least 1 per day, ideally 10.
+* Make only 2 living groups. Additional ones are likely to die and cost you the game.
+* Rarely good to try and run away.
+* One to three point jumps are fine when there are no enemy stones nearby. Otherwise only one point jumps are safe and in some cases two point jumps.
+* Useful to learn/memorize josekis, even if you can't understand them.
+
 **Go: A Complete Introduction to the Game** ~ Cho Chikun  
 Started: 2021/Sep/04  
 Finished: 2021/Sep/26  
