@@ -22,9 +22,9 @@ I don't like cooking, but I do enjoy making and eating the following recipes.
 
 Required:
 
+* Oven.
 * Measuring cup.
 * 3 big bowls.
-* Oven.
 * Pizza peel.
 * Pizza stone or baking tray.
 * Pizza wheel, cutter, or knife.
@@ -64,6 +64,40 @@ Optional:
 
 <img src="images/cooking-pizza-result.jpeg" alt="Pizza result" style="width: 269px; height: 231px;" />
 
+## Bolitas de Nuez (Nut Balls)
+
+### Ingredients
+
+* 1 can of La Lechera (condensed milk). 375 g (284.1 ml).
+* 200-300 g of pecan nuts.
+* 1 pack of Galletas Marías (Marie biscuit). 138.91 g (4.9 oz).
+* ~100 g of powdered sugar.
+
+### Tools
+
+Required:
+
+* Food processor (or something to fine grind the nuts and Marías).
+* Big bowl.
+* Tray.
+
+Optional:
+
+* Spoon.
+
+### Steps
+
+1. Grind the pecan nuts and Marías, then put them in the big bowl.
+1. Put the powdered sugar in the tray.
+1. Slowly add the La Lechera to the big bowl while mixing the contents.
+1. Keep mixing with fingers or spoon until it's well mixed.
+1. Start making the balls by grabbing a chunk of the mixture and then rolling them in your hands into a ball.
+1. As soon as the ball has the proper compression and shape, put it on the sugar tray and roll it around so it gets covered in sugar.
+
+### Result
+
+TBD!
+
 ## Arroz con Leche
 
 ### Ingredients
@@ -79,6 +113,7 @@ Optional:
 
 Required:
 
+* Stove or range.
 * Steel pot.
 * Wooden spoon.
 * Plastic bowl.
