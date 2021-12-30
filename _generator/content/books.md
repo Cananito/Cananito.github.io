@@ -82,7 +82,7 @@ Started: 2020/Feb/02
 Finished: 2020/Feb/09  
 Rating: 2.5/5
 
-Went expecting to learn and be educated, but since the format of the book was a letter to the author's son it it didn't lend itself for that. I also found myself disagreeing more often than not.
+Went expecting to learn and be educated, but since the format of the book was a letter to the author's son it it didn't lend itself to that. I also found myself disagreeing more often than not.
 
 ### 2019
 
