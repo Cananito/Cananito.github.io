@@ -16,7 +16,7 @@ I began strength training after discovering the [StrongLifts 5×5](https://stron
 
 What I probably enjoyed the most was the validation of choosing to invest in barbell based exercises. The other thing I really liked was how much human anatomy and physics are used throughout the book. I definetly grew my knowledge abou human anatomy a good amount.
 
-With all that said, the logic on why a low bar squat is better than a high bar squat (the common one) seemed to forced to me. After investigating elsewhere for a few weeks, I convinced myself that the low bar squat is not evidently better as the book says. I also found that the author is a bit controversial (and not just with his weightlifting opinions) and has this cult of personality going on. Because of this I had to make sure I took the rest of the book with a grain of salt.
+With all that said, the logic on why a low bar squat is undoubtedly  better than a high bar squat (the more common one) seemed to forced too me. After investigating elsewhere for a few weeks, I convinced myself that the low bar squat is not evidently better as the book says. I also found that the author is a bit controversial (and not just with his weightlifting opinions) and has this cult of personality going on. Because of this I had to make sure I took the rest of the book with a grain of salt.
 
 Two editing errors I found:
 
