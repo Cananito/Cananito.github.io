@@ -7,6 +7,22 @@
 
 ### 2021
 
+**Starting Strength** ~ Mark Rippetoe  
+Started: 2021/Sep/27  
+Finished: 2021/Dec/30  
+Rating: 3.5/5
+
+I began strength training after discovering the [StrongLifts 5×5](https://stronglifts.com/5x5/) program. A while after, I saw the Starting Strength book in a co-worker's desk and heard it mentioned in a couple of YouTube videos, so I figured this was the go-to resource for strength training and decided to get it.
+
+What I probably enjoyed the most was the validation of choosing to invest in barbell based exercises. The other thing I really liked was how much human anatomy and physics are used throughout the book. I definetly grew my knowledge abou human anatomy a good amount.
+
+With all that said, the logic on why a low bar squat is better than a high bar squat (the common one) seemed to forced to me. After investigating elsewhere for a few weeks, I convinced myself that the low bar squat is not evidently better as the book says. I also found that the author is a bit controversial (and not just with his weightlifting opinions) and has this cult of personality going on. Because of this I had to make sure I took the rest of the book with a grain of salt.
+
+Two editing errors I found:
+
+* Page 182: "The <strike>dashed</strike> <strong>solid</strong> line represents power production".
+* Page 281: "you have allowed <strike>allow</strike> your knees".
+
 **81 Little Lions** ~ Immanuel deVillers  
 Started: 2021/Dec/17  
 Finished: 2021/Dec/17  
@@ -29,7 +45,7 @@ Could’ve been my obsession with learning and playing Go, but really enjoyed th
 
 The only complaint I have is that the book has a few mistakes. The ones I found are:
 
-* Page 88 (Chapter Eight: Life and Death): “<strike>Black</strike><strong>White</strong> then makes a placement with 3, killing the black group.”
+* Page 88 (Chapter Eight: Life and Death): “<strike>Black</strike> <strong>White</strong> then makes a placement with 3, killing the black group.”
 * Page 123 (Chapter Eleven: An Example Game): “Figure 3 (31-64)” is missing moves 63 Black and 64 White. They’re supposed to appear 2 rows below move 60 White (see “Figure 4 (65-80)” for exact placement).
 * Page 134 (Go Books from Kiseido): “Most <strike>u</strike><strong>i</strong>ssues from #72 on are available and many earlier issues are also available.”
 
