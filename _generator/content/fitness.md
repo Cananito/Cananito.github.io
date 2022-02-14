@@ -38,7 +38,3 @@ Less frequently, as variations, or just for fun:
 ### Programming
 
 My primary goal is to get stronger, secondarily to have a good physique. Thus I prioritize strength training (1-5 reps with heavy weight). But when I hit a plateau, have an injury, or experience any discomfort, I do incorporate some hypertrophy (6-10 reps), complexes as cardio (3-6 back-to-back multi-rep exercises), and very rarely endurance training (10+ reps).
-
-## Stretching
-
-TBD
