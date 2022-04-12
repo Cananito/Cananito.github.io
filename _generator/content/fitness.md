@@ -17,23 +17,27 @@ The main lifts I do are:
 * Squat.
 * Deadlift.
 * Strict press.
-* Bench press (I intend to demote this lift once I’m able to do loadable dips). 
 
-As assistance:
+Less frequently, as assistance, as variations, or just for fun:
 
 * Barbell curls.
 * Chin ups.
-* Dips (not really doing them, but planning to do so once I get the proper equipment).
-
-Less frequently, as variations, or just for fun:
-
-* Front squat.
-* Overhead squat.
+* Dips.
+* Squat variations.
+    * Front squat.
+    * Overhead squat.
 * Power clean.
-* Hang clean pull.
+* Pull variations.
+    * Clean pull.
+    * Hang clean pull.
 * Barbell row.
-* Behind-the-neck squat jerk.
-* Behind-the-neck push press.
+* Press/jerk variations.
+    * Power jerk.
+    * Push press.
+    * Behind-the-neck strict press.
+    * Behind-the-neck power jerk.
+    * Behind-the-neck push press.
+* Bench press. 
 
 ### Programming
 
