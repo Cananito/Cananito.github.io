@@ -32,11 +32,11 @@ Less frequently, as assistance, as variations, or just for fun:
     * Hang clean pull.
 * Barbell row.
 * Press/jerk variations.
-    * Power jerk.
     * Push press.
+    * Push jerk.
     * Behind-the-neck strict press.
-    * Behind-the-neck power jerk.
     * Behind-the-neck push press.
+    * Behind-the-neck push jerk.
 * Bench press. 
 
 ### Programming
