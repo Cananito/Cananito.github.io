@@ -16,7 +16,7 @@ Despite the fact that I couldn't put the book down and that I learned a bit, I c
 
 * It places facts and numbers in such a way to fit the author's narrative.
 * The author constantly contradicted himself (spent most of the book trying to argue—with flaws and contradictions—how hunter-gatherers had it so much better, e.g.).
-* It intentionally and unnecessarily relies too much on provocation and controversy (sepnt too much time bashing western liberalism and other mainstream concepts and too little on explaining others, got political at times, etc.).
+* It intentionally and unnecessarily relies too much on provocation and controversy (spent too much time bashing western liberalism and other mainstream concepts and too little on explaining others, got political at times, etc.).
 * It reflects many of the author's biases (spent a ton on explainig buddhism and bashing christianity but almost none explaining other relegions, e.g.).
 * It's less about history and more about anthropology (note that the book's subtitle is "A Brief **History** of Humankind").
 * Potentially had many factual errors (like medieval war technology, e.g.).
