@@ -5,80 +5,46 @@
 
 ## Programs I Use
 
-### Vim
+TODO: Vim
 
-TODO
+TODO: tmux
 
-### tmux
+TODO: Bash 5
 
-TODO
+TODO: SSH
 
-### Bash 5
+TODO: Blaze
 
-TODO
+TODO: YCM
 
-### SSH
+TODO: LLDB
 
-TODO
+TODO: macOS
 
-### Blaze
+TODO: Android
 
-TODO
+TODO: Drive
 
-### YCM
+TODO: Chrome
 
-TODO
-
-### LLDB
-
-TODO
-
-### macOS
-
-TODO
-
-### Android
-
-TODO
-
-### Drive
-
-TODO
-
-### Chrome
-
-TODO
+TODO: Git (personal)
+TODO: Perforce (work)
 
 ## Ideal Programming Language
 
-### ARC
+TODO: ARC
 
-TODO
+TODO: no inheritance, no classes, no methods; only structs and functions
 
-### no inheritance, no classes, no methods; only structs and functions
+TODO: Interfaces / Protocols
 
-TODO
+TODO: Generics
 
-### Interfaces / Protocols
+TODO: var/let/inout
 
-TODO
+TODO: Optionals
 
-### Generics
+TODO: Constructor Syntax
 
-TODO
+TODO: No #defines / Macros
 
-### var/let/inout
-
-TODO
-
-### Optionals
-
-TODO
-
-### Constructor Syntax
-
-TODO
-
-### No #defines / Macros
-
-TODO
