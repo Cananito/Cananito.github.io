@@ -1,6 +1,8 @@
 #!/usr/local/bin/python3
 # coding=utf-8
 
+# TODO: Add table of contents support.
+
 import argparse
 import markdown
 import os
