@@ -16,7 +16,7 @@ TODO: LLDB
 TODO: Git (personal)
 TODO: Perforce (work)
 
-TODO: C, Python, Obj-C, Swift
+TODO: Python, C, JS, Swift, Obj-C
 TODO: CMake (personal)
 TODO: Blaze (work)
 
