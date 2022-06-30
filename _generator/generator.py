@@ -1,6 +1,8 @@
 #!/usr/local/bin/python3
 # coding=utf-8
 
+# TODO: Add type annotations.
+
 # TODO: Add table of contents support.
 
 import argparse
@@ -123,6 +125,8 @@ class TemplateParser(HTMLParser):
             sys.stdout.write("Got into a bad state. Exiting!\n")
             sys.exit(1)
 
+
+# TODO: Remove this class in favor of standalone methods.
 class Stitcher(object):
     def __init__(self, template_html):
         self.template_parser = TemplateParser()
@@ -181,6 +185,7 @@ class Stitcher(object):
         return indented_html_lines
 
 
+# TODO: Remove this class in favor of standalone methods.
 class Generator(object):
     def __init__(self, relpaths):
         self.script_dir_path = os.path.dirname(os.path.abspath(__file__))
