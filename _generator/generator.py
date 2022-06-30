@@ -1,8 +1,6 @@
 #!/usr/local/bin/python3
 # coding=utf-8
 
-# TODO: Add type annotations.
-
 # TODO: Add table of contents support.
 
 import argparse
@@ -12,6 +10,41 @@ import sys
 
 from enum import Enum
 from html.parser import HTMLParser
+
+
+class ParsedTemplate(object):
+    # TODO: Prepend "get_" to all getter methods.
+    def __init__(self,
+                 before_title_html: str,
+                 title_html: str,
+                 after_title_before_content_html: str,
+                 after_content_before_footer_html: str,
+                 footer_html: str,
+                 after_footer_html: str) -> None:
+        self.__before_title_html: str = before_title_html
+        self.__title_html: str = title_html
+        self.__after_title_before_content_html: str = after_title_before_content_html
+        self.__after_content_before_footer_html: str = after_content_before_footer_html
+        self.__footer_html: str = footer_html
+        self.__after_footer_html: str = after_footer_html
+
+    def before_title_html(self) -> str:
+        return self.__before_title_html
+
+    def title_html(self) -> str:
+        return self.__title_html
+
+    def after_title_before_content_html(self) -> str:
+        return self.__after_title_before_content_html
+
+    def after_content_before_footer_html(self) -> str:
+        return self.__after_content_before_footer_html
+
+    def footer_html(self) -> str:
+        return self.__footer_html
+
+    def after_footer_html(self) -> str:
+        return self.__after_footer_html
 
 
 class Stage(Enum):
@@ -24,35 +57,44 @@ class Stage(Enum):
 
 
 class TemplateParser(HTMLParser):
-    def __init__(self):
+    def __init__(self) -> None:
         HTMLParser.__init__(self)
-        self.stage = Stage.BEFORE_TITLE
-        self.before_title_html = ""
-        self.title_html = ""
-        self.after_title_before_content_html = ""
-        self.after_content_before_footer_html = ""
-        self.footer_html = ""
-        self.after_footer_html = ""
+        self.__stage: Stage = Stage.BEFORE_TITLE
+        self.__before_title_html: str = ""
+        self.__title_html: str = ""
+        self.__after_title_before_content_html: str = ""
+        self.__after_content_before_footer_html: str = ""
+        self.__footer_html: str = ""
+        self.__after_footer_html: str = ""
 
-    def handle_starttag(self, tag, attrs):
+    def parsed_template(self) -> ParsedTemplate:
+        return ParsedTemplate(self.__before_title_html,
+                              self.__title_html,
+                              self.__after_title_before_content_html,
+                              self.__after_content_before_footer_html,
+                              self.__footer_html,
+                              self.__after_footer_html)
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str]]) -> None:
         # Handle the title tag.
         if tag == "title":
-            if self.title_html:
+            if self.__title_html:
                 sys.stdout.write("There's more than one title tags in the "
                                  "template! Exiting.\n")
                 sys.exit(1)
-            self.stage = Stage.TITLE
+            self.__stage = Stage.TITLE
         # Handle the footer tag.
         if tag == "footer":
-            if self.footer_html:
+            if self.__footer_html:
                 sys.stdout.write("There's more than one foter tags in the "
                                  "template! Exiting.\n")
                 sys.exit(1)
-            self.stage = Stage.FOOTER
+            self.__stage = Stage.FOOTER
 
-        change_to_after_content_stage = False
+        change_to_after_content_stage: bool = False
         self.__append_to_current_segment("<")
         self.__append_to_current_segment(tag)
+        pair: tuple[str, str]
         for pair in attrs:
             self.__append_to_current_segment(" ")
             self.__append_to_current_segment(pair[0])
@@ -65,22 +107,25 @@ class TemplateParser(HTMLParser):
                 change_to_after_content_stage = True
         self.__append_to_current_segment(">")
         if change_to_after_content_stage:
-            self.stage = Stage.AFTER_CONTENT_BEFORE_FOOTER
+            self.__stage = Stage.AFTER_CONTENT_BEFORE_FOOTER
 
-    def handle_endtag(self, tag):
+    def handle_endtag(self, tag: str) -> None:
         self.__append_to_current_segment("</")
         self.__append_to_current_segment(tag)
         self.__append_to_current_segment(">")
         # Handle the title tag.
         if tag == "title":
-            self.stage = Stage.AFTER_TITLE_BEFORE_CONTENT
+            self.__stage = Stage.AFTER_TITLE_BEFORE_CONTENT
         # Handle the footer tag.
         if tag == "footer":
-            self.stage = Stage.AFTER_FOOTER
+            self.__stage = Stage.AFTER_FOOTER
 
-    def handle_startendtag(self, tag, attrs):
+    def handle_startendtag(self,
+                           tag: str,
+                           attrs: list[tuple[str, str]]) -> None:
         self.__append_to_current_segment("<")
         self.__append_to_current_segment(tag)
+        pair: tuple[str, str]
         for pair in attrs:
             self.__append_to_current_segment(" ")
             self.__append_to_current_segment(pair[0])
@@ -90,104 +135,104 @@ class TemplateParser(HTMLParser):
             self.__append_to_current_segment("\"")
         self.__append_to_current_segment(" />")
 
-    def handle_data(self, data):
+    def handle_data(self, data: str) -> None:
         self.__append_to_current_segment(data)
 
-    def handle_entityref(self, name):
+    def handle_entityref(self, name: str) -> None:
         self.__append_to_current_segment("&")
         self.__append_to_current_segment(name)
         self.__append_to_current_segment(";")
 
-    def handle_charref(self, name):
+    def handle_charref(self, name: str) -> None:
         self.__append_to_current_segment("&#")
         self.__append_to_current_segment(name)
         self.__append_to_current_segment(";")
 
-    def handle_decl(self, decl):
+    def handle_decl(self, decl: str) -> None:
         self.__append_to_current_segment("<!")
         self.__append_to_current_segment(decl)
         self.__append_to_current_segment(">")
 
-    def __append_to_current_segment(self, s):
-        if self.stage == Stage.BEFORE_TITLE:
-            self.before_title_html += s
-        elif self.stage == Stage.TITLE:
-            self.title_html += s
-        elif self.stage == Stage.AFTER_TITLE_BEFORE_CONTENT:
-            self.after_title_before_content_html += s
-        elif self.stage == Stage.AFTER_CONTENT_BEFORE_FOOTER:
-            self.after_content_before_footer_html += s
-        elif self.stage == Stage.FOOTER:
-            self.footer_html += s
-        elif self.stage == Stage.AFTER_FOOTER:
-            self.after_footer_html += s
+    def __append_to_current_segment(self, s: str) -> None:
+        if self.__stage == Stage.BEFORE_TITLE:
+            self.__before_title_html += s
+        elif self.__stage == Stage.TITLE:
+            self.__title_html += s
+        elif self.__stage == Stage.AFTER_TITLE_BEFORE_CONTENT:
+            self.__after_title_before_content_html += s
+        elif self.__stage == Stage.AFTER_CONTENT_BEFORE_FOOTER:
+            self.__after_content_before_footer_html += s
+        elif self.__stage == Stage.FOOTER:
+            self.__footer_html += s
+        elif self.__stage == Stage.AFTER_FOOTER:
+            self.__after_footer_html += s
         else:
             sys.stdout.write("Got into a bad state. Exiting!\n")
             sys.exit(1)
 
 
-# TODO: Remove this class in favor of standalone methods.
-class Stitcher(object):
-    def __init__(self, template_html):
-        self.template_parser = TemplateParser()
-        self.template_parser.feed(template_html)
+def indented_html_lines(html_lines: list[str]) -> list[str]:
+    """Indented HTML lines.
 
-    def stitched(self, content_html, title, generate_footer):
-        # Title.
-        title_html = self.template_parser.title_html
-        if title:
-            title_html = "<title>" + title + " - Rogelio Gudiño</title>"
+    Returns the passed-in |html_lines| indented by 8 spaces, except for
+    lines within a <pre> block.
+    """
+    indented_html_lines: list[str] = []
+    in_pre_block: bool = False
+    line: str
+    for line in html_lines:
+        # First check if we're done with the pre block.
+        if in_pre_block and line.endswith("</pre>"):
+            in_pre_block = False
 
-        # Content.
-        content_html_lines = content_html.splitlines()
-        indented_content_html_lines = self.__indented_html_lines(
-            content_html_lines)
-        indented_content_html = "\n".join(indented_content_html_lines)
+        # Then append the line.
+        if not in_pre_block:
+            indented_html_lines.append("        " + line)
+        else:
+            indented_html_lines.append(line)
 
-        # Footer.
-        footer_html = ""
-        if generate_footer:
-            footer_html = self.template_parser.footer_html
+        # Finally check if we're starting a pre block.
+        if not in_pre_block and line.startswith("<pre>"):
+            in_pre_block = True
 
-        # Actual stitch.
-        return (self.template_parser.before_title_html +
-                title_html +
-                self.template_parser.after_title_before_content_html +
-                "\n" +
-                indented_content_html +
-                self.template_parser.after_content_before_footer_html +
-                footer_html +
-                self.template_parser.after_footer_html)
-
-    def __indented_html_lines(self, html_lines):
-        """Indented HTML lines.
-
-        Returns the passed-in |html_lines| indented by 8 spaces, except for
-        lines within a <pre> block.
-        """
-        indented_html_lines = []
-        in_pre_block = False
-        for line in html_lines:
-            # First check if we're done with the pre block.
-            if in_pre_block and line.endswith("</pre>"):
-                in_pre_block = False
-
-            # Then append the line.
-            if not in_pre_block:
-                indented_html_lines.append("        " + line)
-            else:
-                indented_html_lines.append(line)
-
-            # Finally check if we're starting a pre block.
-            if not in_pre_block and line.startswith("<pre>"):
-                in_pre_block = True
-
-        return indented_html_lines
+    return indented_html_lines
 
 
-# TODO: Remove this class in favor of standalone methods.
+def stitched_content_html(content_html: str,
+                          title: str,
+                          generate_footer: bool,
+                          parsed_template: ParsedTemplate) -> str:
+    # Title.
+    title_html: str = parsed_template.title_html()
+    if title:
+        title_html = "<title>" + title + " - Rogelio Gudiño</title>"
+
+    # Content.
+    content_html_lines: list[str] = content_html.splitlines()
+    indented_content_html_lines: list[str] = indented_html_lines(
+        content_html_lines)
+    indented_content_html: str = "\n".join(indented_content_html_lines)
+
+    # Footer.
+    footer_html: str = ""
+    if generate_footer:
+        footer_html = parsed_template.footer_html()
+
+    # Actual stitch.
+    return (parsed_template.before_title_html() +
+            title_html +
+            parsed_template.after_title_before_content_html() +
+            "\n" +
+            indented_content_html +
+            parsed_template.after_content_before_footer_html() +
+            footer_html +
+            parsed_template.after_footer_html())
+
+
+# TODO: Remove this class in favor of standalone functions.
+# TODO: Finish adding type annotations to all these methods.
 class Generator(object):
-    def __init__(self, relpaths):
+    def __init__(self, relpaths: list[str]) -> None:
         self.script_dir_path = os.path.dirname(os.path.abspath(__file__))
         self.content_dir_path = os.path.join(self.script_dir_path, "content")
         self.root_output_dir_path = os.path.split(self.script_dir_path)[0]
@@ -202,9 +247,12 @@ class Generator(object):
         if not template_html:
             sys.stdout.write("Couldn't load template.html!")
             sys.exit(1)
-        self.stitcher = Stitcher(template_html)
 
-    def generate(self):
+        template_parser: TemplateParser = TemplateParser()
+        template_parser.feed(template_html)
+        self.__parsed_template: ParsedTemplate = template_parser.parsed_template()
+
+    def generate(self) -> None:
         for path in self.paths:
             if os.path.isdir(path):
                 for root, subdirs, files in os.walk(path):
@@ -243,7 +291,8 @@ class Generator(object):
                              file_path + "\n")
             return
 
-        if not os.path.basename(file_path).endswith(".md") and not os.path.basename(file_path).endswith(".html"):
+        if (not os.path.basename(file_path).endswith(".md") and not
+            os.path.basename(file_path).endswith(".html")):
             sys.stdout.write("Skipping encountered a non-Markdown or non-HTML "
                              "file: " + file_path + "\n")
             return
@@ -254,7 +303,8 @@ class Generator(object):
         file_relpath_to_content_dir_path_splitext = os.path.splitext(
             file_relpath_to_content_dir_path)
         if file_relpath_to_content_dir_path_splitext[1] == ".md":
-            file_relpath_to_content_dir_path = file_relpath_to_content_dir_path_splitext[0] + ".html"
+            file_relpath_to_content_dir_path = (
+                file_relpath_to_content_dir_path_splitext[0] + ".html")
         output_path = os.path.join(self.root_output_dir_path,
                                    file_relpath_to_content_dir_path)
 
@@ -284,14 +334,16 @@ class Generator(object):
                          output_path +
                          "\n")
         # Stitch.
-        stitched_html = self.stitcher.stitched(file_html, title,
-                                               generate_footer)
+        stitched_html = stitched_content_html(file_html,
+                                              title,
+                                              generate_footer,
+                                              self.__parsed_template)
         # Write contents to output path.
         self.___write_contents_to_file_path(stitched_html, output_path)
 
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(
+def main() -> None:
+    parser: argparse.ArgumentParser = argparse.ArgumentParser(
         description="Generates full HTML pages by inserting content HTML "
                     "snippets into a template HTML file. The script can be ran "
                     "from anywhere in the file system, but all input HTML must "
@@ -302,4 +354,7 @@ if __name__ == "__main__":
                         help="All the file and directory paths to process. "
                              "Default is `.../_generator/content/`")
     args = parser.parse_args()
-    g = Generator(args.relpaths).generate()
+    Generator(args.relpaths).generate()
+
+if __name__ == "__main__":
+    main()
