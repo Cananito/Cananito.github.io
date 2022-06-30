@@ -21,7 +21,7 @@ class Stage(Enum):
     AFTER_FOOTER = 5
 
 
-class Parser(HTMLParser):
+class TemplateParser(HTMLParser):
     def __init__(self):
         HTMLParser.__init__(self)
         self.stage = Stage.BEFORE_TITLE
@@ -125,13 +125,12 @@ class Parser(HTMLParser):
 
 class Stitcher(object):
     def __init__(self, template_html):
-        # TODO: Stop parsing HTML and just do token replacement.
-        self.parser = Parser()
-        self.parser.feed(template_html)
+        self.template_parser = TemplateParser()
+        self.template_parser.feed(template_html)
 
     def stitched(self, content_html, title, generate_footer):
         # Title.
-        title_html = self.parser.title_html
+        title_html = self.template_parser.title_html
         if title:
             title_html = "<title>" + title + " - Rogelio Gudiño</title>"
 
@@ -144,17 +143,17 @@ class Stitcher(object):
         # Footer.
         footer_html = ""
         if generate_footer:
-            footer_html = self.parser.footer_html
+            footer_html = self.template_parser.footer_html
 
         # Actual stitch.
-        return (self.parser.before_title_html +
+        return (self.template_parser.before_title_html +
                 title_html +
-                self.parser.after_title_before_content_html +
+                self.template_parser.after_title_before_content_html +
                 "\n" +
                 indented_content_html +
-                self.parser.after_content_before_footer_html +
+                self.template_parser.after_content_before_footer_html +
                 footer_html +
-                self.parser.after_footer_html)
+                self.template_parser.after_footer_html)
 
     def __indented_html_lines(self, html_lines):
         """Indented HTML lines.
