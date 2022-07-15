@@ -9,30 +9,35 @@ I discovered Go in early 2016, shortly after I joined Google, when the company a
 
 ## Interesting Things About Go
 
-TODO: board starts empty
-TODO: only 1 piece
-TODO: scoring
-TODO: tactics vs strategy
+* **Board starts empty:** TODO.
+* **Only 1 piece:** TODO.
+* **Scoring:** TODO.
+* **Tactics vs strategy:** TODO.
 
 ## Bitesized Knowledge
 
-TODO: capture Go -> 9x9 -> 13x13 -> 19x19
+### General Tips
 
-TODO: Corners -> Sides -> Middle.
+* Learn by playing capture Go first, then 9x9, then 13x13, and finally 19x19.
+* TODO: Speed of a move.
+* TODO: Space for 2 eyes.
 
-TODO: Speed of a move.
+### 13x13 and 19x19 Tips
 
-TODO: Space for 2 eyes.
+* Capture corners first, then sides, then the middle.
 
-TODO: 9x9:
+### 9x9 Tips
+
 * Get good at life and death problems. Practice at least 1 per day, ideally 10.
 * Make only 2 living groups. Additional ones are likely to die and cost you the game.
 * Rarely good to try and run away.
 * One to three point jumps are fine when there are no enemy stones nearby. Otherwise only one point jumps are safe and in some cases two point jumps.
 * Useful to learn/memorize josekis, even if you can't understand them.
 
-TODO: Teaching children:
-Taken from https://www.youtube.com/watch?v=CkvR-iuTkd4
+### Teaching Children
+
+Taken from [https://www.youtube.com/watch?v=CkvR-iuTkd4](https://www.youtube.com/watch?v=CkvR-iuTkd4).
+
 * Start once they know how to learn to count to 30 and to read.
 * Don't start with theory. Start with how to capture a stone (surround liberties), concept of atari maybe, then start playing.
 * When playing, let them capture your stones. But also capture theirs so they can learn how they can lose them. Defer teaching about eyes until they understand capturing well.
