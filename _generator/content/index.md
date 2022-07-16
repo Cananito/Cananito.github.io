@@ -24,4 +24,4 @@
 
 🏢 [Interviewing For Big Tech Companies (Software Engineering)](interviewing-for-big-tech-cos-swe.html)
 
-👨‍💻 [Software Preferences](software-preferences.html)
+👨‍💻 [Software](software.html)
