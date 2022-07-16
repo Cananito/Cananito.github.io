@@ -8,7 +8,7 @@
 ### General
 
 * Desktop OS (local): [macOS](https://en.wikipedia.org/wiki/MacOS)
-* Desktop OS (remote): [gLinux](https://en.wikipedia.org/wiki/GLinux)
+* Desktop OS (remote, work): [gLinux](https://en.wikipedia.org/wiki/GLinux)
 * Smartphone OS: [Android](https://www.android.com/)
 * Web browser: [Google Chrome](https://www.google.com/chrome/)
 * Text editor: [Vim](https://www.vim.org/)
