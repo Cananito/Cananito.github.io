@@ -48,6 +48,7 @@ My favorite programming languages are:
 
 1. Python
 1. C
+1. Go
 1. JavaScript
 
 The criteria I use to determine my language preferences:
@@ -66,6 +67,7 @@ The languages I’m most proficient in:
 1. Python
 1. JavaScript
 1. C
+1. Go
 
 ## Ideal Programming Language
 
