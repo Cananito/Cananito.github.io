@@ -7,7 +7,8 @@
 
 ### General
 
-* Desktop OS: [macOS](https://www.apple.com/macos/)
+* Desktop OS (local): [macOS](https://en.wikipedia.org/wiki/MacOS)
+* Desktop OS (remote): [gLinux](https://en.wikipedia.org/wiki/GLinux)
 * Smartphone OS: [Android](https://www.android.com/)
 * Web browser: [Google Chrome](https://www.google.com/chrome/)
 * Text editor: [Vim](https://www.vim.org/)
@@ -16,8 +17,8 @@
 * Email: [Gmail](https://www.google.com/gmail/)
 * Calendar: [Google Calendar](https://www.google.com/calendar)
 * Word processor: [Google Docs](https://docs.google.com/)
-* Spreadsheets: [Google Sheets]()
-* Presentations: [Google Slides]()
+* Spreadsheets: [Google Sheets](http://sheets.google.com/)
+* Presentations: [Google Slides](https://slides.google.com/)
 * Graphics editor: [GIMP](https://www.gimp.org/)
 
 ### Development Environment
@@ -28,7 +29,7 @@
 * Terminal shell: [Bash](https://www.gnu.org/software/bash/)
 * Debugger: [LLDB](https://lldb.llvm.org/)
 * Build tool (personal): [CMake](https://cmake.org/)
-* Build tool (work): [Bazel/Blaze](https://bazel.build/)
+* Build tool (work): [Blaze](https://en.wikipedia.org/wiki/Bazel_(software))
 * Source control (personal): [Git](https://git-scm.com/)
 * Source control (work): a modified version of [Perforce](https://www.perforce.com/)
 
