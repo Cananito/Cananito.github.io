@@ -26,7 +26,7 @@
 * Code editor: [Vim](https://www.vim.org/)
 * Terminal: [iTerm2](https://iterm2.com/)
 * Terminal multiplexer: [tmux](https://github.com/tmux/tmux/wiki)
-* Terminal shell: [Bash](https://www.gnu.org/software/bash/)
+* Terminal shell: [Bash 5](https://www.gnu.org/software/bash/)
 * Debugger: [LLDB](https://lldb.llvm.org/)
 * Build tool (personal): [CMake](https://cmake.org/)
 * Build tool (work): [Blaze](https://en.wikipedia.org/wiki/Bazel_(software))
