@@ -73,15 +73,16 @@ The languages I’m most proficient in:
 
 My ideal programming language would be a better and modern C. Desirable attributes would be:
 
-* ARC memory management (automatic reference counting) with option to do manual memory management.
-* No inheritance, no classes, no methods; only structs and functions.
+* Statically typed.
+* Strongly typed.
+* Compiled into machine code.
 * No preprocessor macros.
-* Constructor and destructor syntax.
+* Value vs reference semantics (C pointers are fine).
+* No inheritance, no classes, no methods; only structs and functions.
 * Interfaces/protocols.
 * Generics.
 * Nullability annotations.
+* ARC (automatic reference counting) memory management—or similar—with option to do manual memory management.
+* Constructor and destructor syntax.
 * Mutability modifiers (C consts are fine).
 * Copy-on-write.
-* Value vs reference semantics (C pointers are fine).
-* Statically typed.
-* Strongly typed.
