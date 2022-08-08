@@ -16,7 +16,7 @@ I'm pretty glad I read this book before my first child was born because I learne
 
 First thing I disliked was how much of a butthurt wimp the author came across as. He spent a lot of time complaining about how much men get left out of the pregnancy process, stereotypes, gender roles, etc.
 
-Second thing was the lack of statistical context in the majority of topics. It really makes my blood boil when someone says "research says x is better than y" without quantifying how much better and/or what the baseline is for each.
+Second thing was the lack of statistical context in the majority of topics. It really makes my blood boil when someone says "research says x is better than y" without quantifying how much better, what the baseline is, and/or what the range is.
 
 **Sapiens** ~ Yuval Noah Harari  
 Started: 2022/Jan/01  
