@@ -12,11 +12,13 @@ Started: 2022/Apr/17
 Finished: 2022/Aug/07  
 Rating: 4/5
 
-I'm pretty glad I read this book before my first child was born because I learned a ton and it made me better prepared. With that said, there were a couple of things I didn't like.
+I'm pretty glad I read this book before my first child was born because I learned a ton and it made me better prepared. With that said, there were a few things I didn't like.
 
 First thing I disliked was how much of a butthurt wimp the author came across as. He spent a lot of time complaining about how much men get left out of the pregnancy process, stereotypes, gender roles, etc.
 
 Second thing was the lack of statistical context in the majority of topics. It really makes my blood boil when someone says "research says x is better than y" without quantifying how much better, what the baseline is, and/or what the range is.
+
+Lastly, the layout was not very friendly. The book has chunks of info in red boxes, but these often times interrupt the normal content, so you have to stop reading the regular content to read the red boxes, otherwise you will have to flip the page and hope to remember to go back to the red box later on.
 
 **Sapiens** ~ Yuval Noah Harari  
 Started: 2022/Jan/01  
