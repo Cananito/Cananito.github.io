@@ -13,9 +13,11 @@ Mine has a few modifications though:
 
 * I use a digital version, not a physical/analog one. I really enjoyed having a physical object and using a pen, but there are a few areas where it really fell short:
     * Writing down URLs. You really need copy paste for these.
+    * Using it in the dark. It's often a big hassle to find light during the night.
     * Searching. My “Monthly Log” + “Daily Log” collections tend to grow a lot, so quickly finding things became a real hassle.
     * Expanding previous bullets. I managed to embrace the lack of bullet rearranging, but I often found myself needing to expand existing tasks or notes with sub-bullets to provide additional context.
     * Cloud back-up. It’s comforting to know that my BuJo won’t get stolen, damaged, or lost.
+    * Having to carry around one more thing.
 * I don’t use the “Index” collection.
 * I don’t use the “Calendar Page” in the “Monthly Log” collection.
     * I use a proper calendar for this instead (see “Calendar” section below).
