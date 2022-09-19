@@ -8,20 +8,20 @@
 * Lived in Tijuana, Mount Shasta, San Diego, and Mountain View.
 
 <hr />
+👨‍💻 [Software](software.html)
+
+🏢 [Interviewing For Big Tech Companies (Software Engineering)](interviewing-for-big-tech-cos-swe.html)
+
 📚 [Books](books.html) 📖
 
 ✅ [Personal Organization](personal-organization.html) 📆
 
 🏋️‍♂️ [Fitness](fitness.html) 💪
 
-🏌️‍♂️ [Golf](golf.html) ⛳️
-
 ⚫️ [Go](go.html) ⚪️
+
+🏌️‍♂️ [Golf](golf.html) ⛳️
 
 🍷 [Wine](wine.html) 🍇
 
 👨‍🍳 [Cooking](cooking.html) 🥣 
-
-🏢 [Interviewing For Big Tech Companies (Software Engineering)](interviewing-for-big-tech-cos-swe.html)
-
-👨‍💻 [Software](software.html)
