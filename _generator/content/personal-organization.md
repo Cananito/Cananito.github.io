@@ -11,7 +11,7 @@ I make heavy use of “BuJo”. For a brief overview of what it is, see the offi
 
 Mine has a few modifications though:
 
-* I use a digital version, not a physical/analog one. I really enjoyed having a physical object and using a pen, but there are a few areas where it really fell short:
+* I use a digital version, not a physical/analog one. I really enjoyed having a physical object and using a pen ([Sakura Pigma Micron 01s](https://www.amazon.com/gp/product/B00K3KRJK6/ref=ppx_yo_dt_b_search_asin_title) are the best!), but there are a few areas where it really fell short:
     * Writing down URLs. You really need copy paste for these.
     * Using it in the dark. It's often a big hassle to find light during the night.
     * Searching. My “Monthly Log” + “Daily Log” collections tend to grow a lot, so quickly finding things became a real hassle.
