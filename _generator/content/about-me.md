@@ -5,11 +5,19 @@
 
 ## Profession
 
-TODO: Software engineer, specialized in iOS app development.
+I'm a **software engineer** at Google, specialized in iOS app development using Objective-C and Swift. I have some experience with other platforms and languages, but I've done iOS almost exclusively my entire career.
 
-TODO: Surf Shack Software (March 11 2011 - April 18 2014) -> ChaiOne (April 21 2014 - January 29 2016) -> Google (February 29 2016 - current)
+### Jobs
 
-TODO: https://github.com/Cananito
+* Surf Shack Software: March 11 2011 - April 18 2014.
+* ChaiOne: April 21 2014 - January 29 2016.
+* Google: February 29 2016 - present.
+    * Google+ iOS: February 29 2016 - June 21 2019.
+    * Gmail iOS: June 24 2019 - present.
+
+### GitHub
+
+[https://github.com/Cananito](https://github.com/Cananito)
 
 ## Education
 
