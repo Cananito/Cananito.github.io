@@ -5,15 +5,15 @@
 
 ## Profession
 
-I'm a **software engineer** at Google, specialized in iOS app development using Objective-C and Swift. I have some experience with other platforms and languages, but I've done iOS almost exclusively my entire career.
+I'm a **software engineer** at **Google**, specialized in iOS app development using Objective-C and Swift. I have some experience with other platforms and languages, but I've done iOS almost exclusively in all my jobs.
 
 ### Jobs
 
-* Surf Shack Software: March 11 2011 - April 18 2014.
-* ChaiOne: April 21 2014 - January 29 2016.
-* Google: February 29 2016 - present.
-    * Google+ iOS: February 29 2016 - June 21 2019.
-    * Gmail iOS: June 24 2019 - present.
+* **Surf Shack Software** from March 11 2011 to April 18 2014.
+* **ChaiOne** from April 21 2014 to January 29 2016.
+* **Google** from February 29 2016 to the present.
+    * **Google+ iOS** from February 29 2016 to June 21 2019.
+    * **Gmail iOS** from June 24 2019 to the present.
 
 ### GitHub
 
