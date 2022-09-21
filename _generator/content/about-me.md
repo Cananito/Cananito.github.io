@@ -21,9 +21,9 @@ I'm a **software engineer** at **Google**, specialized in iOS app development us
 
 ## Education
 
-I studied **Computer Science** at **CETYS Universidad** from 2008 to 2012.
+I studied **Computer Science** at **CETYS Universidad** (Tijuana campus) from 2008 to 2012.
 
-I went to high school to PFCL (Preparatoria Federal Lázaro Cárdenas) from 2005 to 2008.
+I went to high school to “la Lázaro” (Preparatoria Federal Lázaro Cárdenas) from 2005 to 2008, taking the “Informatics” specialty.
 
 ## Personal Life
 
