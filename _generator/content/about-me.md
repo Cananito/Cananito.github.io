@@ -37,7 +37,7 @@ TODO: Lived in Tijuana -> Mount Shasta -> San Diego (Chula Vista) -> Mountain Vi
 
 ### Interests
 
-TODO: Reading books and the economist, working out, computer science, Go, play golf (not watch), watch football/soccer, watch youtube/tv/movies, wine.
+TODO: Reading books and The Economist, working out, computer science, Go, play golf (not watch), watch youtube/tv/movies, watch football/soccer, wine.
 
 ### Why “cananito”?
 
