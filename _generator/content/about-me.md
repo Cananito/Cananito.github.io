@@ -15,6 +15,8 @@ I'm a **software engineer** at **Google**, specialized in iOS app development us
     * **Google+ iOS** from February 29 2016 to June 21 2019.
     * **Gmail iOS** from June 24 2019 to the present.
 
+TODO: How I got into computer science.
+
 ### GitHub
 
 [https://github.com/Cananito](https://github.com/Cananito)
@@ -27,13 +29,16 @@ I went to high school to “la Lázaro” (Preparatoria Federal Lázaro Cárdena
 
 ## Personal Life
 
-TODO: Spanish, English
+TODO: Born in San Diego, also Mexican citizen via both Mexican parents, raised in Tijuana, etc.
 
-TODO: Born in San Diego, also Mexican citizen, raised in Tijuana, etc.
+TODO: Can speak Spanish (first language) and English.
 
-TODO: Tijuana, Mount Shasta, San Diego, and Mountain View, San Diego.
+TODO: Lived in Tijuana -> Mount Shasta -> San Diego (Chula Vista) -> Mountain View -> San Diego (Chula Vista).
 
 ### Interests
 
-TODO: reading books and the economist, working out, computer science, go, play golf (not watch), watch football soccer, watch youtube tv and movies, wine
+TODO: Reading books and the economist, working out, computer science, Go, play golf (not watch), watch football/soccer, watch youtube/tv/movies, wine.
 
+### Why “cananito”?
+
+TODO
