@@ -35,7 +35,17 @@ I lived in **Tijuana** from birth to Jun 2012, **Mount Shasta** from Jun 2012 to
 
 ### Interests
 
-TODO: Reading books and The Economist, working out, computer science, Go, play golf (not watch), watch youtube/tv/movies, watch football/soccer, wine.
+Outside of working, parenting, and doing chores, my interests include:
+
+* Reading [The Economist](https://www.economist.com/). I have the digital + print subscription and try to read most of the articles from the weekly edition. I particularly like The Economist because it’s weekly (so easy to keep up with), has global coverage (so big bang for the buck), and aligns with my political views the most.
+* [Working out](fitness.html).
+* Reading [books](books.html).
+* Playing [Go](go.html).
+* Playing [golf](golf.html), but not watching it.
+* Computer science.
+* Football (soccer). Mostly following it, sometimes watching it, but not playing it (too afraid of injuring myself).
+* Watch YouTube, TV, and movies.
+* [Wine](wine.html).
 
 ### Why “cananito”?
 
