@@ -5,15 +5,15 @@
 
 ## Profession
 
-I'm a **software engineer** at **Google**, specialized in iOS app development using Objective-C and Swift. I have some experience with other platforms and languages, but I've done iOS almost exclusively in all my jobs.
+I’m a **software engineer** at **Google**, specialized in iOS app development using Objective-C and Swift. I have some experience with other platforms and languages, but I’ve done iOS almost exclusively in all my jobs.
 
 ### Jobs
 
-* **Surf Shack Software** from March 11 2011 to April 18 2014.
-* **ChaiOne** from April 21 2014 to January 29 2016.
-* **Google** from February 29 2016 to the present.
-    * **Google+ iOS** from February 29 2016 to June 21 2019.
-    * **Gmail iOS** from June 24 2019 to the present.
+* **Surf Shack Software** from Mar 11 2011 to Apr 18 2014.
+* **ChaiOne** from Apr 21 2014 to Jan 29 2016.
+* **Google** from Feb 29 2016 to the present.
+    * **Google+ iOS** from Feb 29 2016 to Jun 21 2019.
+    * **Gmail iOS** from Jun 24 2019 to the present.
 
 TODO: How I got into computer science.
 
@@ -29,11 +29,9 @@ I went to high school to “la Lázaro” (Preparatoria Federal Lázaro Cárdena
 
 ## Personal Life
 
-TODO: Born in San Diego, also Mexican citizen via both Mexican parents, raised in Tijuana, etc.
+I was **born December 15, 1989** in in **San Diego, CA**, but **raised** in **Tijuana, Mexico**. I also have Mexican citizenship via my parents. I can speak **Spanish** (first language) and **English**, and hope to learn Mandarin some day to be able to [speak to natively with over 20% of the world](https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers) 😁.
 
-TODO: Can speak Spanish (first language) and English.
-
-TODO: Lived in Tijuana -> Mount Shasta -> San Diego (Chula Vista) -> Mountain View -> San Diego (Chula Vista).
+I lived in **Tijuana** from birth to Jun 2012, **Mount Shasta** from Jun 2012 to Oct 2013, **Chula Vista** (San Diego) from Oct 2013 to Feb 2016, **Mountain View** from Feb 2016 to Jun 2022, and back again in **Chula Vista** since Jun 2022.
 
 ### Interests
 
