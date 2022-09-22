@@ -43,9 +43,13 @@ Less frequently, as assistance, as variations, or just for fun:
 
 My primary goal is to get stronger, secondarily to have a good physique. Thus I prioritize strength training (1-5 reps with heavy weight). But when I hit a plateau, have an injury, or experience any discomfort, I do incorporate some hypertrophy (6-10 reps), complexes as aerobic exercise (3-6 back-to-back multi-rep exercises), and very rarely endurance training (10+ reps).
 
+### Why strength?
+
+It’s easy to find studies showing that greater muscle mass and/or strength correlates to an increase in longevity. It’s also the case that while muscle mass correlates with strength, [it’s not directly proportional](https://www.strongerbyscience.com/size-vs-strength/), muscle mass is just one of many factors—but likely the biggest one the more trained you are. It’s thus hard to say which is more important for longevity: muscle mass or strength. For convenience, I choose to focus on strength, given that it’s easier and cheaper to increase and maintain than muscle.
+
 ## Running
 
-I really dislike the feeling of being short of breath when doing any type of low-medium intensity activity, so I like to incorporate some aerobic exercise throughout the week. For this I like running indoors on a treadmill for 15-30 mins.
+I really dislike the feeling of being short of breath when doing any type of low-medium intensity activity, so I like to incorporate some [aerobic](https://fitbod.me/blog/cardio-aerobic-anaerobic/) exercise throughout the week. For this I like running indoors on a treadmill for 15-30 mins.
 
 ## Streteching
 
