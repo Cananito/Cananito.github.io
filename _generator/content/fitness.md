@@ -43,10 +43,10 @@ Less frequently, as assistance, as variations, or just for fun:
 
 My primary goal is to get stronger, secondarily to have a good physique. Thus I prioritize strength training (1-5 reps with heavy weight). But when I hit a plateau, have an injury, or experience any discomfort, I do incorporate some hypertrophy (6-10 reps), complexes as aerobic exercise (3-6 back-to-back multi-rep exercises), and very rarely endurance training (10+ reps).
 
-### Running
+## Running
 
 I really dislike the feeling of being short of breath when doing any type of routine/daily activity, so I like to incorporate some aerobic exercise throughout the week. For this I like running indoors on a treadmill for 15-30 mins.
 
-### Streteching
+## Streteching
 
 I try to stretch once or twice a day, specially my upper back since it tends to get pretty tight from the barbell training. As a side effect, it relaxes and unstresses my body, and it makes me feel I gain mobility.
