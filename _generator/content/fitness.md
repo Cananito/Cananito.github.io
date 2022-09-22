@@ -51,6 +51,6 @@ It’s easy to find studies showing that greater muscle mass and/or strength cor
 
 I really dislike the feeling of being short of breath when doing any type of low-medium intensity activity, so I like to incorporate some [aerobic](https://fitbod.me/blog/cardio-aerobic-anaerobic/) exercise throughout the week. For this I like running indoors on a treadmill for 15-30 mins.
 
-## Streteching
+## Stretching
 
 I try to stretch once or twice a day, specially my upper back since it tends to get pretty tight from the barbell training. As a side effect, it relaxes and unstresses my body, and it makes me feel I gain mobility.
