@@ -44,7 +44,7 @@ Outside of working, parenting, and doing chores, my interests include:
 * Playing [golf](golf.html), but not watching it.
 * Computer science.
 * Football (soccer). Mostly following it, sometimes watching it, but not playing it (too afraid of injuring myself).
-* Watch YouTube, TV, and movies.
+* Watching YouTube, TV, and movies.
 * [Wine](wine.html).
 
 ### Why “cananito”?
