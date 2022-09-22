@@ -45,7 +45,7 @@ My primary goal is to get stronger, secondarily to have a good physique. Thus I 
 
 ## Running
 
-I really dislike the feeling of being short of breath when doing any type of routine/daily activity, so I like to incorporate some aerobic exercise throughout the week. For this I like running indoors on a treadmill for 15-30 mins.
+I really dislike the feeling of being short of breath when doing any type of low-medium intensity activity, so I like to incorporate some aerobic exercise throughout the week. For this I like running indoors on a treadmill for 15-30 mins.
 
 ## Streteching
 
