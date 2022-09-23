@@ -3,6 +3,8 @@
 
 # About Me
 
+![A picture of me.](me.jpg)
+
 ## Profession
 
 I’m a **software engineer** at **Google**, specialized in iOS app development using Objective-C and Swift. I have some experience with other platforms and languages, but I’ve done iOS almost exclusively in all my jobs.
