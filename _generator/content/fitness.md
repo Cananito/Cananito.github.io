@@ -18,26 +18,7 @@ The main lifts I do are:
 * Deadlift.
 * Strict press.
 
-Less frequently, as assistance, as variations, or just for fun:
-
-* Barbell curls.
-* Chin ups.
-* Dips.
-* Squat variations.
-    * Front squat.
-    * Overhead squat.
-* Power clean.
-* Pull variations.
-    * Clean pull.
-    * Hang clean pull.
-* Barbell row.
-* Press/jerk variations.
-    * Push press.
-    * Push jerk.
-    * Behind-the-neck strict press.
-    * Behind-the-neck push press.
-    * Behind-the-neck push jerk.
-* Bench press. 
+Less frequently, as assistance, as variations, or just for fun: barbell curls, bench press, squat variations, pull variations, press/jerk variations, barbell row, power clean, chin ups, dips.
 
 ### Programming
 
@@ -46,6 +27,10 @@ My primary goal is to get stronger, secondarily to have a good physique. Thus I 
 ### Why strength?
 
 It’s easy to find studies showing that greater muscle mass and/or strength correlates to an increase in longevity. It’s also the case that while muscle mass correlates with strength, [it’s not directly proportional](https://www.strongerbyscience.com/size-vs-strength/), muscle mass is just one of many factors—but likely the biggest one the more trained you are. It’s thus hard to say which is more important for longevity: muscle mass or strength. For convenience, I choose to focus on strength, given that it’s easier and cheaper to increase and maintain than muscle.
+
+## Why not bench press?
+
+TODO
 
 ## Running
 
