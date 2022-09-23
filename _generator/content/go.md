@@ -46,3 +46,12 @@ Taken from [https://www.youtube.com/watch?v=CkvR-iuTkd4](https://www.youtube.com
 * 15-30 minutes per session since children can’t focus for long.
 * Once they understand capturing well, give them kids books.
 * Ideal environment is to have many children so they can play each other. Children get bored when only playing adults.
+
+## Useful Links
+
+* [OGS](https://online-go.com/). My preferred server to play on. Not the biggest server, but simple and modern website with minimal requirements.
+* [Sensei's Library](https://senseis.xmp.net/). The site witht the most information about Go. Hard to browse around but the search is reliable.
+* [ten minutes to Go](https://tenminutestogo.co.uk/). Neat website with good tips and resources.
+* [Go4Go](https://www.go4go.net/go/). Useful site to see professional game records.
+* [American Go Association](https://www.usgo.org/).
+* [North American Go Federation](https://nagofed.org/).
