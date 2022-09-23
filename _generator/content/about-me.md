@@ -29,7 +29,7 @@ I went to high school to “la Lázaro” (Preparatoria Federal Lázaro Cárdena
 
 ## Personal Life
 
-I was **born December 15, 1989** in in **San Diego, CA**, but **raised** in **Tijuana, Mexico**. I also have Mexican citizenship via my parents. I can speak **Spanish** (first language) and **English**, and hope to learn Mandarin some day to be able to [speak to natively with over 20% of the world](https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers) 😁.
+I was **born December 15, 1989** in in **San Diego, CA**, but **raised** in **Tijuana, Mexico**. I also have Mexican citizenship via my parents. I can speak **Spanish** (first language) and **English**, and hope to learn Mandarin some day to be able to [speak with over 20% of the world in their native language](https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers) 😁.
 
 I lived in **Tijuana** from birth to Jun 2012, **Mount Shasta** from Jun 2012 to Oct 2013, **Chula Vista** (San Diego) from Oct 2013 to Feb 2016, **Mountain View** from Feb 2016 to Jun 2022, and back again in **Chula Vista** since Jun 2022.
 
