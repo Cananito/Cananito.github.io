@@ -45,7 +45,7 @@ Outside of working, parenting, and doing chores, my interests include:
 * Playing [Go](go.html).
 * Playing [golf](golf.html), but not watching it.
 * Computer science.
-* Football (soccer). Mostly following it, sometimes watching it, but not playing it (too afraid of injuring myself).
+* Football (soccer). Mostly following it, sometimes watching it, but not playing it (too afraid of injuring myself). My favorite leagues/tournaments are England’s Premier League, the UEFA Champions League, the US’s MLS, the FIFA World Cup, Spain’s La Liga, and Mexico’s Liga MX.
 * Watching YouTube, TV, and movies.
 * [Wine](wine.html).
 
