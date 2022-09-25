@@ -205,6 +205,13 @@ Rating: 4/5
 
 Read this at a time when I was very opposed to working out of an office. The book is obviously very opinionated in favor of remote work, and not sure how objective it is, despite all the evidence they show.
 
+**REWORK** ~David Heinemeier Hansson and Jason Fried
+Started: 2013/?/?
+Finished: 2013/Apr/21
+Rating: ?
+
+I can’t remember much of it almost 10 years later, but apparently [I thought it was great stuff](https://twitter.com/cananito/status/326118972619620353).
+
 ### 2001
 
 **Harry Potter and the Sorcerer’s Stone** ~ J. K. Rowling  
