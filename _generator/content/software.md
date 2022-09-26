@@ -56,7 +56,6 @@ The criteria I use to determine my language preferences:
 1. Portability
 1. Performance
 1. Features
-1. Syntax
 
 The languages I’m most proficient in:
 
