@@ -78,7 +78,4 @@ My ideal programming language would be a better and modern C. Desirable attribut
 * Interfaces/protocols.
 * Generics.
 * Nullability annotations.
-* ARC (automatic reference counting) memory management—or similar—with option to do manual memory management.
-* Constructor and destructor syntax.
 * Mutability modifiers (C consts are fine).
-* Copy-on-write.
