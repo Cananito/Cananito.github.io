@@ -36,6 +36,7 @@ I don’t really have a strong reason for not incorporating the bench press as a
 * Its carry over to daily activities and sports isn’t as much as the overhead press, so I’m comfortable just doing the overhead press.
 * I’m satisified with how much the tricep gets developed with just the overhead press. Some claim the overhead press alone might even be able to maximally develop the tricep.
 * The bench press is one of the few lifts that’s potentially fatal, specially without spotting or safety arms. If you fail and drop the bar with the other lifts, worst case scenario you’ll get some bruises. With the bench press, it could land on your neck—or even your chest—and asphyxiate you.
+* Some believe the bench press limits shoulder mobility [[1](https://www.youtube.com/watch?v=HDNu9skPrFU)][[2](https://chineseweightlifting.com/olympic-weightlifting-training-exercises/#:~:text=not%20used%20frequently%20in%20a%20weightlifting%20program%20because%20it%20can%20negatively%20affect%20overhead%20positioning%20and%20rack%20flexibility)].
 * The bench press takes longer to set-up.
 
 ## Running
