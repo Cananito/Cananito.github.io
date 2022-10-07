@@ -33,8 +33,8 @@ It’s easy to find studies showing that greater muscle mass and/or strength cor
 I don’t really have a strong reason for not incorporating the bench press as a main lift in my training. It’s just a combination of small things:
 
 * I think pecs are overrated both functionally and aesthetically. Functionally, there are very few activities, sports, and daily movements that require strong mid and lower pecs. Aesthetically, [overdeveloped pecs are a recent phenomenon](https://cortes.site/why-you-dont-need-a-big-chest-to-be-athletic-and-powerful/) (look up greek statues as well).
-* It’s carry over to daily activities and sports isn’t as much as the overhead press, so I’m comfortable just doing the latter.
-* I’m satisified with how much the tricep gets developed with the overhead press. Some claim it might even be able to maximally develop the tricep.
+* Its carry over to daily activities and sports isn’t as much as the overhead press, so I’m comfortable just doing the overhead press.
+* I’m satisified with how much the tricep gets developed with just the overhead press. Some claim the overhead press alone might even be able to maximally develop the tricep.
 * The bench press is one of the few lifts that’s potentially fatal, specially without spotting or safety arms. If you fail and drop the bar with the other lifts, worst case scenario you’ll get some bruises. With the bench press, it could land on your neck—or even your chest—and asphyxiate you.
 * The bench press takes longer to set-up.
 
