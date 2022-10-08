@@ -18,7 +18,7 @@ The main lifts I do are:
 * Deadlift.
 * Press (a.k.a. overhead press or strict press).
 
-Less frequently, as assistance, as variations, or just for fun: barbell curls, bench press, squat variations, pull variations, press/jerk variations, barbell row, power clean, chin ups, dips.
+Less frequently, as assistance, as variations, or just for fun: barbell curls, squat variations, pull variations, press/jerk variations, bench press, barbell row, power clean, chin ups, dips.
 
 ### Programming
 
