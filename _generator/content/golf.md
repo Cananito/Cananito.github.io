@@ -13,7 +13,7 @@ Beginner without an official handicap, shooting around +51 (based on the last 3 
 
 ### Clubs
 
-_Last updated: Oct 11, 2021_
+_Last updated: Oct 19, 2022_
 
 Most of my clubs come from the [Tour Edge HP25](https://www.touredge.com/hp25mensfullset) full set I bought back in 2017, but I’ve since: swapped the bag, swapped the head covers, stopped carrying the woods, and swapped wedges.
 
@@ -33,30 +33,6 @@ Most of my clubs come from the [Tour Edge HP25](https://www.touredge.com/hp25men
             <th>Flex</th>
             <th>Weight</th>
             <th>Material</th>
-        </tr>
-        <tr>
-            <td>Driver</td>
-            <td>Tour Edge HP25</td>
-            <td>10.5°</td>
-            <td>60°</td>
-            <td>N/A</td>
-            <td>Tour Edge</td>
-            <td>44.5"</td>
-            <td>R/S</td>
-            <td>75g</td>
-            <td>Graphite</td>
-        </tr>
-        <tr>
-            <td>4 Hyrid</td>
-            <td>Tour Edge HP25</td>
-            <td>24°</td>
-            <td>60.5°</td>
-            <td>N/A</td>
-            <td>Tour Edge</td>
-            <td>38.75"</td>
-            <td>R/S</td>
-            <td>75g</td>
-            <td>Graphite</td>
         </tr>
         <tr>
             <td>5 Iron</td>
