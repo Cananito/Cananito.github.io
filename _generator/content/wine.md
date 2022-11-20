@@ -3,8 +3,6 @@
 
 # Wine
 
-I really enjoy wine and typically drink some once a week.
-
 ## Favorites
 
 The following lists are a ranking of wines I’ve had several times.
