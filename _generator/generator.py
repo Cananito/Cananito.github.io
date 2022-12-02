@@ -10,41 +10,16 @@ import sys
 
 from enum import Enum
 from html.parser import HTMLParser
+from typing import NamedTuple
 
 
-class ParsedTemplate(object):
-    # TODO: Prepend "get_" to all getter methods.
-    def __init__(self,
-                 before_title_html: str,
-                 title_html: str,
-                 after_title_before_content_html: str,
-                 after_content_before_footer_html: str,
-                 footer_html: str,
-                 after_footer_html: str) -> None:
-        self.__before_title_html: str = before_title_html
-        self.__title_html: str = title_html
-        self.__after_title_before_content_html: str = after_title_before_content_html
-        self.__after_content_before_footer_html: str = after_content_before_footer_html
-        self.__footer_html: str = footer_html
-        self.__after_footer_html: str = after_footer_html
-
-    def before_title_html(self) -> str:
-        return self.__before_title_html
-
-    def title_html(self) -> str:
-        return self.__title_html
-
-    def after_title_before_content_html(self) -> str:
-        return self.__after_title_before_content_html
-
-    def after_content_before_footer_html(self) -> str:
-        return self.__after_content_before_footer_html
-
-    def footer_html(self) -> str:
-        return self.__footer_html
-
-    def after_footer_html(self) -> str:
-        return self.__after_footer_html
+class ParsedTemplate(NamedTuple):
+    before_title_html: str
+    title_html: str
+    after_title_before_content_html: str
+    after_content_before_footer_html: str
+    footer_html: str
+    after_footer_html: str
 
 
 class Stage(Enum):
@@ -203,7 +178,7 @@ def stitched_content_html(content_html: str,
                           generate_footer: bool,
                           parsed_template: ParsedTemplate) -> str:
     # Title.
-    title_html: str = parsed_template.title_html()
+    title_html: str = parsed_template.title_html
     if title:
         title_html = "<title>" + title + " - Rogelio Gudiño</title>"
 
@@ -216,17 +191,17 @@ def stitched_content_html(content_html: str,
     # Footer.
     footer_html: str = ""
     if generate_footer:
-        footer_html = parsed_template.footer_html()
+        footer_html = parsed_template.footer_html
 
     # Actual stitch.
-    return (parsed_template.before_title_html() +
+    return (parsed_template.before_title_html +
             title_html +
-            parsed_template.after_title_before_content_html() +
+            parsed_template.after_title_before_content_html +
             "\n" +
             indented_content_html +
-            parsed_template.after_content_before_footer_html() +
+            parsed_template.after_content_before_footer_html +
             footer_html +
-            parsed_template.after_footer_html())
+            parsed_template.after_footer_html)
 
 
 # TODO: Remove this class in favor of standalone functions.
