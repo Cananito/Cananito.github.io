@@ -3,6 +3,8 @@
 
 # Go
 
+<span id="last-updated">Last updated: Nov 10, 2022</span>
+
 My Online-Go.com profile: [online-go.com/player/948468/cananito](https://online-go.com/player/948468/cananito).
 
 I discovered Go in early 2016, shortly after I joined Google, when the company announced [AlphaGo](https://en.wikipedia.org/wiki/AlphaGo_versus_Lee_Sedol).

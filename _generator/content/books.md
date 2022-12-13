@@ -3,6 +3,8 @@
 
 # Books
 
+<span id="last-updated">Last updated: Sep 25, 2022</span>
+
 ## Books I’ve Read
 
 ### 2022

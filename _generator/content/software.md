@@ -3,6 +3,8 @@
 
 # Software
 
+<span id="last-updated">Last updated: Sep 27, 2022</span>
+
 ## Software I Use
 
 ### General

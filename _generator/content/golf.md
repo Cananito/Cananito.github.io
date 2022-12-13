@@ -3,17 +3,15 @@
 
 # Golf
 
-## Current Handicap
+<span id="last-updated">Last updated: Oct 19, 2022</span>
 
-_Last updated: Oct 10, 2021_
+## Current Handicap
 
 Beginner without an official handicap, shooting around +51 (based on the last 3 games I played and extrapolating the 9-hole rounds).
 
 ## What’s In The Bag
 
 ### Clubs
-
-_Last updated: Oct 19, 2022_
 
 Most of my clubs come from the [Tour Edge HP25](https://www.touredge.com/hp25mensfullset) full set I bought back in 2017, but I’ve since: swapped the bag, swapped the head covers, stopped carrying the woods, and swapped wedges.
 

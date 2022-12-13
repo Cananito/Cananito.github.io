@@ -3,6 +3,8 @@
 
 # Fitness
 
+<span id="last-updated">Last updated: Oct 27, 2022</span>
+
 ## Barbell Training
 
 Nowadays most of my exercising comes from barbell training. Compared to other implements (dumbbells, kettlebells, machines, etc.), barbells have some key advantages:

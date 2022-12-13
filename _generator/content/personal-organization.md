@@ -3,6 +3,8 @@
 
 # Personal Organization
 
+<span id="last-updated">Last updated: Sep 21, 2022</span>
+
 There are 2 core parts to my personal organization: a [Bullet Journal](https://www.amazon.com/Bullet-Journal-Method-Present-Design/dp/0525533338/) and a calendar.
 
 ## Bullet Journal

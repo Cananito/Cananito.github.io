@@ -3,6 +3,8 @@
 
 # Interviewing For Big Tech Companies (Software Engineering)
 
+<span id="last-updated">Last updated: Jan 26, 2021</span>
+
 Given that interviewing for software engineering roles in big tech companies is a skill of its own, **the goal of this document** is solely to help people gain or improve that skill and increase their chances of getting a job at a big tech company. It does not argue for or against the interview process and neither does it propose something better.
 
 ## General Preparation

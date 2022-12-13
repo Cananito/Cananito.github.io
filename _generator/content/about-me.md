@@ -3,6 +3,8 @@
 
 # About Me
 
+<span id="last-updated">Last updated: Sep 27, 2022</span>
+
 ![A picture of me.](me.jpg)
 
 ## Profession

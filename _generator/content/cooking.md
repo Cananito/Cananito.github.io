@@ -3,6 +3,8 @@
 
 # Cooking
 
+<span id="last-updated">Last updated: Dec 5, 2021</span>
+
 I don’t like cooking, but I do enjoy making and eating the following recipes.
 
 ## Pizza Margherita

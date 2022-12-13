@@ -3,6 +3,8 @@
 
 # Wine
 
+<span id="last-updated">Last updated: Sep 25, 2021</span>
+
 ## Favorites
 
 The following lists are a ranking of wines I’ve had several times.
