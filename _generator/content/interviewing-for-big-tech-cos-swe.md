@@ -3,7 +3,7 @@
 
 # Interviewing For Big Tech Companies (Software Engineering)
 
-<span id="last-updated">Last updated: Jan 26, 2021</span>
+<span id="last-updated">Last updated: Dec 20, 2022</span>
 
 Given that interviewing for software engineering roles in big tech companies is a skill of its own, **the goal of this document** is solely to help people gain or improve that skill and increase their chances of getting a job at a big tech company. It does not argue for or against the interview process and neither does it propose something better.
 
@@ -198,11 +198,20 @@ You’ll likely get 5 minutes at the end of the interview to ask questions to th
 
 ## Practicing and Other Resources
 
-TODO: Links to coding challenge websites like LeetCode.
+### Cracking the Coding Interview
 
-TODO: [Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850) by Gayle Laakmann McDowell
+For many years, the [Cracking the Coding Interview book](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850) by Gayle Laakmann McDowell has been the most popular way to prepare for technical interviews. This was the way I prepared myself, along with the series of videos: [https://vimeo.com/ondemand/ctci](https://vimeo.com/ondemand/ctci).
 
-TODO: [Cracking the Coding Interview videos](https://vimeo.com/ondemand/ctci)
+### LeetCode
+
+In recent years LeetCode has been to main resource for technical interview preparation. The following are curated lists of top questions to practice:
+
+* [Top 75 questions](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU)
+* [Top Google questions](https://leetcode.com/problem-list/top-google-questions/)
+* [Top Facebook questions](https://leetcode.com/problem-list/top-facebook-questions/)
+* [Top Amazon questions](https://leetcode.com/problem-list/top-amazon-questions/)
+* [Top Microsoft questions](https://leetcode.com/problem-list/top-microsoft-questions/)
+* [Top 100 Apple questions](https://leetcode.com/discuss/general-discussion/1734481/apple-top-100-questions)
 
 ## Specific Companies
 
@@ -221,5 +230,9 @@ TODO: Google Hiring Process videos:
 * [Example Coding/Engineering Interview](https://www.youtube.com/watch?v=XKu_SEDAykw)
 
 ### Facebook
+
+TODO!
+
+### Apple
 
 TODO!
