@@ -54,6 +54,7 @@ Taken from [https://www.youtube.com/watch?v=CkvR-iuTkd4](https://www.youtube.com
 * [OGS](https://online-go.com/). My preferred server to play on. Not the biggest server, but simple and modern website with minimal requirements.
 * [Sensei's Library](https://senseis.xmp.net/). The site witht the most information about Go. Hard to browse around but the search is reliable.
 * [ten minutes to Go](https://tenminutestogo.co.uk/). Neat website with good tips and resources.
+* [Black To Play](https://blacktoplay.com/). Super clean and simple web app to do Go problems.
 * [Go Magic](https://gomagic.org/). A learning platform with some free content and a Duolingo-style section.
 * [Go4Go](https://www.go4go.net/go/). Useful site to see professional game records.
 * [American Go Association](https://www.usgo.org/).
