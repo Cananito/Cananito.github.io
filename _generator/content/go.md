@@ -3,7 +3,7 @@
 
 # Go
 
-<span id="last-updated">Last updated: Nov 10, 2022</span>
+<span id="last-updated">Last updated: Jan 29, 2023</span>
 
 My Online-Go.com profile: [online-go.com/player/948468/cananito](https://online-go.com/player/948468/cananito).
 
