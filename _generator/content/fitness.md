@@ -3,7 +3,7 @@
 
 # Fitness
 
-<span id="last-updated">Last updated: Oct 27, 2022</span>
+<span id="last-updated">Last updated: Mar 09, 2023</span>
 
 ## Barbell Training
 
