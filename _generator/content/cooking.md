@@ -9,6 +9,8 @@ I don’t like cooking, but I do enjoy making and eating the following recipes.
 
 ## Pizza Margherita
 
+The following makes 2 individual pizza pies.
+
 ### Ingredients
 
 * 200 ml of water.
@@ -26,7 +28,9 @@ Required:
 
 * Oven.
 * Measuring cup.
-* 3 big bowls.
+* Mixing bowl/container.
+* Container for first rest of entire dough.
+* Container(s) for second rest of individual dough balls.
 * Pizza peel.
 * Pizza stone or baking tray.
 * Pizza wheel, cutter, or knife.
@@ -55,7 +59,7 @@ Optional:
 1. Split dough into 2 balls.
     * Can be done with a knife.
 1. Rest dough balls for 45+ mins.
-1. Preheat for 20 minutes at max temperature.
+1. Preheat oven for 20 minutes at max temperature.
 1. Shape the dough.
 1. Add sauce, mozzarella, basil, and olive oil.
 1. Add flour to peel and oven stone.
