@@ -3,7 +3,7 @@
 
 # Cooking
 
-<span id="last-updated">Last updated: Dec 5, 2021</span>
+<span id="last-updated">Last updated: Mar 24, 2023</span>
 
 I don’t like cooking, but I do enjoy making and eating the following recipes.
 
@@ -40,20 +40,20 @@ Optional:
 ### Steps
 
 1. 200 ml of water mixed with 1-2 g of dry yeast.
-  * Can be done in the measuring cup.
+    * Can be done in the measuring cup.
 1. Mix until yeast is properly melted.
 1. 300 g of flour mixed with 5 g of salt.
 1. Pour water+yeast into flour+salt.
 1. Mix.
-  * Using a wooden spoon makes it easier.
-  * Can be done with hands.
+    * Using a wooden spoon makes it easier.
+    * Can be done with hands.
 1. Take out and knead for ~12 mins.
 1. Oil the resting container.
-  * Can be done with a basting brush.
+    * Can be done with a basting brush.
 1. Put dough in resting container.
 1. Rest dough for 20+ mins.
 1. Split dough into 2 balls.
-  * Can be done with a knife.
+    * Can be done with a knife.
 1. Rest dough balls for 45+ mins.
 1. Preheat for 20 minutes at max temperature.
 1. Shape the dough.
