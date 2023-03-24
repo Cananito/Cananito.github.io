@@ -3,7 +3,7 @@
 
 # Software
 
-<span id="last-updated">Last updated: Sep 27, 2022</span>
+<span id="last-updated">Last updated: Mar 24, 2023</span>
 
 ## Software I Use
 
@@ -33,6 +33,7 @@
 * Build tool (work): [Blaze](https://en.wikipedia.org/wiki/Bazel_(software))
 * Source control (personal): [Git](https://git-scm.com/)
 * Source control (work): a modified version of [Perforce](https://www.perforce.com/)
+* Dotfiles/config management: [Stow](https://www.gnu.org/software/stow/) + Git repository.
 
 #### Vim Plugins
 
