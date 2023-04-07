@@ -3,7 +3,7 @@
 
 # Fitness
 
-<span id="last-updated">Last updated: Mar 09, 2023</span>
+<span id="last-updated">Last updated: Apr 07, 2023</span>
 
 ## Barbell Training
 
@@ -24,7 +24,7 @@ Less frequently, as assistance, as variations, or just for fun: barbell curls, s
 
 ### Programming
 
-My primary goal is to get stronger, secondarily to have a good physique. Thus I prioritize strength training (1-5 reps with heavy weight). But when I hit a plateau, have an injury, or experience any discomfort, I do incorporate some hypertrophy (6-10 reps), complexes as aerobic exercise (3-6 back-to-back multi-rep exercises), and very rarely endurance training (10+ reps).
+My primary goal is to get stronger, secondarily to have a good physique. Thus I prioritize strength training: 1-5 reps per set with heavy weight, a.k.a. low “volume” hig “intensity”. But when I hit a plateau, have an injury, or experience any discomfort, I do incorporate higher “volume” (total reps) and lower “intensity” (weight) to varying degrees.
 
 ### Why strength?
 
@@ -47,4 +47,4 @@ I really dislike the feeling of being short of breath when doing any type of low
 
 ## Stretching
 
-I try to stretch once or twice a day, specially my upper back since it tends to get pretty tight from the barbell training. As a side effect, it relaxes and unstresses my body, and it makes me feel I gain mobility.
+I try to stretch once or twice a day, specially my upper back since it tends to get pretty tight from the barbell training. As a side effect, it relaxes and unstresses my body, and it makes me feel I gain “mobility” (a given joint’s range of motion).
