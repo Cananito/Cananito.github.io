@@ -3,13 +3,13 @@
 
 # Personal Organization
 
-<span id="last-updated">Last updated: Sep 21, 2022</span>
+<span id="last-updated">Last updated: Apr 19, 2023</span>
 
 There are 2 core parts to my personal organization: a [Bullet Journal](https://www.amazon.com/Bullet-Journal-Method-Present-Design/dp/0525533338/) and a calendar.
 
 ## Bullet Journal
 
-I make heavy use of “BuJo”. For a brief overview of what it is, see the official site’s “Learn” section: [bulletjournal.com/pages/learn](https://bulletjournal.com/pages/learn).
+I make heavy use of “BuJo”. For a brief overview of what it is, see the [How to Bullet Journal](https://www.youtube.com/watch?v=fm15cmYU0IM) video.
 
 Mine has a few modifications though:
 
