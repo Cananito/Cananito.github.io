@@ -73,10 +73,12 @@ class TemplateParser(HTMLParser):
         for pair in attrs:
             self.__append_to_current_segment(" ")
             self.__append_to_current_segment(pair[0])
-            self.__append_to_current_segment("=")
-            self.__append_to_current_segment("\"")
-            self.__append_to_current_segment(pair[1])
-            self.__append_to_current_segment("\"")
+            value: str = pair[1]
+            if value:
+                self.__append_to_current_segment("=")
+                self.__append_to_current_segment("\"")
+                self.__append_to_current_segment(value)
+                self.__append_to_current_segment("\"")
             # Handle the div#content tag.
             if tag == "div" and pair[0] == "id" and pair[1] == "content":
                 change_to_after_content_stage = True
