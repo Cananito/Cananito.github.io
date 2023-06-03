@@ -159,7 +159,7 @@ Most of my clubs come from the [Tour Edge HP25](https://www.touredge.com/hp25men
 
 * [Garmin Approach G80](https://buy.garmin.com/en-US/US/p/597253) handheld GPS + launch monitor.
 * [Gray Original Jones Lancer bag](https://www.jonessportsco.com/collections/carry-bags/products/original-jones-lancer?variant=31624055128117).
-* [BagBoy Nitron](https://www.amazon.com/gp/product/B07NDZ5GHY) push cart / trolley.
+* [BagBoy Nitron](https://www.amazon.com/gp/product/B07NDZ5GHY) cart / trolley.
 * Seamus head covers ([Sloan Square Steel](https://www.seamusgolf.com/products/sloan-square-steel) for my driver, [Strathclyde Blue Ancient](https://www.seamusgolf.com/products/strathclyde-blue-ancient?variant=565505329) for my hybrid, and [Sloan Square Steel](https://www.seamusgolf.com/products/sloan-square-steel-magnet-putter-cover) for my putter).
 * [Pride Professional Tee System yellow (2 3/4") tees](https://www.amazon.com/gp/product/B01DYHTOQQ).
 * [GoSports Rubber Golf Tees](https://www.amazon.com/gp/product/B08BX8G1Y8) for the driving range.
