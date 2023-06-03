@@ -157,15 +157,12 @@ Most of my clubs come from the [Tour Edge HP25](https://www.touredge.com/hp25men
 
 ### Misc
 
-* Random assortment of [white 2017 Callaway Supersoft](https://www.amazon.com/gp/product/B01MZ0POPN), [red 2021 Callaway Supersoft](https://www.amazon.com/gp/product/B08TDWG62C), and [Kirkland Signature v2.0](https://www.costco.com/kirkland-signature-3-piece-v2.0-urethane-cover-golf-ball%2c-2-dozen.product.100695987.html) balls.
 * [Garmin Approach G80](https://buy.garmin.com/en-US/US/p/597253) handheld GPS + launch monitor.
 * [Gray Original Jones Lancer bag](https://www.jonessportsco.com/collections/carry-bags/products/original-jones-lancer?variant=31624055128117).
+* [BagBoy Nitron](https://www.amazon.com/gp/product/B07NDZ5GHY) push cart / trolley.
 * Seamus head covers ([Sloan Square Steel](https://www.seamusgolf.com/products/sloan-square-steel) for my driver, [Strathclyde Blue Ancient](https://www.seamusgolf.com/products/strathclyde-blue-ancient?variant=565505329) for my hybrid, and [Sloan Square Steel](https://www.seamusgolf.com/products/sloan-square-steel-magnet-putter-cover) for my putter).
-* [Callaway Dawn Patrol glove](https://www.amazon.com/gp/product/B00G9R2Z10).
 * [Pride Professional Tee System yellow (2 3/4") tees](https://www.amazon.com/gp/product/B01DYHTOQQ).
 * [GoSports Rubber Golf Tees](https://www.amazon.com/gp/product/B08BX8G1Y8) for the driving range.
-* [microfiber greens towel](https://www.amazon.com/gp/product/B008SCGR0E). Not recommeded if you have a carry bag since it catches loose grass and whatnot.
-* [Yoport brush and club groove cleaner](https://www.amazon.com/gp/product/B072LVWPWC).
 
 ## Why I Love Golf
 
