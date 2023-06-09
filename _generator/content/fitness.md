@@ -24,7 +24,7 @@ Less frequently, as assistance, as variations, or just for fun: barbell curls, s
 
 ### Programming
 
-My primary goal is to get stronger, secondarily to have a good physique. Thus I prioritize strength training: 1-5 reps per set with heavy weight, a.k.a. low “volume” hig “intensity”. But when I hit a plateau, have an injury, or experience any discomfort, I do incorporate higher “volume” (total reps) and lower “intensity” (weight) to varying degrees.
+My primary goal is to get stronger, secondarily to have a good physique. Thus I prioritize strength training: 1-5 reps per set with heavy weight, a.k.a. low “volume” high “intensity”. But when I hit a plateau, have an injury, or experience any discomfort, I do incorporate higher “volume” (total reps) and lower “intensity” (weight) to varying degrees.
 
 ### Why strength?
 
