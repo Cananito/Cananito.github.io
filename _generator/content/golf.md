@@ -174,7 +174,9 @@ I’m very much an indoors person and have always disliked outdoor activities. D
 
 #### Walking
 
-TBD!
+Walking is a pretty healthy activity and is something I need to do to compensate my otherwise sedentary life. But I hate walking for the sake of walking. So golf is the perfect excuse for me to walk a ton.
+
+I'm not opposed to golf carts, but I do think golf is much more enjoyable walking (either carrying the bag or using a push cart / trolley). You also get to better take in and appreciate a golf course architecture when walking.
 
 #### Hard Yet Rewarding
 
