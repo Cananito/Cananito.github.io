@@ -14,6 +14,4 @@
 
 🏌️‍♂️ [Golf](golf.html) ⛳️
 
-🍷 [Wine](wine.html) 🍇
-
 👨‍🍳 [Cooking](cooking.html) 🥣 
