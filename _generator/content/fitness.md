@@ -3,7 +3,7 @@
 
 # Fitness
 
-<span id="last-updated">Last updated: Apr 07, 2023</span>
+<span id="last-updated">Last updated: Jul 04, 2023</span>
 
 ## Barbell Training
 
@@ -44,7 +44,3 @@ I don’t really have a strong reason for not incorporating the bench press as a
 ## Running
 
 I really dislike the feeling of being short of breath when doing any type of low-medium intensity activity, so I like to incorporate some [aerobic](https://fitbod.me/blog/cardio-aerobic-anaerobic/) exercise throughout the week. For this I like running indoors on a treadmill for 15-30 mins.
-
-## Stretching
-
-I try to stretch once or twice a day, specially my upper back since it tends to get pretty tight from the barbell training. As a side effect, it relaxes and unstresses my body, and it makes me feel I gain “mobility” (a given joint’s range of motion).

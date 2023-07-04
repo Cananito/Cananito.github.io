@@ -3,7 +3,7 @@
 
 # Golf
 
-<span id="last-updated">Last updated: Oct 19, 2022</span>
+<span id="last-updated">Last updated: Jun 17, 2023</span>
 
 ## Current Handicap
 
