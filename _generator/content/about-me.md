@@ -3,7 +3,7 @@
 
 # About Me
 
-<span id="last-updated">Last updated: Sep 27, 2022</span>
+<span id="last-updated">Last updated: Jul 16, 2023</span>
 
 ![A picture of me.](me.jpg)
 
@@ -52,4 +52,4 @@ Outside of working, parenting, and doing chores, my interests include:
 
 ### Why “cananito”?
 
-TODO
+They used to call my grandfather "Canano" because they thought he looked like he was from Cananea (no clue why). Then when I was a kid, a couple of family members thought I looked a lot like my grandfather, so they started calling me "Cananito", which is the diminutive form of "Canano" in Spanish.
