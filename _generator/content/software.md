@@ -3,7 +3,7 @@
 
 # Software
 
-<span id="last-updated">Last updated: Mar 24, 2023</span>
+<span id="last-updated">Last updated: Jul 16, 2023</span>
 
 ## Software I Use
 
@@ -48,8 +48,8 @@
 
 My favorite programming languages are:
 
-1. Python
 1. C
+1. Python
 1. JavaScript
 
 The criteria I use to determine my language preferences:
