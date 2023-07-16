@@ -3,7 +3,7 @@
 
 # Go
 
-<span id="last-updated">Last updated: Jan 29, 2023</span>
+<span id="last-updated">Last updated: Jul 16, 2023</span>
 
 My Online-Go.com profile: [online-go.com/player/948468/cananito](https://online-go.com/player/948468/cananito).
 
@@ -11,10 +11,10 @@ I discovered Go in early 2016, shortly after I joined Google, when the company a
 
 ## Interesting Things About Go
 
-* **Board starts empty:** TODO.
-* **Only 1 piece:** TODO.
-* **Scoring:** TODO.
-* **Tactics vs strategy:** TODO.
+* **Board starts empty:** Many similar games start with all the pieces on the board and you work to destroy your opponent's. In Go it's mainly about building up, with the occasional captures.
+* **Only 1 piece:** In many games you need to learn several pieces and how the can be placed or moved. In Go there's only 1 piece, with easy placement rules, and can't be moved once it's placed. This is the main contributor to the simplicity of the game.
+* **Scoring:** In most games it's pretty easy even for beginners to know who's winning throughout the game and to know the winner right away once the game ends. In Go scoring involves counting surrounded territory, which in many cases is not definitive until the last part of the game. This is probably the most off-putting aspect of Go and the main contributor to the complexity of the game.
+* **Tactics vs strategy:** Most games involve a lot of tactics and not much strategy. In Go tactics manifest as "local battles" and are extremely important. But strategy (the "global" aspect of the game) is elevated more than any other game I know: you always have to be aware of all the ongoing battles across the board.
 
 ## Bitesized Knowledge
 
