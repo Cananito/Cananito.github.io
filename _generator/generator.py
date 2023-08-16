@@ -2,6 +2,7 @@
 # coding=utf-8
 
 # TODO: Add table of contents support.
+# TODO: Replace HTML parsing and stitching with token replacement?
 
 import argparse
 import markdown
