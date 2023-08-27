@@ -3,9 +3,20 @@
 
 # Books
 
-<span id="last-updated">Last updated: Sep 25, 2022</span>
+<span id="last-updated">Last updated: Aug 25, 2023</span>
 
 ## Books I’ve Read
+
+### 2023
+
+**La Biblioteca de Babel** ~ Jorge Luis Borges  
+Started: 2023/Aug/25  
+Finished: 2023/Aug/25  
+Rating: 3/5
+
+In English “The Library of Babel”. Learned about this short story while reading an [Economist article](https://www.economist.com/essay/2023/04/20/how-ai-could-change-computing-culture-and-the-course-of-history) on AI and its possible infinite supply of disinformation.
+
+I read it in Spanish, and the writing was too high brow for my taste. But given the context I had on it and how short it was, it was enjoyable enough.
 
 ### 2022
 
