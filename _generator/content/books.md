@@ -14,9 +14,9 @@ Started: 2023/Aug/25
 Finished: 2023/Aug/25  
 Rating: 3/5
 
-In English “The Library of Babel”. Learned about this short story while reading an [Economist article](https://www.economist.com/essay/2023/04/20/how-ai-could-change-computing-culture-and-the-course-of-history) on AI and its possible infinite supply of disinformation.
+Called “The Library of Babel” in English. Learned about this short story while reading an [Economist article](https://www.economist.com/essay/2023/04/20/how-ai-could-change-computing-culture-and-the-course-of-history) on AI and its possible infinite supply of disinformation.
 
-I read it in Spanish, and the writing was too high brow for my taste. But given the context I had on it and how short it was, it was enjoyable enough.
+I read it in Spanish, and the writing was too highbrow for my taste. But given the context I had on it and how short it was, it was enjoyable enough.
 
 ### 2022
 
