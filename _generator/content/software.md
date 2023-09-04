@@ -3,7 +3,7 @@
 
 # Software
 
-<span id="last-updated">Last updated: Jul 16, 2023</span>
+<span id="last-updated">Last updated: Sep 3, 2023</span>
 
 ## Software I Use
 
@@ -39,7 +39,6 @@
 
 * [YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)
 * [vim-markdown](https://github.com/preservim/vim-markdown)
-* [vim-signify](https://github.com/mhinz/vim-signify)
 * [vim-vinegar](https://github.com/tpope/vim-vinegar)
 
  I manage all my plugins with [vim-plug](https://github.com/junegunn/vim-plug).
