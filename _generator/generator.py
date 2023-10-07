@@ -11,6 +11,7 @@ import sys
 
 from enum import Enum
 from html.parser import HTMLParser
+from typing import cast
 from typing import NamedTuple
 
 
@@ -33,6 +34,7 @@ class Stage(Enum):
 
 
 class TemplateParser(HTMLParser):
+
     def __init__(self) -> None:
         HTMLParser.__init__(self)
         self.__stage: Stage = Stage.BEFORE_TITLE
@@ -44,42 +46,53 @@ class TemplateParser(HTMLParser):
         self.__after_footer_html: str = ""
 
     def parsed_template(self) -> ParsedTemplate:
-        return ParsedTemplate(self.__before_title_html,
-                              self.__title_html,
-                              self.__after_title_before_content_html,
-                              self.__after_content_before_footer_html,
-                              self.__footer_html,
-                              self.__after_footer_html)
+        return ParsedTemplate(
+            self.__before_title_html,
+            self.__title_html,
+            self.__after_title_before_content_html,
+            self.__after_content_before_footer_html,
+            self.__footer_html,
+            self.__after_footer_html,
+        )
 
-    def handle_starttag(self, tag: str, attrs: list[tuple[str, str]]) -> None:
+    def handle_starttag(
+        self, tag: str, attrs: list[tuple[str, str | None]]
+    ) -> None:
         # Handle the title tag.
         if tag == "title":
             if self.__title_html:
-                sys.stdout.write("There's more than one title tags in the "
-                                 "template! Exiting.\n")
+                sys.stdout.write(
+                    "There's more than one title tags in the "
+                    "template! Exiting.\n"
+                )
                 sys.exit(1)
             self.__stage = Stage.TITLE
         # Handle the footer tag.
         if tag == "footer":
             if self.__footer_html:
-                sys.stdout.write("There's more than one foter tags in the "
-                                 "template! Exiting.\n")
+                sys.stdout.write(
+                    "There's more than one foter tags in the "
+                    "template! Exiting.\n"
+                )
                 sys.exit(1)
             self.__stage = Stage.FOOTER
 
         change_to_after_content_stage: bool = False
         self.__append_to_current_segment("<")
         self.__append_to_current_segment(tag)
-        pair: tuple[str, str]
+        pair: tuple[str, str | None]
         for pair in attrs:
+            if not pair:
+                continue
+            nonEmptyPair: tuple[str, str] = cast(tuple[str, str], pair)
             self.__append_to_current_segment(" ")
-            self.__append_to_current_segment(pair[0])
-            value: str = pair[1]
+            self.__append_to_current_segment(nonEmptyPair[0])
+            value: str = nonEmptyPair[1]
             if value:
                 self.__append_to_current_segment("=")
-                self.__append_to_current_segment("\"")
+                self.__append_to_current_segment('"')
                 self.__append_to_current_segment(value)
-                self.__append_to_current_segment("\"")
+                self.__append_to_current_segment('"')
             # Handle the div#content tag.
             if tag == "div" and pair[0] == "id" and pair[1] == "content":
                 change_to_after_content_stage = True
@@ -98,19 +111,22 @@ class TemplateParser(HTMLParser):
         if tag == "footer":
             self.__stage = Stage.AFTER_FOOTER
 
-    def handle_startendtag(self,
-                           tag: str,
-                           attrs: list[tuple[str, str]]) -> None:
+    def handle_startendtag(
+        self, tag: str, attrs: list[tuple[str, str | None]]
+    ) -> None:
         self.__append_to_current_segment("<")
         self.__append_to_current_segment(tag)
-        pair: tuple[str, str]
+        pair: tuple[str, str | None]
         for pair in attrs:
+            if not pair:
+                continue
+            nonEmptyPair: tuple[str, str] = cast(tuple[str, str], pair)
             self.__append_to_current_segment(" ")
-            self.__append_to_current_segment(pair[0])
+            self.__append_to_current_segment(nonEmptyPair[0])
             self.__append_to_current_segment("=")
-            self.__append_to_current_segment("\"")
-            self.__append_to_current_segment(pair[1])
-            self.__append_to_current_segment("\"")
+            self.__append_to_current_segment('"')
+            self.__append_to_current_segment(nonEmptyPair[1])
+            self.__append_to_current_segment('"')
         self.__append_to_current_segment(" />")
 
     def handle_data(self, data: str) -> None:
@@ -176,10 +192,12 @@ def indented_html_lines(html_lines: list[str]) -> list[str]:
     return indented_html_lines
 
 
-def stitched_content_html(content_html: str,
-                          title: str,
-                          generate_footer: bool,
-                          parsed_template: ParsedTemplate) -> str:
+def stitched_content_html(
+    content_html: str,
+    title: str,
+    generate_footer: bool,
+    parsed_template: ParsedTemplate,
+) -> str:
     # Title.
     title_html: str = parsed_template.title_html
     if title:
@@ -188,7 +206,8 @@ def stitched_content_html(content_html: str,
     # Content.
     content_html_lines: list[str] = content_html.splitlines()
     indented_content_html_lines: list[str] = indented_html_lines(
-        content_html_lines)
+        content_html_lines
+    )
     indented_content_html: str = "\n".join(indented_content_html_lines)
 
     # Footer.
@@ -197,19 +216,22 @@ def stitched_content_html(content_html: str,
         footer_html = parsed_template.footer_html
 
     # Actual stitch.
-    return (parsed_template.before_title_html +
-            title_html +
-            parsed_template.after_title_before_content_html +
-            "\n" +
-            indented_content_html +
-            parsed_template.after_content_before_footer_html +
-            footer_html +
-            parsed_template.after_footer_html)
+    return (
+        parsed_template.before_title_html
+        + title_html
+        + parsed_template.after_title_before_content_html
+        + "\n"
+        + indented_content_html
+        + parsed_template.after_content_before_footer_html
+        + footer_html
+        + parsed_template.after_footer_html
+    )
 
 
 # TODO: Remove this class in favor of standalone functions.
 # TODO: Finish adding type annotations to all these methods.
 class Generator(object):
+
     def __init__(self, relpaths: list[str]) -> None:
         self.script_dir_path = os.path.dirname(os.path.abspath(__file__))
         self.content_dir_path = os.path.join(self.script_dir_path, "content")
@@ -219,8 +241,7 @@ class Generator(object):
         if not self.paths:
             self.paths = [self.content_dir_path]
 
-        template_html_path = os.path.join(self.script_dir_path,
-                                             "template.html")
+        template_html_path = os.path.join(self.script_dir_path, "template.html")
         template_html = self.__contents_of_file_path(template_html_path)
         if not template_html:
             sys.stdout.write("Couldn't load template.html!")
@@ -228,7 +249,9 @@ class Generator(object):
 
         template_parser: TemplateParser = TemplateParser()
         template_parser.feed(template_html)
-        self.__parsed_template: ParsedTemplate = template_parser.parsed_template()
+        self.__parsed_template: ParsedTemplate = (
+            template_parser.parsed_template()
+        )
 
     def generate(self) -> None:
         for path in self.paths:
@@ -240,14 +263,15 @@ class Generator(object):
             elif os.path.isfile(path):
                 self.__generate_for_file(path)
             else:
-                sys.stdout.write("Found a path that's neither a directory nor "
-                                 "a file!")
+                sys.stdout.write(
+                    "Found a path that's neither a directory nor " "a file!"
+                )
                 sys.exit(1)
 
     def __lines_of_file_path(self, file_path):
         lines = None
         with open(file_path) as fileobject:
-          lines = fileobject.readlines()
+            lines = fileobject.readlines()
         return lines
 
     def __contents_of_file_path(self, file_path):
@@ -264,27 +288,37 @@ class Generator(object):
 
     def __generate_for_file(self, file_path):
         if not file_path.startswith(self.content_dir_path):
-            sys.stdout.write("The following file isn't in the "
-                             "/_generator/content/ subtree, so skipping it: " +
-                             file_path + "\n")
+            sys.stdout.write(
+                "The following file isn't in the "
+                "/_generator/content/ subtree, so skipping it: "
+                + file_path
+                + "\n"
+            )
             return
 
-        if (not os.path.basename(file_path).endswith(".md") and not
-            os.path.basename(file_path).endswith(".html")):
-            sys.stdout.write("Skipping encountered a non-Markdown or non-HTML "
-                             "file: " + file_path + "\n")
+        if not os.path.basename(file_path).endswith(
+            ".md"
+        ) and not os.path.basename(file_path).endswith(".html"):
+            sys.stdout.write(
+                "Skipping encountered a non-Markdown or non-HTML "
+                "file: " + file_path + "\n"
+            )
             return
 
         # Build output path.
         file_relpath_to_content_dir_path = os.path.relpath(
-            file_path, self.content_dir_path)
+            file_path, self.content_dir_path
+        )
         file_relpath_to_content_dir_path_splitext = os.path.splitext(
-            file_relpath_to_content_dir_path)
+            file_relpath_to_content_dir_path
+        )
         if file_relpath_to_content_dir_path_splitext[1] == ".md":
             file_relpath_to_content_dir_path = (
-                file_relpath_to_content_dir_path_splitext[0] + ".html")
-        output_path = os.path.join(self.root_output_dir_path,
-                                   file_relpath_to_content_dir_path)
+                file_relpath_to_content_dir_path_splitext[0] + ".html"
+            )
+        output_path = os.path.join(
+            self.root_output_dir_path, file_relpath_to_content_dir_path
+        )
 
         # Read contents of input path.
         file_lines = self.__lines_of_file_path(file_path)
@@ -295,7 +329,7 @@ class Generator(object):
         # Extract metadata.
         title = None
         if file_lines[0].startswith("% title: "):
-            title = file_lines[0][len("% title: "):].strip()
+            title = file_lines[0][len("% title: ") :].strip()
             file_lines.pop(0)
         generate_footer = False
         if file_lines[0].startswith("% generate_footer"):
@@ -306,16 +340,17 @@ class Generator(object):
         file_markdown = "".join(file_lines)
         file_html = markdown.markdown(file_markdown)
 
-        sys.stdout.write("Generating full HTML for " +
-                         file_path +
-                         " in " +
-                         output_path +
-                         "\n")
+        sys.stdout.write(
+            "Generating full HTML for "
+            + file_path
+            + " in "
+            + output_path
+            + "\n"
+        )
         # Stitch.
-        stitched_html = stitched_content_html(file_html,
-                                              title,
-                                              generate_footer,
-                                              self.__parsed_template)
+        stitched_html = stitched_content_html(
+            file_html, title, generate_footer, self.__parsed_template
+        )
         # Write contents to output path.
         self.___write_contents_to_file_path(stitched_html, output_path)
 
@@ -323,16 +358,22 @@ class Generator(object):
 def main() -> None:
     parser: argparse.ArgumentParser = argparse.ArgumentParser(
         description="Generates full HTML pages by inserting content HTML "
-                    "snippets into a template HTML file. The script can be ran "
-                    "from anywhere in the file system, but all input HTML must "
-                    "be in `.../_generator/content/` (where ... is the output "
-                    "directory).")
+        "snippets into a template HTML file. The script can be ran "
+        "from anywhere in the file system, but all input HTML must "
+        "be in `.../_generator/content/` (where ... is the output "
+        "directory)."
+    )
     parser.add_argument("--version", "-v", action="version", version="1.0")
-    parser.add_argument("relpaths", action="store", nargs="*",
-                        help="All the file and directory paths to process. "
-                             "Default is `.../_generator/content/`")
+    parser.add_argument(
+        "relpaths",
+        action="store",
+        nargs="*",
+        help="All the file and directory paths to process. "
+        "Default is `.../_generator/content/`",
+    )
     args = parser.parse_args()
     Generator(args.relpaths).generate()
+
 
 if __name__ == "__main__":
     main()
