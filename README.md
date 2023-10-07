@@ -10,6 +10,10 @@ In the `_generator/` directory there's a `generator.py` script that goes over al
 
 * Python 3.
 * [Python-Markdown](https://github.com/Python-Markdown/markdown).
+* [mypy](https://github.com/python/mypy) for type checking.
+    * Run using `mypy _generator/generator.py`.
+* [pyink](https://github.com/google/pyink) for formatting.
+    * Format using `pyink _generator/generator.py -l 80`.
 
 ### Instructions
 
