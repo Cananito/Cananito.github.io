@@ -29,7 +29,7 @@
 * Terminal: [iTerm2](https://iterm2.com/)
 * Terminal multiplexer: [tmux](https://github.com/tmux/tmux/wiki)
 * Terminal shell: [Bash 5](https://www.gnu.org/software/bash/)
-* C toolchain (personal): [Clang](https://clang.llvm.org/) + [LLDB](https://lldb.llvm.org/) + [CMake](https://cmake.org/)
+* C toolchain (personal): [Clang](https://clang.llvm.org/) + [LLDB](https://lldb.llvm.org/) + [Make](https://www.gnu.org/software/make/)
 * Build tool (work): [Blaze](https://en.wikipedia.org/wiki/Bazel_(software))
 * Source control (personal): [Git](https://git-scm.com/)
 * Source control (work): a modified version of [Perforce](https://www.perforce.com/)
