@@ -78,6 +78,4 @@ My ideal programming language would be a better and modern C. Desirable attribut
 * Value vs reference semantics (C pointers are fine).
 * No inheritance, no classes, no methods; only structs and functions.
 * Interfaces/protocols.
-* Generics.
-* Nullability annotations.
-* Mutability modifiers (C consts are fine).
+* Generics for abstract data types.
