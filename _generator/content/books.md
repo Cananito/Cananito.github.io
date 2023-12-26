@@ -9,6 +9,15 @@
 
 ### 2023
 
+**The Self-Driven Child** ~ Ned Johnson  
+Started: 2023/Nov/26  
+Finished: 2023/Dec/25  
+Rating: 5/5
+
+Really loved this book. In part because it reinfoced some views (downsides of tech and social media, [unimportance of school selection](https://redding.dev/mobility-schools/), benefits of exercise and sleep, etc.).
+
+The premise of the book is to give children a sense of control and independence. That in turn would present many benefits: they'll experience less stress, improved mental health, better life outcomes, and a better relationship with them.
+
 **La Biblioteca de Babel** ~ Jorge Luis Borges  
 Started: 2023/Aug/25  
 Finished: 2023/Aug/25  
