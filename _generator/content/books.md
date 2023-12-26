@@ -9,7 +9,7 @@
 
 ### 2023
 
-**The Self-Driven Child** ~ Ned Johnson  
+**The Self-Driven Child** ~ Ned Johnson and William Stixrud  
 Started: 2023/Nov/26  
 Finished: 2023/Dec/25  
 Rating: 5/5
