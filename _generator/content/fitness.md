@@ -3,7 +3,15 @@
 
 # Fitness
 
-<span id="last-updated">Last updated: Jul 04, 2023</span>
+<span id="last-updated">Last updated: Dec 31, 2023</span>
+
+Besides overall health, the 3 areas I aim to improve with exercise are:
+
+1. Strength.
+1. Endurance.
+1. Mobility.
+
+I mostly cover stength with barbell training, endurance with running, and mobility with stretching.
 
 ## Barbell Training
 
@@ -44,3 +52,9 @@ I don’t really have a strong reason for not incorporating the bench press as a
 ## Running
 
 I really dislike the feeling of being short of breath when doing any type of low-medium intensity activity, so I like to incorporate some [aerobic](https://fitbod.me/blog/cardio-aerobic-anaerobic/) exercise throughout the week. For this I like running indoors on a treadmill for 15-30 mins.
+
+## Stretching
+
+A major downside of my barbell training is that it leads to pain because muscles get so knotted, which likely means they essentially go offline and tendons start picking up the slack. To mitigate this I do targeted streteches, which reduces or eliminates the tension in the targeted muscle and makes the pain go away almost instantly. It's specially effective if I'm stretching a muscle by contracting the opposite one without other type of support.
+
+Another reason I like stretching is to improve the range of motion of my joints, thus improving mobility.
