@@ -1,7 +1,12 @@
 #include <getopt.h>
+#include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+static bool string_has_prefix(char* string, char* prefix) {
+  return strncmp(prefix, string, strlen(prefix)) == 0;
+}
 
 static struct option long_options[] = {
   { .name = "version", .has_arg = no_argument, .flag = 0, .val = 'v' },
@@ -35,7 +40,7 @@ int main(int argc, char** argv) {
 
               int next_optind = optind + 1;
               if (next_optind < argc &&
-                  strncmp("-", argv[next_optind], 1) == 0) {
+                  string_has_prefix(argv[next_optind], "-")) {
                 break;
               }
 
