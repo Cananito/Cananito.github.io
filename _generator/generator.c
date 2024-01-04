@@ -47,6 +47,10 @@ static void generate(void) {
     if (current_ent == NULL) {
       break;
     }
+    if (current_ent->fts_info != FTS_F) {
+      // Not a regular file, likely a directory, skip.
+      continue;
+    }
     char* file_path = current_ent->fts_path;
     if (string_has_suffix(file_path, ".md")) {
       // TODO: Process file.
