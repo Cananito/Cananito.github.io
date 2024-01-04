@@ -43,11 +43,11 @@ static void generate(void) {
 
   // Iterate over files in the content directory.
   while (1) {
-    FTSENT* curent_ent = fts_read(content_dir_fts);
-    if (curent_ent == NULL) {
+    FTSENT* current_ent = fts_read(content_dir_fts);
+    if (current_ent == NULL) {
       break;
     }
-    char* file_path = curent_ent->fts_path;
+    char* file_path = current_ent->fts_path;
     if (string_has_suffix(file_path, ".md")) {
       // TODO: Process file.
       printf(">>> %s\n", file_path);
