@@ -6,6 +6,18 @@
 #include <string.h>
 #include <sys/param.h>
 
+static bool string_has_suffix(char* str, char* suffix) {
+  if (str == NULL || suffix == NULL) {
+    return false;
+  }
+  size_t str_len = strlen(str);
+  size_t suffix_len = strlen(suffix);
+  if (suffix_len > str_len) {
+    return false;
+  }
+  return strncmp(str + str_len - suffix_len, suffix, suffix_len) == 0;
+}
+
 static void generate(void) {
   // Get the working dir.
   char cwd_buffer[MAXPATHLEN];
@@ -17,7 +29,7 @@ static void generate(void) {
 
   // TODO: Open up the template HTML file.
 
-  // Open content directory.
+  // Open the content directory.
   char content_dir_path[MAXPATHLEN];
   strcpy(content_dir_path, cwd);
   strcat(content_dir_path, "/_generator/content");
@@ -29,13 +41,17 @@ static void generate(void) {
     exit(EXIT_FAILURE);
   }
 
-  // Iterate over files in content directory.
+  // Iterate over files in the content directory.
   while (1) {
     FTSENT* curent_ent = fts_read(content_dir_fts);
     if (curent_ent == NULL) {
       break;
     }
-    printf(">>> %s\n", curent_ent->fts_path);
+    char* file_path = curent_ent->fts_path;
+    if (string_has_suffix(file_path, ".md")) {
+      // TODO: Process file.
+      printf(">>> %s\n", file_path);
+    }
   }
 
   // Close content directory.
