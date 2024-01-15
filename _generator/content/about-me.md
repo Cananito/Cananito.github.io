@@ -5,7 +5,7 @@
 
 <span id="last-updated">Last updated: Jul 16, 2023</span>
 
-![A picture of me.](me.jpg)
+![A picture of me.](images/me.jpg)
 
 ## Profession
 
