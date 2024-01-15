@@ -29,7 +29,7 @@ TODO: How I got into computer science.
 
 I studied **Computer Science** at **CETYS Universidad** (Tijuana campus) from 2008 to 2012.
 
-I went to high school to “la Lázaro” (Preparatoria Federal Lázaro Cárdenas) from 2005 to 2008, taking the “Informatics” specialty.
+I went to high school to “la Lázaro” (Preparatoria Federal Lázaro Cárdenas) from 2005 to 2008, taking the “Computing” specialty.
 
 ## Personal Life
 
