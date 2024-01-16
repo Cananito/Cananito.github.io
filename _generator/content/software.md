@@ -38,7 +38,6 @@
 #### Vim Plugins
 
 * [YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)
-* [vim-markdown](https://github.com/preservim/vim-markdown)
 * [vim-vinegar](https://github.com/tpope/vim-vinegar)
 
  I manage all my plugins with [vim-plug](https://github.com/junegunn/vim-plug).
