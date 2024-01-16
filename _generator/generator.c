@@ -1,10 +1,31 @@
 #include <fts.h>
 #include <getopt.h>
+#include <libgen.h>
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <sys/param.h>
+
+static void generate_for_file_path(char* file_path, char* output_dir_path) {
+  // TODO: Open and read file.
+
+  // TODO: Convert to HTML.
+
+  // TODO: Stitch template and content.
+
+  // Construct output file path.
+  char* file_name_with_extension = basename(file_path);
+  char* file_name_without_extension = strsep(&file_name_with_extension, ".");
+  char output_file_path[MAXPATHLEN];
+  strcpy(output_file_path, output_dir_path);
+  strcat(output_file_path, file_name_without_extension);
+  strcat(output_file_path, ".html");
+  printf(">>> file_path:        %s\n", file_path);
+  printf(">>> output_file_path: %s\n", output_file_path);
+
+  // TODO: Write to output_path.
+}
 
 static bool string_has_suffix(char* str, char* suffix) {
   if (str == NULL || suffix == NULL) {
@@ -26,13 +47,14 @@ static void generate(void) {
     printf("Failed to get current directory.\n");
     exit(EXIT_FAILURE);
   }
+  strcat(cwd, "/");
 
   // TODO: Open up the template HTML file.
 
   // Open the content directory.
   char content_dir_path[MAXPATHLEN];
   strcpy(content_dir_path, cwd);
-  strcat(content_dir_path, "/_generator/content");
+  strcat(content_dir_path, "_generator/content");
   int fts_options = FTS_PHYSICAL|FTS_NOCHDIR;
   char* dirs[] = { content_dir_path, NULL };
   FTS* content_dir_fts = fts_open(dirs, fts_options, NULL);
@@ -53,8 +75,7 @@ static void generate(void) {
     }
     char* file_path = current_ent->fts_path;
     if (string_has_suffix(file_path, ".md")) {
-      // TODO: Process file.
-      printf(">>> %s\n", file_path);
+      generate_for_file_path(file_path, cwd);
     }
   }
 
