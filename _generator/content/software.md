@@ -47,8 +47,8 @@
 My favorite programming languages are:
 
 1. C
-1. Python
 1. JavaScript
+1. Python
 
 The criteria I use to determine my language preferences:
 
