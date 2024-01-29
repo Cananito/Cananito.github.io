@@ -7,6 +7,17 @@
 
 ## Books I’ve Read
 
+### 2024
+
+**Bartleby, the Scrivener** ~ Herman Melville  
+Started: 2024/Jan/25  
+Finished: 2024/Jan/28  
+Rating: 2/5
+
+Read this because my favorite column in The Economist is Bartleby, which is named after this short story.
+
+It was somewhat entertaining, but meh.
+
 ### 2023
 
 **The Self-Driven Child** ~ Ned Johnson and William Stixrud  
