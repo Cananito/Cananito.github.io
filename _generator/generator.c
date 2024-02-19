@@ -7,27 +7,66 @@
 #include <string.h>
 #include <sys/param.h>
 
-static void generate_for_file_path(char* file_path, char* output_dir_path) {
-  // TODO: Open and read file.
+// On my current set-up, 101 characters is the longest path.
+#define MAX_PATH_LENGTH 256
 
-  // TODO: Convert to HTML.
+// At the moment, the largest file contains 17056 characters.
+// Making the max 256 kB to allow for plenty of leeway.
+#define MAX_FILE_CONTENT_BUFFER_SIZE 262144
+
+static void html_from_markdown(char* html_destination,
+                               char const* const markdown_source) {
+  // TODO: Implement!
+  printf(">>> %c\n", markdown_source[0]);
+  html_destination[0] = 'a';
+  html_destination[1] = '\0';
+  printf(">>> %s\n", html_destination);
+}
+
+static void generate_for_file_path(char const* const file_path,
+                                   char const* const output_dir_path) {
+  printf(">>> Generating for file_path:        %s\n", file_path);
+
+  // Open and read file.
+  char file_content[MAX_FILE_CONTENT_BUFFER_SIZE] = { 0 };
+  FILE* file = fopen(file_path, "r");
+  if (file == NULL) {
+    printf("Failed to open file_path: %s.\n", file_path);
+    exit(EXIT_FAILURE);
+  }
+  fread(&file_content, sizeof(char), MAX_FILE_CONTENT_BUFFER_SIZE, file);
+  if (feof(file) == 0) {
+    printf("Couldn't read to end of file for file_path: %s.\n", file_path);
+    fclose(file);
+    exit(EXIT_FAILURE);
+  }
+  if (ferror(file) != 0) {
+    printf("Read error for file_path: %s.\n", file_path);
+    fclose(file);
+    exit(EXIT_FAILURE);
+  }
+  fclose(file);
+
+  // Convert to HTML.
+  char html[MAX_FILE_CONTENT_BUFFER_SIZE] = { 0 };
+  html_from_markdown(html, file_content);
 
   // TODO: Stitch template and content.
 
   // Construct output file path.
-  char* file_name_with_extension = basename(file_path);
+  // TODO: Stop casting and make a copy instead to be safe.
+  char* file_name_with_extension = basename((char *)file_path);
   char* file_name_without_extension = strsep(&file_name_with_extension, ".");
-  char output_file_path[MAXPATHLEN];
+  char output_file_path[MAX_PATH_LENGTH];
   strcpy(output_file_path, output_dir_path);
   strcat(output_file_path, file_name_without_extension);
   strcat(output_file_path, ".html");
-  printf(">>> file_path:        %s\n", file_path);
   printf(">>> output_file_path: %s\n", output_file_path);
 
   // TODO: Write to output_path.
 }
 
-static bool string_has_suffix(char* str, char* suffix) {
+static bool string_has_suffix(char const* const str, char const* const suffix) {
   if (str == NULL || suffix == NULL) {
     return false;
   }
@@ -41,8 +80,8 @@ static bool string_has_suffix(char* str, char* suffix) {
 
 static void generate(void) {
   // Get the working dir.
-  char cwd_buffer[MAXPATHLEN];
-  char* cwd = getcwd(cwd_buffer, MAXPATHLEN);
+  char cwd_buffer[MAX_PATH_LENGTH];
+  char* cwd = getcwd(cwd_buffer, MAX_PATH_LENGTH);
   if (cwd == NULL) {
     printf("Failed to get current directory.\n");
     exit(EXIT_FAILURE);
@@ -52,7 +91,7 @@ static void generate(void) {
   // TODO: Open up the template HTML file.
 
   // Open the content directory.
-  char content_dir_path[MAXPATHLEN];
+  char content_dir_path[MAX_PATH_LENGTH];
   strcpy(content_dir_path, cwd);
   strcat(content_dir_path, "_generator/content");
   int fts_options = FTS_PHYSICAL|FTS_NOCHDIR;
