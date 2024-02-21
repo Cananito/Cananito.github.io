@@ -8,3 +8,4 @@ generator: _generator/generator.c
 
 clean:
 	rm -f generator
+	rm -rf generator.dSYM/
