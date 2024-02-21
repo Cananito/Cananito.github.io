@@ -14,7 +14,7 @@
 // Making the max 256 kB to allow for plenty of leeway.
 #define MAX_FILE_CONTENT_BUFFER_SIZE 262144
 
-static void html_from_markdown(char* html_destination,
+static void html_from_markdown(char* const html_destination,
                                char const* const markdown_source) {
   // TODO: Implement!
   printf(">>> %c\n", markdown_source[0]);
