@@ -65,16 +65,3 @@ The languages I’m most proficient in:
 1. Python
 1. JavaScript
 1. C
-
-## Ideal Programming Language
-
-My ideal programming language would be a better and modern C. Desirable attributes would be:
-
-* Statically typed.
-* Strongly typed.
-* Compiled into machine code.
-* No preprocessor macros.
-* Value vs reference semantics (C pointers are fine).
-* No inheritance, no classes, no methods; only structs and functions.
-* Interfaces/protocols.
-* Generics for abstract data types.
