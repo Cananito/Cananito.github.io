@@ -60,3 +60,4 @@ Taken from [https://www.youtube.com/watch?v=CkvR-iuTkd4](https://www.youtube.com
 * [Go4Go](https://www.go4go.net/go/). Useful site to see professional game records.
 * [American Go Association](https://www.usgo.org/).
 * [North American Go Federation](https://nagofed.org/).
+* [The Clossi Approach](https://shawnsgogroup.com/clossi_approach)
