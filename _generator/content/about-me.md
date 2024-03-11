@@ -3,7 +3,7 @@
 
 # About Me
 
-<span id="last-updated">Last updated: Jul 16, 2023</span>
+<span id="last-updated">Last updated: Mar 10, 2024</span>
 
 ![A picture of me.](images/me.jpg)
 
@@ -45,9 +45,9 @@ Outside of working, parenting, and doing chores, my interests include:
 * [Working out](fitness.html).
 * Reading [books](books.html).
 * Playing [Go](go.html).
-* Playing [golf](golf.html).
+* [Golf](golf.html). Mostly playing it, sometimes watching it. My favorite tours/tournaments are Liv Golf, the Ryder Cup, The Open, the U.S. Open, the the Masters, and the Presidents Cup.
 * Computer science.
-* Football (soccer). Mostly following it, sometimes watching it, but not playing it (too afraid of injuring myself). My favorite leagues/tournaments are England’s Premier League, the UEFA Champions League, the US’s MLS, the FIFA World Cup, Spain’s La Liga, and Mexico’s Liga MX.
+* Football (soccer). Mostly following it, sometimes watching it, but not playing it (too afraid of injuring myself). My favorite leagues/tournaments are England’s Premier League, the UEFA Champions League, and the FIFA World Cup. My favorite team is Manchester United.
 * Watching YouTube, TV, and movies.
 
 ### Why “cananito”?
