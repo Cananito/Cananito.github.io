@@ -47,7 +47,7 @@ Outside of working, parenting, and doing chores, my interests include:
 * Playing [Go](go.html).
 * [Golf](golf.html). Mostly playing it, sometimes watching it. My favorite tours/tournaments are Liv Golf, the Ryder Cup, The Open, the U.S. Open, the the Masters, and the Presidents Cup.
 * Computer science.
-* Football (soccer). Mostly following it, sometimes watching it, but not playing it (too afraid of injuring myself). My favorite leagues/tournaments are England’s Premier League, the UEFA Champions League, and the FIFA World Cup. My favorite team is Manchester United.
+* Football (soccer). Mostly following it, sometimes watching it, but not playing it (too afraid of injuring myself). My favorite leagues/tournaments are England’s Premier League, the UEFA Champions League, and the FIFA World Cup. My favorite teams are Manchester United and the England national team.
 * Watching YouTube, TV, and movies.
 
 ### Why “cananito”?
