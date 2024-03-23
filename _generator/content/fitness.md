@@ -3,7 +3,7 @@
 
 # Fitness
 
-<span id="last-updated">Last updated: Dec 31, 2023</span>
+<span id="last-updated">Last updated: Mar 23, 2024</span>
 
 Besides overall health, the 3 areas I aim to improve with exercise are:
 
@@ -25,8 +25,8 @@ Nowadays most of my exercising comes from barbell training. Compared to other im
 The main lifts I do are:
 
 * Squat.
-* Deadlift.
 * Press (a.k.a. overhead press or strict press).
+* Deadlift.
 
 Less frequently, as assistance, as variations, or just for fun: barbell curls, squat variations, pull variations, press/jerk variations, bench press, barbell row, power clean, chin ups, dips.
 
