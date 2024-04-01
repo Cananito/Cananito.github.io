@@ -3,7 +3,7 @@
 
 # Fitness
 
-<span id="last-updated">Last updated: Mar 23, 2024</span>
+<span id="last-updated">Last updated: Mar 31, 2024</span>
 
 Besides overall health, the 3 areas I aim to improve with exercise are:
 
@@ -51,7 +51,7 @@ I don’t really have a strong reason for not incorporating the bench press as a
 
 ## Running
 
-I really dislike the feeling of being short of breath when doing any type of low-medium intensity activity, so I like to incorporate some [aerobic](https://fitbod.me/blog/cardio-aerobic-anaerobic/) exercise throughout the week. For this I like running indoors on a treadmill for 15-30 mins.
+I really dislike the feeling of being short of breath when doing any type of low-medium intensity activity, so I like to incorporate some [aerobic](https://fitbod.me/blog/cardio-aerobic-anaerobic/) exercise throughout the week. For this I like running indoors on a treadmill for 10-30 mins.
 
 ## Stretching
 
