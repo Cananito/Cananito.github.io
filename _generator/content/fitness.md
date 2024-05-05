@@ -49,12 +49,12 @@ I don’t really have a strong reason for not incorporating the bench press as a
 * Some believe the bench press limits shoulder mobility [[3](https://www.youtube.com/watch?v=HDNu9skPrFU)][[4](https://chineseweightlifting.com/olympic-weightlifting-training-exercises/#:~:text=not%20used%20frequently%20in%20a%20weightlifting%20program%20because%20it%20can%20negatively%20affect%20overhead%20positioning%20and%20rack%20flexibility)].
 * The bench press takes longer to set-up.
 
-## Running
-
-I really dislike the feeling of being short of breath when doing any type of low-medium intensity activity, so I like to incorporate some [aerobic](https://fitbod.me/blog/cardio-aerobic-anaerobic/) exercise throughout the week. For this I like running indoors on a treadmill for 10-30 mins.
-
 ## Stretching
 
 A major downside of my barbell training is that it leads to stiffness and sometimes even pain because muscles get so knotted. To mitigate this I do targeted streteches. In the case of muscle knots, it's specially effective if I'm stretching a muscle by contracting the opposite one without any other type of support.
 
 Another reason I like stretching is to improve the range of motion of my joints, thus improving mobility.
+
+## Running
+
+I really dislike the feeling of being short of breath when doing any type of low-medium intensity activity, so I like to incorporate some [aerobic](https://fitbod.me/blog/cardio-aerobic-anaerobic/) exercise throughout the week. For this I like running indoors on a treadmill for 10-30 mins.
