@@ -3,15 +3,15 @@
 
 # Fitness
 
-<span id="last-updated">Last updated: Mar 31, 2024</span>
+<span id="last-updated">Last updated: May 04, 2024</span>
 
 Besides overall health, the 3 areas I aim to improve with exercise are:
 
 1. Strength.
-1. Endurance.
 1. Mobility.
+1. Aerobic endurance.
 
-I mostly cover stength with barbell training, endurance with running, and mobility with stretching.
+I mostly cover stength with barbell training, mobility with stretching, and aerobic endurance with running.
 
 ## Barbell Training
 
@@ -55,6 +55,6 @@ I really dislike the feeling of being short of breath when doing any type of low
 
 ## Stretching
 
-A major downside of my barbell training is that it leads to pain because muscles get so knotted, which likely means they essentially go offline and tendons start picking up the slack. To mitigate this I do targeted streteches, which reduces or eliminates the tension in the targeted muscle and makes the pain go away almost instantly. It's specially effective if I'm stretching a muscle by contracting the opposite one without other type of support.
+A major downside of my barbell training is that it leads to stiffness and sometimes even pain because muscles get so knotted. To mitigate this I do targeted streteches. In the case of muscle knots, it's specially effective if I'm stretching a muscle by contracting the opposite one without any other type of support.
 
 Another reason I like stretching is to improve the range of motion of my joints, thus improving mobility.
