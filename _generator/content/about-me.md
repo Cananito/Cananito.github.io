@@ -3,7 +3,7 @@
 
 # About Me
 
-<span id="last-updated">Last updated: Mar 18, 2024</span>
+<span id="last-updated">Last updated: May 23, 2024</span>
 
 ![A picture of me.](images/me.jpg)
 
