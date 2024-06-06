@@ -7,6 +7,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <sys/param.h>
+#include "../md4c/src/md4c-html.h"
 
 // On my current set-up, 101 characters is the longest path.
 #define MAX_PATH_LENGTH 256
@@ -34,6 +35,12 @@ static bool string_has_prefix(char const* const str, char const* const prefix) {
   return strncmp(str, prefix, strlen(prefix)) == 0;
 }
 
+static void handle_html_chunk(const MD_CHAR* chunk,
+                              MD_SIZE size,
+                              __unused void* userdata) {
+  printf(">>> got chunk: %.*s\n", size, chunk);
+}
+
 static void html_from_markdown(char* const destination_html,
                                char const* const source_markdown) {
   printf(">>> %c\n", source_markdown[0]);
@@ -41,56 +48,16 @@ static void html_from_markdown(char* const destination_html,
   destination_html[1] = '\0';
   printf(">>> %s\n", destination_html);
 
-  // TODO: Finish implementing!
-
-  // TODO: Define struct/enum to store current state?
-  /*
-  enum State {
-    START,
-    PARAGRAPH,
-    ORDERED_LIST,
-    UNORDERED_LIST,
-    BOLD,
-    ITALIC,
-    BOLD_ITALIC,
-    LINK,
-  } current_state;
-  */
-
-  char const* processed_markdown = source_markdown;
-  while (processed_markdown[0] != '\0') {
-    // TODO: Need to handle paragraphs
-
-    // TODO: Need to handle brs
-
-    // TODO: Need to handle \n followed by non-empty line as a single p
-
-    if (string_has_prefix(processed_markdown, "# ")) {
-      printf("Found heading 1\n");
-      processed_markdown += 2;
-    } else if (string_has_prefix(processed_markdown, "## ")) {
-      printf("Found heading 2\n");
-      processed_markdown += 3;
-    } else if (string_has_prefix(processed_markdown, "### ")) {
-      printf("Found heading 3\n");
-      processed_markdown += 4;
-    } else if (string_has_prefix(processed_markdown, "#### ")) {
-      printf("Found heading 4\n");
-      processed_markdown += 5;
-    } else if (string_has_prefix(processed_markdown, "##### ")) {
-      printf("Found heading 5\n");
-      processed_markdown += 6;
-    } else if (string_has_prefix(processed_markdown, "###### ")) {
-      printf("Found heading 6\n");
-      processed_markdown += 7;
-    } else if (isdigit(processed_markdown[0]) &&
-               processed_markdown[1] == '.' &&
-               processed_markdown[2] == ' ') {
-      printf("Found an ordered list item\n");
-      processed_markdown += 2;
-    } else {
-      processed_markdown++;
-    }
+  // TODO: Make struct with the dest HTML and current end, pass it as userdata.
+  int result = md_html(source_markdown,
+                       strlen(source_markdown),
+                       &handle_html_chunk,
+                       NULL,
+                       MD_DIALECT_COMMONMARK,
+                       MD_HTML_FLAG_XHTML);
+  if (result == -1) {
+    printf("Failed to parse markdown.\n");
+    exit(EXIT_FAILURE);
   }
 }
 
