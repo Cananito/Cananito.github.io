@@ -1,3 +1,4 @@
+#include <ctype.h>
 #include <fts.h>
 #include <getopt.h>
 #include <libgen.h>
@@ -14,13 +15,32 @@
 // Making the max 256 kB to allow for plenty of leeway.
 #define MAX_FILE_CONTENT_BUFFER_SIZE 262144
 
-static void html_from_markdown(char* const html_destination,
-                               char const* const markdown_source) {
+static bool string_has_suffix(char const* const str, char const* const suffix) {
+  if (str == NULL || suffix == NULL) {
+    return false;
+  }
+  size_t str_len = strlen(str);
+  size_t suffix_len = strlen(suffix);
+  if (suffix_len > str_len) {
+    return false;
+  }
+  return strncmp(str + str_len - suffix_len, suffix, suffix_len) == 0;
+}
+
+static bool string_has_prefix(char const* const str, char const* const prefix) {
+  if (str == NULL || prefix == NULL) {
+    return false;
+  }
+  return strncmp(str, prefix, strlen(prefix)) == 0;
+}
+
+static void html_from_markdown(char* const destination_html,
+                               char const* const source_markdown) {
   // TODO: Implement!
-  printf(">>> %c\n", markdown_source[0]);
-  html_destination[0] = 'a';
-  html_destination[1] = '\0';
-  printf(">>> %s\n", html_destination);
+  printf(">>> %c\n", source_markdown[0]);
+  destination_html[0] = 'a';
+  destination_html[1] = '\0';
+  printf(">>> %s\n", destination_html);
 }
 
 static void generate_for_file_path(char const* const file_path,
@@ -47,9 +67,35 @@ static void generate_for_file_path(char const* const file_path,
   }
   fclose(file);
 
+  char* markdown = file_content;
+
+  // Extract metadata (top lines beginning with %).
+  if (string_has_prefix(markdown, "\% title: ")) {
+    // TODO: Extract value and store into a `char* title`.
+
+    // Advance `markdown` to the next line.
+    while (markdown[0] != '\n') {
+      markdown++;
+    }
+    markdown++;
+  }
+  if (string_has_prefix(markdown, "\% generate_footer")) {
+    // TODO: Store true into a `bool generate_footer`.
+
+    // Advance `markdown` to the next line.
+    while (markdown[0] != '\n') {
+      markdown++;
+    }
+    markdown++;
+  }
+  if (string_has_prefix(markdown, "\n")) {
+    // Advance `markdown` to the next line.
+    markdown++;
+  }
+
   // Convert to HTML.
   char html[MAX_FILE_CONTENT_BUFFER_SIZE] = { 0 };
-  html_from_markdown(html, file_content);
+  html_from_markdown(html, markdown);
 
   // TODO: Stitch template and content.
 
@@ -64,18 +110,6 @@ static void generate_for_file_path(char const* const file_path,
   printf(">>> output_file_path: %s\n", output_file_path);
 
   // TODO: Write to output_path.
-}
-
-static bool string_has_suffix(char const* const str, char const* const suffix) {
-  if (str == NULL || suffix == NULL) {
-    return false;
-  }
-  size_t str_len = strlen(str);
-  size_t suffix_len = strlen(suffix);
-  if (suffix_len > str_len) {
-    return false;
-  }
-  return strncmp(str + str_len - suffix_len, suffix, suffix_len) == 0;
 }
 
 static void generate(void) {
