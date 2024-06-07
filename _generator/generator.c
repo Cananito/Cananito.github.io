@@ -16,6 +16,9 @@
 // Making the max 256 kB to allow for plenty of leeway.
 #define MAX_FILE_CONTENT_BUFFER_SIZE 262144
 
+// At the moment, 1647 bytes. Adding extra just in case.
+#define TEMPLATE_HTML_FILE_BUFFER_SIZE 2048
+
 static bool string_has_suffix(char const* const str, char const* const suffix) {
   if (str == NULL || suffix == NULL) {
     return false;
@@ -33,6 +36,28 @@ static bool string_has_prefix(char const* const str, char const* const prefix) {
     return false;
   }
   return strncmp(str, prefix, strlen(prefix)) == 0;
+}
+
+static void read_file(char* file_content,
+                      char const* const file_path,
+                      size_t buffer_size) {
+  FILE* file = fopen(file_path, "r");
+  if (file == NULL) {
+    printf("Failed to open file_path: %s.\n", file_path);
+    exit(EXIT_FAILURE);
+  }
+  fread(&file_content, sizeof(char), buffer_size, file);
+  if (feof(file) == 0) {
+    printf("Couldn't read to end of file for file_path: %s.\n", file_path);
+    fclose(file);
+    exit(EXIT_FAILURE);
+  }
+  if (ferror(file) != 0) {
+    printf("Read error for file_path: %s.\n", file_path);
+    fclose(file);
+    exit(EXIT_FAILURE);
+  }
+  fclose(file);
 }
 
 struct StringBuilder {
@@ -85,23 +110,7 @@ static void generate_for_file_path(char const* const file_path,
 
   // Open and read file.
   char file_content[MAX_FILE_CONTENT_BUFFER_SIZE] = { 0 };
-  FILE* file = fopen(file_path, "r");
-  if (file == NULL) {
-    printf("Failed to open file_path: %s.\n", file_path);
-    exit(EXIT_FAILURE);
-  }
-  fread(&file_content, sizeof(char), MAX_FILE_CONTENT_BUFFER_SIZE, file);
-  if (feof(file) == 0) {
-    printf("Couldn't read to end of file for file_path: %s.\n", file_path);
-    fclose(file);
-    exit(EXIT_FAILURE);
-  }
-  if (ferror(file) != 0) {
-    printf("Read error for file_path: %s.\n", file_path);
-    fclose(file);
-    exit(EXIT_FAILURE);
-  }
-  fclose(file);
+  read_file(file_content, file_path, MAX_FILE_CONTENT_BUFFER_SIZE);
 
   char* markdown = file_content;
 
@@ -159,7 +168,17 @@ static void generate(void) {
   }
   strcat(cwd, "/");
 
-  // TODO: Open up the template HTML file.
+  // TODO: Make open file func and reuse in generate_for_file_path.
+
+  // Open the template HTML file.
+  char template_html_file_path[MAX_PATH_LENGTH];
+  strcpy(template_html_file_path, cwd);
+  strcat(template_html_file_path, "_generator/template.html");
+  char template_html_file_content[TEMPLATE_HTML_FILE_BUFFER_SIZE] = { 0 };
+  read_file(template_html_file_content,
+            template_html_file_path,
+            TEMPLATE_HTML_FILE_BUFFER_SIZE);
+  printf(">>> template.html contents: %s\n", template_html_file_content);
 
   // Open the content directory.
   char content_dir_path[MAX_PATH_LENGTH];
@@ -184,7 +203,8 @@ static void generate(void) {
       continue;
     }
     char* file_path = current_ent->fts_path;
-    if (string_has_suffix(file_path, ".md")) {
+    //if (string_has_suffix(file_path, ".md")) {
+    if (string_has_suffix(file_path, "wine.md")) {
       generate_for_file_path(file_path, cwd);
     }
   }

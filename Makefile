@@ -11,7 +11,6 @@ generator: _generator/generator.c
 	clang -g $(CFLAGS) -c md4c/src/md4c-html.c -o md4c-html.o
 	clang -g $(CFLAGS) -c _generator/generator.c -o generator.o
 	clang -g $(CFLAGS) entity.o md4c.o md4c-html.o generator.o -o generator
-	rm *.o
 
 clean:
 	rm -f *.o
