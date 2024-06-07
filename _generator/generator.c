@@ -38,7 +38,7 @@ static bool string_has_prefix(char const* const str, char const* const prefix) {
   return strncmp(str, prefix, strlen(prefix)) == 0;
 }
 
-static void read_file(char* file_content,
+static void read_file(char* const file_content,
                       char const* const file_path,
                       size_t buffer_size) {
   FILE* file = fopen(file_path, "r");
