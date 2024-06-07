@@ -168,8 +168,6 @@ static void generate(void) {
   }
   strcat(cwd, "/");
 
-  // TODO: Make open file func and reuse in generate_for_file_path.
-
   // Open the template HTML file.
   char template_html_file_path[MAX_PATH_LENGTH];
   strcpy(template_html_file_path, cwd);
