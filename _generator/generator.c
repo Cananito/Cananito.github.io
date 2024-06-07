@@ -36,22 +36,22 @@ static bool string_has_prefix(char const* const str, char const* const prefix) {
 }
 
 struct StringBuilder {
-  char* const string;
+  char* const str;
   size_t index_for_next_chunk_append;
 };
 
-static void handle_html_chunk(const MD_CHAR* chunk,
+static void handle_html_chunk(MD_CHAR const* chunk,
                               MD_SIZE size,
                               void* userdata) {
   struct StringBuilder* string_builder = (struct StringBuilder*)userdata;
 
   size_t index_for_next_chunk_append =
       string_builder->index_for_next_chunk_append;
-  char* const string = string_builder->string;
+  char* const str = string_builder->str;
 
   for (size_t i = 0; i < size; i++) {
     size_t index = index_for_next_chunk_append + i;
-    string[index] = chunk[i];
+    str[index] = chunk[i];
   }
 
   string_builder->index_for_next_chunk_append += size;
@@ -60,7 +60,7 @@ static void handle_html_chunk(const MD_CHAR* chunk,
 static void html_from_markdown(char* const destination_html,
                                char const* const source_markdown) {
   struct StringBuilder string_builder = {
-    .string = destination_html,
+    .str = destination_html,
     .index_for_next_chunk_append = 0,
   };
   int result = md_html(source_markdown,
