@@ -46,7 +46,7 @@ static void read_file(char* file_content,
     printf("Failed to open file_path: %s.\n", file_path);
     exit(EXIT_FAILURE);
   }
-  fread(&file_content, sizeof(char), buffer_size, file);
+  fread(file_content, sizeof(char), buffer_size, file);
   if (feof(file) == 0) {
     printf("Couldn't read to end of file for file_path: %s.\n", file_path);
     fclose(file);
@@ -203,8 +203,7 @@ static void generate(void) {
       continue;
     }
     char* file_path = current_ent->fts_path;
-    //if (string_has_suffix(file_path, ".md")) {
-    if (string_has_suffix(file_path, "wine.md")) {
+    if (string_has_suffix(file_path, ".md")) {
       generate_for_file_path(file_path, cwd);
     }
   }
