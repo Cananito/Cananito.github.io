@@ -12,6 +12,6 @@ generator: _generator/generator.c
 	rm *.o
 
 clean:
-	rm *.o
+	rm -f *.o
 	rm -f generator
 	rm -rf generator.dSYM/
