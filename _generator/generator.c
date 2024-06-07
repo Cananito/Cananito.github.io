@@ -35,30 +35,48 @@ static bool string_has_prefix(char const* const str, char const* const prefix) {
   return strncmp(str, prefix, strlen(prefix)) == 0;
 }
 
+struct StringBuilder {
+  char* const string;
+  size_t index_for_next_chunk_append;
+};
+
 static void handle_html_chunk(const MD_CHAR* chunk,
                               MD_SIZE size,
-                              __unused void* userdata) {
-  printf(">>> got chunk: %.*s\n", size, chunk);
+                              void* userdata) {
+  struct StringBuilder* string_builder = (struct StringBuilder*)userdata;
+
+  size_t index_for_next_chunk_append =
+      string_builder->index_for_next_chunk_append;
+  char* const string = string_builder->string;
+
+  for (size_t i = 0; i < size; i++) {
+    size_t index = index_for_next_chunk_append + i;
+    string[index] = chunk[i];
+  }
+
+  string_builder->index_for_next_chunk_append += size;
 }
 
 static void html_from_markdown(char* const destination_html,
                                char const* const source_markdown) {
-  printf(">>> %c\n", source_markdown[0]);
-  destination_html[0] = 'a';
-  destination_html[1] = '\0';
-  printf(">>> %s\n", destination_html);
-
-  // TODO: Make struct with the dest HTML and current end, pass it as userdata.
+  struct StringBuilder string_builder = {
+    .string = destination_html,
+    .index_for_next_chunk_append = 0,
+  };
   int result = md_html(source_markdown,
                        strlen(source_markdown),
                        &handle_html_chunk,
-                       NULL,
+                       &string_builder,
                        MD_DIALECT_COMMONMARK,
                        MD_HTML_FLAG_XHTML);
+
   if (result == -1) {
     printf("Failed to parse markdown.\n");
     exit(EXIT_FAILURE);
   }
+
+  // Add null terminator.
+  destination_html[string_builder.index_for_next_chunk_append] = '\0';
 }
 
 static void generate_for_file_path(char const* const file_path,
@@ -114,6 +132,7 @@ static void generate_for_file_path(char const* const file_path,
   // Convert to HTML.
   char html[MAX_FILE_CONTENT_BUFFER_SIZE] = { 0 };
   html_from_markdown(html, markdown);
+  printf(">>> html:\n%s\n", html);
 
   // TODO: Stitch template and content.
 
@@ -125,7 +144,7 @@ static void generate_for_file_path(char const* const file_path,
   strcpy(output_file_path, output_dir_path);
   strcat(output_file_path, file_name_without_extension);
   strcat(output_file_path, ".html");
-  printf(">>> output_file_path: %s\n", output_file_path);
+  printf(">>> output_file_path:                %s\n", output_file_path);
 
   // TODO: Write to output_path.
 }
