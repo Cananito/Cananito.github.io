@@ -74,6 +74,7 @@ static void handle_html_chunk(MD_CHAR const* chunk,
       string_builder->index_for_next_chunk_append;
   char* const str = string_builder->str;
 
+  // TODO: memcpy instead of manually setting char by char.
   for (size_t i = 0; i < size; i++) {
     size_t index = index_for_next_chunk_append + i;
     str[index] = chunk[i];
