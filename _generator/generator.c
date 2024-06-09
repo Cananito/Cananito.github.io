@@ -169,6 +169,9 @@ static void generate(void) {
   }
   strcat(cwd, "/");
 
+  // TODO: Make a new template.html for this generator.
+  // Instead of parsing the HTML and stitching, just do token replacement.
+
   // Open the template HTML file.
   char template_html_file_path[MAX_PATH_LENGTH];
   strcpy(template_html_file_path, cwd);
