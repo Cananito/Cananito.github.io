@@ -241,10 +241,11 @@ class Generator(object):
         if not self.paths:
             self.paths = [self.content_dir_path]
 
-        template_html_path = os.path.join(self.script_dir_path, "template.html")
+        template_html_path = os.path.join(self.script_dir_path,
+                                          "template-legacy.html")
         template_html = self.__contents_of_file_path(template_html_path)
         if not template_html:
-            sys.stdout.write("Couldn't load template.html!")
+            sys.stdout.write("Couldn't load template-legacy.html!")
             sys.exit(1)
 
         template_parser: TemplateParser = TemplateParser()
