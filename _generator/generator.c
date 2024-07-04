@@ -227,9 +227,6 @@ static void generate_for_file_path(char const* const file_path,
   // Append everything else.
   strcat(output, template_parts.after_footer);
 
-  // TODO: Delete!
-  printf(">>> what i've got so far:\n%s\n", output);
-
   // Construct output file path.
   // TODO: Stop casting and make a copy instead to be safe.
   char* file_name_with_extension = basename((char *)file_path);
@@ -239,9 +236,10 @@ static void generate_for_file_path(char const* const file_path,
   strcpy(output_file_path, output_dir_path);
   strcat(output_file_path, file_name_without_extension);
   strcat(output_file_path, ".html");
-  printf(">>> output_file_path:                %s\n", output_file_path);
 
-  // TODO: Write output to output_path.
+  // Write output.
+  write_file(output, output_file_path);
+  printf(">>> Wrote to output_file_path:       %s\n", output_file_path);
 }
 
 static void generate(void) {
