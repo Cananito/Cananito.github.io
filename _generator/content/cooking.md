@@ -137,7 +137,7 @@ Required:
 1. Stir the pot semi-frequently until the milk is fluffy/frothy.
 1. Add the La Lechera.
 1. Stir the pot constantly for 30-45 mins.
-  * The longer you stir, the more solid its consistency will be.
+    * The longer you stir, the more solid its consistency will be.
 1. Add ~2 caps of vanilla extract.
 1. Stir for at least 30 seconds.
 1. Turn off the stove and let it cool for a while.
