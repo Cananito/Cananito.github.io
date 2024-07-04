@@ -156,7 +156,7 @@ static void generate_for_file_path(char const* const file_path,
   // Indent the html.
   char indented_html[MAX_FILE_CONTENT_BUFFER_SIZE] = { 0 };
   strcat(indented_html, "        ");
-  size_t indented_html_index = 7;
+  size_t indented_html_index = 8;
   size_t html_index = 0;
   while (true) {
     char html_current = html[html_index];
@@ -174,7 +174,6 @@ static void generate_for_file_path(char const* const file_path,
 
     // Append when a new line is coming, except for the last one.
     if (html_current == '\n' && html[html_index] != '\0') {
-      printf(">>> isjdfoasjfoisajdfoiasdjfoaisdjfoais\n");
       strcat(indented_html, "        ");
       indented_html_index += 8;
     }
