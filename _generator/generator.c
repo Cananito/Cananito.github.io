@@ -149,18 +149,18 @@ static void generate_for_file_path(char const* const file_path,
   // Append from the beginning to the open title tag.
   strcat(output, template_parts.before_title);
 
-  // Append the default title.
-  char const* const default_title = "Rogelio Gudiño";
-  size_t default_title_len = strlen(default_title);
-  strncat(output, default_title, default_title_len);
-
   if (strlen(title) != 0) {
     // Append the separating dash and title.
     char const* const separating_dash = " - ";
     size_t separating_dash_len = strlen(separating_dash);
-    strncat(output, separating_dash, separating_dash_len);
     strcat(output, title);
+    strncat(output, separating_dash, separating_dash_len);
   }
+
+  // Append the default title.
+  char const* const default_title = "Rogelio Gudiño";
+  size_t default_title_len = strlen(default_title);
+  strncat(output, default_title, default_title_len);
 
   // Append from the close title tag to the open content tag.
   strcat(output, template_parts.after_title_before_content);
