@@ -60,6 +60,16 @@ static void read_file(char* const file_content,
   fclose(file);
 }
 
+static void write_file(char* const file_content, char const* const file_path) {
+  FILE* file = fopen(file_path, "w");
+  if (file == NULL) {
+    printf("Failed to write to file_path: %s.\n", file_path);
+    exit(EXIT_FAILURE);
+  }
+  fputs(file_content, file);
+  fclose(file);
+}
+
 struct TemplateParts {
   char const* const before_title;
   char const* const after_title_before_content;
