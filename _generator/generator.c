@@ -120,8 +120,6 @@ static void html_from_markdown(char* const destination_html,
 static void generate_for_file_path(char const* const file_path,
                                    char const* const output_dir_path,
                                    struct TemplateParts template_parts) {
-  printf(">>> Generating for file_path:        %s\n", file_path);
-
   // Open and read file.
   char file_content[MAX_FILE_CONTENT_BUFFER_SIZE] = { 0 };
   read_file(file_content, file_path, MAX_FILE_CONTENT_BUFFER_SIZE);
@@ -239,7 +237,6 @@ static void generate_for_file_path(char const* const file_path,
 
   // Write output.
   write_file(output, output_file_path);
-  printf(">>> Wrote to output_file_path:       %s\n", output_file_path);
 }
 
 static void generate(void) {

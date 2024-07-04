@@ -300,10 +300,6 @@ class Generator(object):
         if not os.path.basename(file_path).endswith(
             ".md"
         ) and not os.path.basename(file_path).endswith(".html"):
-            sys.stdout.write(
-                "Skipping encountered a non-Markdown or non-HTML "
-                "file: " + file_path + "\n"
-            )
             return
 
         # Build output path.
@@ -341,13 +337,6 @@ class Generator(object):
         file_markdown = "".join(file_lines)
         file_html = markdown.markdown(file_markdown)
 
-        sys.stdout.write(
-            "Generating full HTML for "
-            + file_path
-            + " in "
-            + output_path
-            + "\n"
-        )
         # Stitch.
         stitched_html = stitched_content_html(
             file_html, title, generate_footer, self.__parsed_template
