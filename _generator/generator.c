@@ -158,6 +158,7 @@ static void generate_for_file_path(char const* const file_path,
   strcat(indented_html, "        ");
   size_t indented_html_index = 8;
   size_t html_index = 0;
+  bool in_pre_block = false;
   while (true) {
     char html_current = html[html_index];
 
@@ -167,13 +168,25 @@ static void generate_for_file_path(char const* const file_path,
       break;
     }
 
+    // Toggle in_pre_block.
+    if (string_has_prefix(html + html_index, "<pre><code>")) {
+      in_pre_block = true;
+    }
+    if (in_pre_block == true &&
+        html_current == '\n' &&
+        string_has_prefix(html + html_index + 1, "</code></pre>")) {
+      in_pre_block = false;
+    }
+
     // Append the character.
     indented_html[indented_html_index] = html_current;
     indented_html_index++;
     html_index++;
 
-    // Append when a new line is coming, except for the last one.
-    if (html_current == '\n' && html[html_index] != '\0') {
+    // Append indentation.
+    if (html_current == '\n' &&
+        html[html_index] != '\0' &&
+        in_pre_block == false) {
       strcat(indented_html, "        ");
       indented_html_index += 8;
     }
