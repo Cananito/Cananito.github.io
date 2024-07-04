@@ -30,10 +30,10 @@ Alternatively:
 1. Run `make`.
 1. Commit and push both `.md` and the generated `.html` files.
 
-### Build only
+#### Build only
 
 1. Run `make build`.
 
-### Clean build artifacts
+#### Clean build artifacts
 
 1. Run `make clean`.
