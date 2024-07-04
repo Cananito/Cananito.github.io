@@ -142,7 +142,33 @@ static void generate_for_file_path(char const* const file_path,
   // Convert Markdown to HTML.
   char html[MAX_FILE_CONTENT_BUFFER_SIZE] = { 0 };
   html_from_markdown(html, markdown);
-  // TODO: Indent HTML!
+
+  // Indent the html.
+  char indented_html[MAX_FILE_CONTENT_BUFFER_SIZE] = { 0 };
+  strcat(indented_html, "        ");
+  size_t indented_html_index = 7;
+  size_t html_index = 0;
+  while (true) {
+    char html_current = html[html_index];
+
+    // If we reached the end, append the null terminator and finish.
+    if (html_current == '\0') {
+      indented_html[indented_html_index] = html_current;
+      break;
+    }
+
+    // Append the character.
+    indented_html[indented_html_index] = html_current;
+    indented_html_index++;
+    html_index++;
+
+    // Append when a new line is coming, except for the last one.
+    if (html_current == '\n' && html[html_index] != '\0') {
+      printf(">>> isjdfoasjfoisajdfoiasdjfoaisdjfoais\n");
+      strcat(indented_html, "        ");
+      indented_html_index += 8;
+    }
+  }
 
   char output[MAX_FILE_CONTENT_BUFFER_SIZE] = { 0 };
 
@@ -166,7 +192,7 @@ static void generate_for_file_path(char const* const file_path,
   strcat(output, template_parts.after_title_before_content);
 
   // Append the converted HTML.
-  strcat(output, html);
+  strcat(output, indented_html);
 
   // Append from the close content tag to the footer.
   strcat(output, template_parts.after_content_before_footer);
@@ -235,7 +261,7 @@ static void generate(void) {
 
   char const* const start_of_close_title_tag =
       start_of_open_title_tag + title_tag_len;
-  char const* const content_tag = "<div id=\"content\">";
+  char const* const content_tag = "<div id=\"content\">\n";
   size_t content_tag_len = strlen(content_tag);
   char const* const start_of_open_content_tag = strstr(start_of_close_title_tag,
                                                        content_tag);
@@ -245,7 +271,6 @@ static void generate(void) {
           start_of_close_title_tag,
           start_of_close_title_tag_to_end_of_open_content_tag_len);
 
-  // TODO: This is incorrectly including a newline and indentation before.
   char const* const start_of_close_content_tag =
       start_of_open_content_tag + content_tag_len;
   char const* const open_footer_tag = "<footer>";
