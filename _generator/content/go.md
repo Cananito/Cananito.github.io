@@ -3,7 +3,7 @@
 
 # Go
 
-<span id="last-updated">Last updated: Mar 03, 2024</span>
+<span id="last-updated">Last updated: Jul 18, 2024</span>
 
 My Online-Go.com profile: [online-go.com/player/948468/cananito](https://online-go.com/player/948468/cananito).
 
@@ -48,6 +48,13 @@ Taken from [https://www.youtube.com/watch?v=CkvR-iuTkd4](https://www.youtube.com
 * 15-30 minutes per session since children can’t focus for long.
 * Once they understand capturing well, give them kids books.
 * Ideal environment is to have many children so they can play each other. Children get bored when only playing adults.
+
+## How To Learn
+
+* Video: [Go Rules & Basics - Go Magic](https://www.youtube.com/playlist?list=PL4DLlaT_bvDG5y6WSfXU8cQsTsb4o3YnT) (YouTube playlist)
+* Book (small): [The Way to Go - Karl Baker](https://www.usgo-archive.org/sites/default/files/pdf/W2Go8x11.pdf)
+* Book (full length): [GO: A Complete Introduction to the Game - Cho Chikun](https://www.amazon.com/GO-Introduction-Chikun-Cho-9-dan/dp/4906574505)
+* Interactively: [Learn to play Go - OGS](https://online-go.com/learn-to-play-go)
 
 ## Useful Links
 
