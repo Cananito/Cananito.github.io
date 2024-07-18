@@ -49,7 +49,7 @@ Taken from [https://www.youtube.com/watch?v=CkvR-iuTkd4](https://www.youtube.com
 * Once they understand capturing well, give them kids books.
 * Ideal environment is to have many children so they can play each other. Children get bored when only playing adults.
 
-## How To Learn
+## How To Begin Learning
 
 * Video: [Go Rules & Basics - Go Magic](https://www.youtube.com/playlist?list=PL4DLlaT_bvDG5y6WSfXU8cQsTsb4o3YnT) (YouTube playlist)
 * Book (small): [The Way to Go - Karl Baker](https://www.usgo-archive.org/sites/default/files/pdf/W2Go8x11.pdf)
