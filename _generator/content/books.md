@@ -3,11 +3,18 @@
 
 # Books
 
-<span id="last-updated">Last updated: Aug 25, 2023</span>
+<span id="last-updated">Last updated: Jul 23, 2024</span>
 
 ## Books I’ve Read
 
 ### 2024
+
+**The Hunger Games** ~ Suzanne Collins  
+Started: 2024/Jul/11  
+Finished: 2024/Jul/23  
+Rating: 4.5/5
+
+Really enjoyed it. I just felt there should've been more fighting encounters between the main character and the others, and that the ending chapters after the competition ends was too boring and dragged out.
 
 **Bartleby, the Scrivener** ~ Herman Melville  
 Started: 2024/Jan/25  
