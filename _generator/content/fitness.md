@@ -3,15 +3,17 @@
 
 # Fitness
 
-<span id="last-updated">Last updated: May 04, 2024</span>
+<span id="last-updated">Last updated: Aug 15, 2024</span>
 
 Besides overall health, the 3 areas I aim to improve with exercise are:
 
 1. Strength.
 1. Mobility.
-1. Aerobic endurance.
+1. Aerobic and cardiovascular endurance.
 
-I mostly cover stength with barbell training, mobility with stretching, and aerobic endurance with running.
+I mostly cover stength with barbell training, mobility with stretching, and aerobic endurance with running/jogging.
+
+I believe these 3 areas are the biggest bang for the buck for maximizing longevity, physical and athletic performance, and how physically functional one can be.
 
 ## Barbell Training
 
@@ -32,7 +34,7 @@ Less frequently, as assistance, as variations, or just for fun: barbell curls, s
 
 ### Programming
 
-My primary goal is to get stronger, secondarily to have a good physique. Thus I prioritize strength training: 1-5 reps per set with heavy weight, a.k.a. low “volume” high “intensity”. But when I hit a plateau, have an injury, or experience any discomfort, I do incorporate higher “volume” (total reps) and lower “intensity” (weight) to varying degrees.
+My only goal is to get stronger. Thus I prioritize strength training: 1-5 reps per set with heavy weight, a.k.a. low “volume” high “intensity”. But when I hit a plateau, have an injury, or experience any discomfort, I do incorporate higher “volume” (total reps) and lower “intensity” (weight) to varying degrees.
 
 ### Why strength?
 
@@ -51,10 +53,8 @@ I don’t really have a strong reason for not incorporating the bench press as a
 
 ## Stretching
 
-A major downside of my barbell training is that it leads to stiffness and sometimes even pain because muscles get so knotted. To mitigate this I do targeted streteches. In the case of muscle knots, it's specially effective if I'm stretching a muscle by contracting the opposite one without any other type of support.
+I don't have a particular routine or set of stretches. Instead I focus on finding tight muscles or joints with limited range of motion.
 
-Another reason I like stretching is to improve the range of motion of my joints, thus improving mobility.
+## Running/Jogging
 
-## Running
-
-I really dislike the feeling of being short of breath when doing any type of low-medium intensity activity, so I like to incorporate some [aerobic](https://fitbod.me/blog/cardio-aerobic-anaerobic/) exercise throughout the week. For this I like running indoors on a treadmill for 10-30 mins.
+I like running or jogging indoors on a treadmill.
