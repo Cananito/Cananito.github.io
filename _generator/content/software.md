@@ -3,7 +3,7 @@
 
 # Software
 
-<span id="last-updated">Last updated: Sep 3, 2023</span>
+<span id="last-updated">Last updated: Aug 21, 2024</span>
 
 ## Software I Use
 
@@ -14,19 +14,19 @@
 * Smartphone OS: [Android](https://www.android.com/)
 * Web browser: [Google Chrome](https://www.google.com/chrome/)
 * Text editor: [Vim](https://www.vim.org/)
-* File storage and synchronization: [Google Drive](https://www.google.com/drive/)
 * Note taking (mobile): [Google Keep](https://keep.google.com/)
 * Email: [Gmail](https://www.google.com/gmail/)
 * Calendar: [Google Calendar](https://www.google.com/calendar)
 * Word processor: [Google Docs](https://docs.google.com/)
 * Spreadsheets: [Google Sheets](http://sheets.google.com/)
 * Presentations: [Google Slides](https://slides.google.com/)
+* File storage: [Google Drive](https://www.google.com/drive/)
 * Graphics editor: [GIMP](https://www.gimp.org/)
 
 ### Development Environment
 
 * Code editor: [Vim](https://www.vim.org/)
-* Terminal: [iTerm2](https://iterm2.com/)
+* Terminal: [Terminal.app](https://en.wikipedia.org/wiki/Terminal_(macOS))
 * Terminal multiplexer: [tmux](https://github.com/tmux/tmux/wiki)
 * Terminal shell: [Bash 5](https://www.gnu.org/software/bash/)
 * C toolchain (personal): [Clang](https://clang.llvm.org/) + [LLDB](https://lldb.llvm.org/) + [Make](https://www.gnu.org/software/make/)
@@ -65,3 +65,4 @@ The languages I’m most proficient in:
 1. Python
 1. JavaScript
 1. C
+1. Java
