@@ -3,13 +3,13 @@
 
 # About Me
 
-<span id="last-updated">Last updated: May 23, 2024</span>
+<span id="last-updated">Last updated: Aug 24, 2024</span>
 
 ![A picture of me.](images/me.jpg)
 
 ## Profession
 
-I’m a **software engineer** at **Google**, specialized in iOS app development using Objective-C and Swift. I have some experience with other platforms and languages, but I’ve done iOS almost exclusively in all my jobs.
+I’m a **software engineer** at **Google**.
 
 ### Jobs
 
