@@ -57,4 +57,4 @@ I don't have a particular routine or set of stretches. Instead I focus on findin
 
 ## Running/Jogging
 
-I like to run/job the longest distance (fastest pace) possible at a steady state for 20-45 minutes on a treadmill.
+I like to run/jog the longest distance (fastest pace) possible at a steady state for 20-45 minutes on a treadmill.
