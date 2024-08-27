@@ -3,17 +3,17 @@
 
 # Fitness
 
-<span id="last-updated">Last updated: Aug 15, 2024</span>
+<span id="last-updated">Last updated: Aug 26, 2024</span>
 
-Besides overall health, the 3 areas I aim to improve with exercise are:
+The 3 areas I aim to focus on and improve with exercise are:
 
 1. Strength.
 1. Mobility.
-1. Aerobic and cardiovascular endurance.
+1. Aerobic endurance.
+
+I believe these 3 areas are the biggest bang for the buck for maximizing longevity, physical and athletic performance, and how physically functional one can be. I intentionally choose to ignore hypertrophy (see reasoning below in "Why strength?").
 
 I mostly cover stength with barbell training, mobility with stretching, and aerobic endurance with running/jogging.
-
-I believe these 3 areas are the biggest bang for the buck for maximizing longevity, physical and athletic performance, and how physically functional one can be.
 
 ## Barbell Training
 
@@ -57,4 +57,4 @@ I don't have a particular routine or set of stretches. Instead I focus on findin
 
 ## Running/Jogging
 
-I like running or jogging indoors on a treadmill.
+I like to run/job the longest distance (fastest pace) possible at a steady state for 20-45 minutes on a treadmill.
