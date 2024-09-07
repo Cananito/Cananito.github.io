@@ -40,6 +40,8 @@ My only goal is to get stronger. Thus I prioritize strength training: 1-5 reps p
 
 It’s easy to find studies showing that greater muscle mass and/or strength correlates to an increase in longevity. It’s also the case that while muscle mass correlates with strength, [it’s not directly proportional](https://www.strongerbyscience.com/size-vs-strength/), muscle mass is just one of many factors—but likely the biggest one the more trained you are. It’s thus hard to say which is more important for longevity: muscle mass or strength. For convenience, I choose to focus on strength, given that it’s easier and cheaper to increase and maintain than muscle.
 
+Also, there's some correlation between caloric restriction and longevity. Yet hypertrophy requires a larger amount of calories than strength.
+
 ### Why not bench press?
 
 I don’t really have a strong reason for not incorporating the bench press as a main lift in my training. It’s just a combination of small things:
