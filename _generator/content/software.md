@@ -3,7 +3,7 @@
 
 # Software
 
-<span id="last-updated">Last updated: Aug 21, 2024</span>
+<span id="last-updated">Last updated: Oct 02, 2024</span>
 
 ## Software I Use
 
@@ -34,13 +34,6 @@
 * Source control (personal): [Git](https://git-scm.com/)
 * Source control (work): a modified version of [Perforce](https://www.perforce.com/)
 * Dotfiles/config management: [Stow](https://www.gnu.org/software/stow/) + Git repository.
-
-#### Vim Plugins
-
-* [YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)
-* [vim-vinegar](https://github.com/tpope/vim-vinegar)
-
- I manage all my plugins with [vim-plug](https://github.com/junegunn/vim-plug).
 
 ## Programming Languages
 
