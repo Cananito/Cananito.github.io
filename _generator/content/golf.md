@@ -3,7 +3,7 @@
 
 # Golf
 
-<span id="last-updated">Last updated: May 20, 2024</span>
+<span id="last-updated">Last updated: Jun 1, 2024</span>
 
 ## Current Handicap
 
@@ -176,6 +176,7 @@ My first club set was the [Tour Edge HP25](https://www.touredge.com/hp25mensfull
 ### Misc
 
 * [Garmin Approach G80](https://buy.garmin.com/en-US/US/p/597253) handheld GPS + launch monitor.
+* [Precision Pro NX9](https://precisionprogolf.com/products/nx9-slope-rangefinder) rangefinder.
 * [Gray Original Jones Lancer bag](https://www.jonessportsco.com/collections/carry-bags/products/original-jones-lancer?variant=31624055128117).
 * [BagBoy Nitron](https://www.amazon.com/gp/product/B07NDZ5GHY) cart / trolley.
 * Seamus head covers ([Sloan Square Steel - Driver](https://www.seamusgolf.com/products/sloan-square-steel), [Strathclyde Blue Ancient - Fairway](https://www.seamusgolf.com/products/strathclyde-blue-ancient?variant=565505325), [Sloan Square Steel - Fairway](https://www.seamusgolf.com/products/sloan-square-steel?variant=33021410639958), [Strathclyde Blue Ancient - Hybrid](https://www.seamusgolf.com/products/strathclyde-blue-ancient?variant=565505329), and [Sloan Square Steel - Putter](https://www.seamusgolf.com/products/sloan-square-steel-magnet-putter-cover)).
