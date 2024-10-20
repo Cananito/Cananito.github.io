@@ -3,15 +3,21 @@
 
 # Fitness
 
-<span id="last-updated">Last updated: Aug 26, 2024</span>
+<span id="last-updated">Last updated: Oct 20, 2024</span>
 
-The 3 areas I aim to focus on and improve with exercise are:
+When it comes to exercise, the 3 most important things to me are:
+
+1. Overall health.
+1. Longevity.
+1. Performance.
+
+Based on that, I believe the 3 areas that are the biggest bang for the buck, and thus the ones I choose to focus on are:
 
 1. Strength.
 1. Mobility.
 1. Aerobic endurance.
 
-I believe these 3 areas are the biggest bang for the buck for maximizing longevity, physical and athletic performance, and how physically functional one can be. I intentionally choose to ignore hypertrophy (see reasoning below in "Why strength?").
+Notably, I intentionally choose to ignore things like hypertrophy (see reasoning below in "Why strength?").
 
 I mostly cover stength with barbell training, mobility with stretching, and aerobic endurance with running/jogging.
 
@@ -30,7 +36,7 @@ The main lifts I do are:
 * Press (a.k.a. overhead press or strict press).
 * Deadlift.
 
-Less frequently, as assistance, as variations, or just for fun: barbell curls, squat variations, pull variations, press/jerk variations, bench press, barbell row, power clean, chin ups, dips.
+Less frequently, as assistance, as variations, or just for fun: barbell curls, squat variations, pull variations, press/jerk variations, barbell row, power clean, chin ups.
 
 ### Programming
 
