@@ -3,7 +3,7 @@
 
 # Fitness
 
-<span id="last-updated">Last updated: Oct 20, 2024</span>
+<span id="last-updated">Last updated: Oct 29, 2024</span>
 
 When it comes to exercise, the 3 most important things to me are:
 
