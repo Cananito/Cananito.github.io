@@ -52,7 +52,7 @@ When it comes to emotional thoughts, it’s pretty useful to capture them so I c
 
 ### Digital Set-Up
 
-I use my computer, a text editor (vim) and `.txt` files, a cloud file storage service (Google Drive) to synchronize across computers, and a notes app (Keep) to quickly capture things with my smartphone while I’m on the go and transfer them to my computer later.
+I use my computer, a text editor (vim) and `.txt` files, a cloud file storage service to synchronize across computers, and a notes app (Keep) to quickly capture things with my smartphone while I’m on the go and transfer them to my computer later.
 
 The directory and file structure I follow the following example:
 
