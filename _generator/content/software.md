@@ -34,7 +34,7 @@
 * [Clang](https://clang.llvm.org/)
 * [LLDB](https://lldb.llvm.org/)
 * [Git](https://git-scm.com/)
-* [Stow](https://www.gnu.org/software/stow/) + Git repository.
+* [Stow](https://www.gnu.org/software/stow/)
 
 ## Programming Languages
 
