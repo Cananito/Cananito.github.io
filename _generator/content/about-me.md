@@ -3,7 +3,7 @@
 
 # About Me
 
-<span id="last-updated">Last updated: Dec 10, 2024</span>
+<span id="last-updated">Last updated: Dec 11, 2024</span>
 
 ![A picture of me.](images/me.jpg)
 
@@ -43,10 +43,10 @@ Outside of working, parenting, and doing chores, my interests include:
 
 * Reading [The Economist](https://www.economist.com/). I’ve had the digital + print subscription since Jun 2020 and try to read most of the articles from the weekly issue. I particularly like The Economist because it’s weekly (so easy to keep up with), has global coverage (so big bang for the buck), and aligns with my political views the most.
 * [Working out](fitness.html).
+* Computer science and [software](software.html) engineering.
 * Reading [books](books.html).
 * Playing [Go](go.html).
 * [Golf](golf.html). Mostly playing it, sometimes watching it. My favorite events are the 4 majors and the Ryder Cup.
-* Computer science and [software](software.html) engineering.
 * Football (soccer). Mostly following it, sometimes watching it, but not playing it (too afraid of injuring myself). My favorite leagues/tournaments are England’s Premier League, the UEFA Champions League, and the FIFA World Cup. My favorite teams are Manchester United and the England national team.
 * Watching YouTube, TV, and movies.
 
