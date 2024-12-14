@@ -3,7 +3,7 @@
 
 # Software
 
-<span id="last-updated">Last updated: Dec 04, 2024</span>
+<span id="last-updated">Last updated: Dec 14, 2024</span>
 
 ## Software I Use
 
@@ -42,7 +42,7 @@ My favorite programming languages are:
 
 1. C
 1. Python
-1. JavaScript
+1. JavaScript (only in the browser and without frameworks)
 
 The criteria I use to determine my language preferences:
 
@@ -51,12 +51,3 @@ The criteria I use to determine my language preferences:
 1. Portability
 1. Performance
 1. Features
-
-The languages I’m most proficient in:
-
-1. Objective-C
-1. Swift
-1. Python
-1. JavaScript
-1. C
-1. Java
