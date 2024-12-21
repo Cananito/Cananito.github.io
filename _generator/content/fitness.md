@@ -3,7 +3,7 @@
 
 # Fitness
 
-<span id="last-updated">Last updated: Dec 04, 2024</span>
+<span id="last-updated">Last updated: Dec 20, 2024</span>
 
 When it comes to exercise, the 3 most important things to me are:
 
@@ -15,11 +15,11 @@ Based on that, I believe the 3 areas that are the biggest bang for the buck, and
 
 1. Strength.
 1. Mobility.
-1. Aerobic endurance.
+1. Cardiorespiratory fitness (VO2 max).
 
 Notably, I intentionally choose to ignore things like hypertrophy (see reasoning below in "Why strength?").
 
-I mostly cover stength with barbell training, mobility with stretching, and aerobic endurance with running/jogging.
+I mostly cover stength with barbell training, mobility with stretching, and VO2 max with running.
 
 ## Barbell Training
 
@@ -61,6 +61,6 @@ I don’t really have a strong reason for not incorporating the bench press as a
 
 I don't have a particular routine or set of stretches. Instead I focus on finding tight muscles or joints with limited range of motion.
 
-## Running/Jogging
+## Running
 
-I like to run/jog the longest distance (fastest pace) possible at a steady state for 20-45 minutes on a treadmill.
+I do all of my running on a treadmill. Everything else, I'm still trying to figure out.
