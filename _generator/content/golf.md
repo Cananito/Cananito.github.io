@@ -3,11 +3,11 @@
 
 # Golf
 
-<span id="last-updated">Last updated: Jun 1, 2024</span>
+<span id="last-updated">Last updated: Dec 30, 2024</span>
 
 ## Current Handicap
 
-Beginner without an official handicap, shooting around +51 (based on the last 3 games I played and extrapolating the 9-hole rounds).
+Beginner without an official handicap, shooting around +40 (based on the last 3 games I played and extrapolating the 9-hole rounds).
 
 ## What’s In The Bag
 
@@ -175,7 +175,6 @@ My first club set was the [Tour Edge HP25](https://www.touredge.com/hp25mensfull
 
 ### Misc
 
-* [Garmin Approach G80](https://buy.garmin.com/en-US/US/p/597253) handheld GPS + launch monitor.
 * [Precision Pro NX9](https://precisionprogolf.com/products/nx9-slope-rangefinder) rangefinder.
 * [Gray Original Jones Lancer bag](https://www.jonessportsco.com/collections/carry-bags/products/original-jones-lancer?variant=31624055128117).
 * [BagBoy Nitron](https://www.amazon.com/gp/product/B07NDZ5GHY) cart / trolley.
