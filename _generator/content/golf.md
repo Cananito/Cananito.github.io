@@ -3,7 +3,7 @@
 
 # Golf
 
-<span id="last-updated">Last updated: Dec 30, 2024</span>
+<span id="last-updated">Last updated: Jan 03, 2025</span>
 
 ## Current Handicap
 
@@ -13,7 +13,7 @@ Beginner without an official handicap, shooting around +40 (based on the last 3 
 
 ### Clubs
 
-My first club set was the [Tour Edge HP25](https://www.touredge.com/hp25mensfullset) which I bought back in 2017. I’ve since swapped everything out except for the driver, a fairway wood, and the putter.
+My first club set was the [Tour Edge HP25](https://www.touredge.com/hp25mensfullset) which I bought back in 2017. I’ve since kept the putter, but dropped the driver and woods, and swapped out irons and wedges with Takomo clubs.
 
 <div class="table-container">
     <table>
@@ -29,26 +29,6 @@ My first club set was the [Tour Edge HP25](https://www.touredge.com/hp25mensfull
             <th>Brand</th>
             <th>Length</th>
             <th>Material</th>
-        </tr>
-        <tr>
-            <td>Driver</td>
-            <td>Tour Edge HP25</td>
-            <td>10.5°</td>
-            <td>60°</td>
-            <td>N/A</td>
-            <td>Tour Edge</td>
-            <td>44.5"</td>
-            <td>Graphite</td>
-        </tr>
-        <tr>
-            <td>3 Wood</td>
-            <td>Tour Edge HP25</td>
-            <td>15°</td>
-            <td>58°</td>
-            <td>N/A</td>
-            <td>Tour Edge</td>
-            <td>43.5"</td>
-            <td>Graphite</td>
         </tr>
         <tr>
             <td>4 Iron</td>
@@ -131,33 +111,13 @@ My first club set was the [Tour Edge HP25](https://www.touredge.com/hp25mensfull
             <td>Steel</td>
         </tr>
         <tr>
-            <td>52 Wedge</td>
-            <td>Kirkland Signature</td>
-            <td>52°</td>
-            <td>64°</td>
-            <td>10°</td>
-            <td>True Temper</td>
-            <td>35.5"</td>
-            <td>Steel</td>
-        </tr>
-        <tr>
             <td>56 Wedge</td>
-            <td>Kirkland Signature</td>
+            <td>Takomo Skyforger</td>
             <td>56°</td>
-            <td>64°</td>
-            <td>10°</td>
+            <td>63°</td>
+            <td>12°</td>
             <td>True Temper</td>
             <td>35.25"</td>
-            <td>Steel</td>
-        </tr>
-        <tr>
-            <td>60 Wedge</td>
-            <td>Kirkland Signature</td>
-            <td>60°</td>
-            <td>64°</td>
-            <td>8°</td>
-            <td>True Temper</td>
-            <td>35"</td>
             <td>Steel</td>
         </tr>
         <tr>
