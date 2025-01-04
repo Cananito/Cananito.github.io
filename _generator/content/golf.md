@@ -116,7 +116,7 @@ My first club set was the [Tour Edge HP25](https://www.touredge.com/hp25mensfull
             <td>56°</td>
             <td>63°</td>
             <td>12°</td>
-            <td>True Temper</td>
+            <td>KBS WEDGE</td>
             <td>35.25"</td>
             <td>Steel</td>
         </tr>
