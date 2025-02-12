@@ -29,10 +29,10 @@
 * [Terminal.app](https://en.wikipedia.org/wiki/Terminal_(macOS))
 * [tmux](https://github.com/tmux/tmux/wiki)
 * [Bash 5](https://www.gnu.org/software/bash/)
-* [Universal Ctags](https://github.com/universal-ctags/ctags)
 * [Make](https://www.gnu.org/software/make/)
 * [Clang](https://clang.llvm.org/)
 * [LLDB](https://lldb.llvm.org/)
+* [Ctags](https://en.wikipedia.org/wiki/Ctags)
 * [Git](https://git-scm.com/)
 * [Stow](https://www.gnu.org/software/stow/)
 
