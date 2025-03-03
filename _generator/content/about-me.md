@@ -46,7 +46,7 @@ Outside of working, parenting, and doing chores, my interests include:
 * Computer science and [software](software.html) engineering.
 * Reading [books](books.html).
 * [Golf](golf.html). Mostly playing it, sometimes watching it.
-* Football (soccer). Mostly following it, sometimes watching it, but not playing it (too afraid of injuring myself). My favorite team is **Manchester United**. My favorite games to watch are England’s Premier League, the UEFA Champions League final, and the FIFA World Cup.
+* Football (soccer). Mostly following it, sometimes watching it, but not playing it (too afraid of injuring myself). My favorite team is **Manchester United**.
 * Playing [Go](go.html).
 
 ### Why “cananito”?
