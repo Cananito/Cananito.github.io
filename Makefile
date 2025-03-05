@@ -6,11 +6,11 @@ run: generator
 build: generator
 
 generator: _generator/generator.c
-	clang -g $(CFLAGS) -c md4c/src/entity.c -o entity.o
-	clang -g $(CFLAGS) -Wno-macro-redefined -c md4c/src/md4c.c -o md4c.o
-	clang -g $(CFLAGS) -c md4c/src/md4c-html.c -o md4c-html.o
-	clang -g $(CFLAGS) -c _generator/generator.c -o generator.o
-	clang -g $(CFLAGS) entity.o md4c.o md4c-html.o generator.o -o generator
+	$(CC) -g $(CFLAGS) -c md4c/src/entity.c -o entity.o
+	$(CC) -g $(CFLAGS) -Wno-macro-redefined -c md4c/src/md4c.c -o md4c.o
+	$(CC) -g $(CFLAGS) -c md4c/src/md4c-html.c -o md4c-html.o
+	$(CC) -g $(CFLAGS) -c _generator/generator.c -o generator.o
+	$(CC) -g $(CFLAGS) entity.o md4c.o md4c-html.o generator.o -o generator
 
 clean:
 	rm -f *.o
