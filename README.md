@@ -9,7 +9,7 @@ In the `_generator/` directory there's a `generator.c` program that goes over al
 ### Requirements
 
 * Linux or macOS.
-* [Clang](https://clang.llvm.org/)
+* A C compiler.
 * [Make](https://www.gnu.org/software/make/)
 
 ### Setup Instructions
