@@ -5,6 +5,10 @@
 
 <span id="last-updated">Last updated: Dec 14, 2024</span>
 
+### GitHub
+
+[https://github.com/Cananito](https://github.com/Cananito)
+
 ## Software I Use
 
 ### General
