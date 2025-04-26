@@ -10,8 +10,8 @@
 
 🏋️‍♂️ [Fitness](fitness.html) 💪
 
-⚫️ [Go](go.html) ⚪️
-
 🏌️‍♂️ [Golf](golf.html) ⛳️
+
+⚫️ [Go](go.html) ⚪️
 
 👨‍🍳 [Cooking](cooking.html) 🥣 
