@@ -3,7 +3,7 @@
 
 # Golf
 
-<span id="last-updated">Last updated: Jan 03, 2025</span>
+<span id="last-updated">Last updated: Apr 30, 2025</span>
 
 ## Current Handicap
 
@@ -135,6 +135,7 @@ My first club set was the [Tour Edge HP25](https://www.touredge.com/hp25mensfull
 
 ### Misc
 
+* [Garmin Approach G80](https://buy.garmin.com/en-US/US/p/597253) handheld GPS + launch monitor.
 * [Precision Pro NX9](https://precisionprogolf.com/products/nx9-slope-rangefinder) rangefinder.
 * [Gray Original Jones Lancer bag](https://www.jonessportsco.com/collections/carry-bags/products/original-jones-lancer?variant=31624055128117).
 * [BagBoy Nitron](https://www.amazon.com/gp/product/B07NDZ5GHY) cart / trolley.
