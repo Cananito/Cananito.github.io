@@ -5,7 +5,7 @@
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h> // TODO: Delete in favor of custom String struct?
+#include <string.h>
 #include <sys/param.h>
 #include "../md4c/src/md4c-html.h"
 
