@@ -3,7 +3,7 @@
 
 # Golf
 
-<span id="last-updated">Last updated: Apr 30, 2025</span>
+<span id="last-updated">Last updated: May 21, 2025</span>
 
 ## Current Handicap
 
@@ -13,7 +13,7 @@ Beginner without an official handicap, shooting around +40 (based on the last 3 
 
 ### Clubs
 
-My first club set was the [Tour Edge HP25](https://www.touredge.com/hp25mensfullset) which I bought back in 2017. I’ve since kept the putter, but dropped the driver and woods, and swapped out irons and wedges with Takomo clubs.
+My first club set was the [Tour Edge HP25](https://www.touredge.com/hp25mensfullset) which I bought back in 2017.
 
 <div class="table-container">
     <table>
@@ -29,6 +29,36 @@ My first club set was the [Tour Edge HP25](https://www.touredge.com/hp25mensfull
             <th>Brand</th>
             <th>Length</th>
             <th>Material</th>
+        </tr>
+        <tr>
+            <td>Driver</td>
+            <td>Tour Edge HP25</td>
+            <td>10.5°</td>
+            <td>60°</td>
+            <td>N/A</td>
+            <td>Tour Edge</td>
+            <td>44.5"</td>
+            <td>Graphite</td>
+        </tr>
+        <tr>
+            <td>5 Wood</td>
+            <td>Tour Edge HP25</td>
+            <td>19.0°</td>
+            <td>59°</td>
+            <td>N/A</td>
+            <td>Tour Edge</td>
+            <td>42.5"</td>
+            <td>Graphite</td>
+        </tr>
+        <tr>
+            <td>4 Hybrid</td>
+            <td>Tour Edge HP25</td>
+            <td>24.0°</td>
+            <td>60.5°</td>
+            <td>N/A</td>
+            <td>Tour Edge</td>
+            <td>38.75"</td>
+            <td>Graphite</td>
         </tr>
         <tr>
             <td>4 Iron</td>
@@ -122,12 +152,12 @@ My first club set was the [Tour Edge HP25](https://www.touredge.com/hp25mensfull
         </tr>
         <tr>
             <td>Putter</td>
-            <td>Tour Edge HP25</td>
-            <td>4°</td>
-            <td>71°</td>
+            <td>TaylorMade Spider Tour X L-Neck</td>
+            <td>3°</td>
+            <td>70°</td>
             <td>N/A</td>
-            <td>Tour Edge</td>
-            <td>35"</td>
+            <td>KBS Black PVD STEPLESS</td>
+            <td>34"</td>
             <td>Steel</td>
         </tr>
     </table>
@@ -137,6 +167,7 @@ My first club set was the [Tour Edge HP25](https://www.touredge.com/hp25mensfull
 
 * [Garmin Approach G80](https://buy.garmin.com/en-US/US/p/597253) handheld GPS + launch monitor.
 * [Precision Pro NX9](https://precisionprogolf.com/products/nx9-slope-rangefinder) rangefinder.
+* [Jones Trouper 3.0 - Black](https://www.jonessportsco.com/collections/stand-bags/products/trouper-3-0-black).
 * [Gray Original Jones Lancer bag](https://www.jonessportsco.com/collections/carry-bags/products/original-jones-lancer?variant=31624055128117).
 * [BagBoy Nitron](https://www.amazon.com/gp/product/B07NDZ5GHY) cart / trolley.
 * Seamus head covers ([Sloan Square Steel - Driver](https://www.seamusgolf.com/products/sloan-square-steel), [Strathclyde Blue Ancient - Fairway](https://www.seamusgolf.com/products/strathclyde-blue-ancient?variant=565505325), [Sloan Square Steel - Fairway](https://www.seamusgolf.com/products/sloan-square-steel?variant=33021410639958), [Strathclyde Blue Ancient - Hybrid](https://www.seamusgolf.com/products/strathclyde-blue-ancient?variant=565505329), and [Sloan Square Steel - Putter](https://www.seamusgolf.com/products/sloan-square-steel-magnet-putter-cover)).
