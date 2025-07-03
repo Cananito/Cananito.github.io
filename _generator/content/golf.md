@@ -132,7 +132,7 @@ My first club set was the [Tour Edge HP25](https://www.touredge.com/hp25mensfull
         </tr>
         <tr>
             <td>48 Wedge</td>
-            <td>Takomo Skyforger</td>
+            <td>Takomo Skyforger 001</td>
             <td>48°</td>
             <td>63°</td>
             <td>8°</td>
@@ -142,7 +142,7 @@ My first club set was the [Tour Edge HP25](https://www.touredge.com/hp25mensfull
         </tr>
         <tr>
             <td>56 Wedge</td>
-            <td>Takomo Skyforger</td>
+            <td>Takomo Skyforger 001</td>
             <td>56°</td>
             <td>63°</td>
             <td>12°</td>

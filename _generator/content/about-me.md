@@ -3,7 +3,7 @@
 
 # About Me
 
-<span id="last-updated">Last updated: Dec 14, 2024</span>
+<span id="last-updated">Last updated: July 03, 2025</span>
 
 ![A picture of me.](images/me.jpg)
 
@@ -41,12 +41,11 @@ I lived in **Tijuana** from birth to Jun 2012, **Mount Shasta** from Jun 2012 to
 
 Outside of working, parenting, and doing chores, my interests include:
 
-* Reading [The Economist](https://www.economist.com/). I’ve had the digital + print subscription since Jun 2020 and try to read most of the articles from the weekly issue. I particularly like The Economist because it’s weekly (so easy to keep up with), has global coverage (so big bang for the buck), and aligns with my political views the most.
-* [Working out](fitness.html).
 * Computer science and [software](software.html) engineering.
-* Reading [books](books.html).
-* [Golf](golf.html). Mostly playing it, sometimes watching it.
-* Football (soccer). Mostly following it, sometimes watching it, but not playing it (too afraid of injuring myself). My favorite team is **Manchester United**.
+* [Golf](golf.html).
+* [Working out](fitness.html).
+* Reading [The Economist](https://www.economist.com/). I’ve had the digital + print subscription since Jun 2020 and try to read most of the articles from the weekly issue. I particularly like The Economist because it’s weekly (so easy to keep up with), has global coverage (so big bang for the buck), and aligns with my political views the most.
+* Reading books.
 * Playing [Go](go.html).
 
 ### Why “cananito”?
