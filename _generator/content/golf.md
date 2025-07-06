@@ -3,7 +3,7 @@
 
 # Golf
 
-<span id="last-updated">Last updated: May 21, 2025</span>
+<span id="last-updated">Last updated: Jul 06, 2025</span>
 
 ## Current Handicap
 
@@ -40,6 +40,18 @@ My first club set was the [Tour Edge HP25](https://www.touredge.com/hp25mensfull
             <td>44.5"</td>
             <td>Graphite</td>
         </tr>
+<!--
+        <tr>
+            <td>3 Wood</td>
+            <td>Tour Edge HP25</td>
+            <td>15.0°</td>
+            <td>58°</td>
+            <td>N/A</td>
+            <td>Tour Edge</td>
+            <td>43.5"</td>
+            <td>Graphite</td>
+        </tr>
+-->
         <tr>
             <td>5 Wood</td>
             <td>Tour Edge HP25</td>
@@ -60,6 +72,7 @@ My first club set was the [Tour Edge HP25](https://www.touredge.com/hp25mensfull
             <td>38.75"</td>
             <td>Graphite</td>
         </tr>
+<!--
         <tr>
             <td>4 Iron</td>
             <td>Takomo 101</td>
@@ -90,6 +103,7 @@ My first club set was the [Tour Edge HP25](https://www.touredge.com/hp25mensfull
             <td>37.5"</td>
             <td>Steel</td>
         </tr>
+-->
         <tr>
             <td>7 Iron</td>
             <td>Takomo 101</td>
@@ -130,6 +144,7 @@ My first club set was the [Tour Edge HP25](https://www.touredge.com/hp25mensfull
             <td>35.5"</td>
             <td>Steel</td>
         </tr>
+<!--
         <tr>
             <td>48 Wedge</td>
             <td>Takomo Skyforger 001</td>
@@ -140,6 +155,7 @@ My first club set was the [Tour Edge HP25](https://www.touredge.com/hp25mensfull
             <td>35.5"</td>
             <td>Steel</td>
         </tr>
+-->
         <tr>
             <td>56 Wedge</td>
             <td>Takomo Skyforger 001</td>
