@@ -167,6 +167,16 @@ My first club set was the [Tour Edge HP25](https://www.touredge.com/hp25mensfull
             <td>Steel</td>
         </tr>
         <tr>
+            <td>60 Wedge</td>
+            <td>Kirkland Signature</td>
+            <td>60°</td>
+            <td>64°</td>
+            <td>8°</td>
+            <td>True Temper</td>
+            <td>35"</td>
+            <td>Steel</td>
+        </tr>
+        <tr>
             <td>Putter</td>
             <td>TaylorMade Spider Tour X L-Neck</td>
             <td>3°</td>
