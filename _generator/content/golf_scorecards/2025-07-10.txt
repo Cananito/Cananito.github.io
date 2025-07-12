@@ -1,0 +1,20 @@
+Thu Jul 10 2025
+Bonita Golf Course
+h1p4 4h pw 4h 7i 60w pu / pu pu
+h2p4 4h fencedrop 4h 56w pu / pu pu
+h3p5 dr 4h 7i / pu pu
+h4p4 dr 60w pu / pu pu
+h5p4 5w 8i / pu pu pu
+h6p3 7i pu / pu pu
+h7p4 dr 7i 4h pw 60w pu / pu
+h8p4 4h 48w / pu pu pu
+h9p3 7i 60w 60w pu / pu pu
+h10p4 5w pw pu / pu pu pu
+h11p3 pw dropzone 60w 60w 60w pu / pu pu
+h12p5 dr 4h 8i 60w / pu pu
+h13p4 dr 4h 48w 56w 60w / pu pu pu
+h14p4 dr dropzone 5w pw 60w / pu pu pu
+h15p3 pw 60w / pu pu pu
+h16p4 dr 7i 60w 60w / pu pu
+h17p4 dr 48w 9i 60w 60w / pu pu pu pu
+h18p5 dr 7i penalty 4h 60w / pu pu pu
