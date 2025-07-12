@@ -7,10 +7,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include <sys/param.h>
+#include "utils.h"
 #include "../md4c/src/md4c-html.h"
-
-// On my current set-up, 101 characters is the longest path.
-#define MAX_PATH_LENGTH 256
 
 // At the moment, the largest file contains 17056 characters.
 // Making the max 256 kB to allow for plenty of leeway.
@@ -18,57 +16,6 @@
 
 // At the moment, 1647 bytes. Adding extra just in case.
 #define TEMPLATE_HTML_FILE_BUFFER_SIZE 2048
-
-static bool string_has_suffix(char const* const str, char const* const suffix) {
-  if (str == NULL || suffix == NULL) {
-    return false;
-  }
-  size_t str_len = strlen(str);
-  size_t suffix_len = strlen(suffix);
-  if (suffix_len > str_len) {
-    return false;
-  }
-  return strncmp(str + str_len - suffix_len, suffix, suffix_len) == 0;
-}
-
-static bool string_has_prefix(char const* const str, char const* const prefix) {
-  if (str == NULL || prefix == NULL) {
-    return false;
-  }
-  return strncmp(str, prefix, strlen(prefix)) == 0;
-}
-
-static void read_file(char* const file_content,
-                      char const* const file_path,
-                      size_t buffer_size) {
-  FILE* file = fopen(file_path, "r");
-  if (file == NULL) {
-    printf("Failed to open file_path: %s.\n", file_path);
-    exit(EXIT_FAILURE);
-  }
-  fread(file_content, sizeof(char), buffer_size, file);
-  if (feof(file) == 0) {
-    printf("Couldn't read to end of file for file_path: %s.\n", file_path);
-    fclose(file);
-    exit(EXIT_FAILURE);
-  }
-  if (ferror(file) != 0) {
-    printf("Read error for file_path: %s.\n", file_path);
-    fclose(file);
-    exit(EXIT_FAILURE);
-  }
-  fclose(file);
-}
-
-static void write_file(char* const file_content, char const* const file_path) {
-  FILE* file = fopen(file_path, "w");
-  if (file == NULL) {
-    printf("Failed to write to file_path: %s.\n", file_path);
-    exit(EXIT_FAILURE);
-  }
-  fputs(file_content, file);
-  fclose(file);
-}
 
 struct TemplateParts {
   char const* const before_title;
@@ -349,7 +296,7 @@ void generate_from_markdown_content(void) {
       break;
     }
     if (current_ent->fts_info != FTS_F) {
-      // Not a regular file, likely a directory, skip.
+      // Not a regular file, skip.
       continue;
     }
     char const* const file_path = current_ent->fts_path;

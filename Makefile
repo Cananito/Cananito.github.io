@@ -5,8 +5,8 @@ run: generator
 
 build: generator
 
-generator: entity.o md4c.o md4c-html.o mdcontent.o scorecards.o generator.o
-	$(CC) -g $(CFLAGS) entity.o md4c.o md4c-html.o mdcontent.o scorecards.o generator.o -o generator
+generator: entity.o md4c.o md4c-html.o utils.o mdcontent.o scorecards.o generator.o
+	$(CC) -g $(CFLAGS) entity.o md4c.o md4c-html.o utils.o mdcontent.o scorecards.o generator.o -o generator
 
 entity.o: md4c/src/entity.c
 	$(CC) -g $(CFLAGS) -c md4c/src/entity.c -o entity.o
@@ -16,6 +16,9 @@ md4c.o: md4c/src/md4c.c
 
 md4c-html.o: md4c/src/md4c-html.c
 	$(CC) -g $(CFLAGS) -c md4c/src/md4c-html.c -o md4c-html.o
+
+utils.o: _generator/utils.c
+	$(CC) -g $(CFLAGS) -c _generator/utils.c -o utils.o
 
 mdcontent.o: _generator/mdcontent.c
 	$(CC) -g $(CFLAGS) -c _generator/mdcontent.c -o mdcontent.o
