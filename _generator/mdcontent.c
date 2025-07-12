@@ -334,7 +334,7 @@ void generate_from_markdown_content(void) {
   char content_dir_path[MAX_PATH_LENGTH];
   strcpy(content_dir_path, cwd);
   strcat(content_dir_path, "_generator/content");
-  int fts_options = FTS_PHYSICAL|FTS_NOCHDIR;
+  int fts_options = FTS_PHYSICAL|FTS_NOCHDIR|FTS_NOSTAT|FTS_NOSTAT_TYPE;
   char* dirs[] = { content_dir_path, NULL };
   FTS* content_dir_fts = fts_open(dirs, fts_options, NULL);
   if (content_dir_fts == NULL) {
