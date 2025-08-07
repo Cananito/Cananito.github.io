@@ -3,7 +3,7 @@
 
 # About Me
 
-<span id="last-updated">Last updated: July 03, 2025</span>
+<span id="last-updated">Last updated: Aug 07, 2025</span>
 
 ![A picture of me.](images/me.jpg)
 
@@ -11,19 +11,26 @@
 
 I’m a **software engineer** at **Google**.
 
-### Jobs
-
 * **Surf Shack Software** from Mar 11 2011 to Apr 18 2014.
 * **ChaiOne** from Apr 21 2014 to Jan 29 2016.
 * **Google** from Feb 29 2016 to the present.
     * **Google+ iOS** from Feb 29 2016 to Jun 21 2019.
     * **Gmail iOS** from Jun 24 2019 to the present.
+    * **Gmail Multiplat** from Jan 22 2024 to the present.
 
-TODO: How I got into computer science.
+My GitHub: [https://github.com/Cananito](https://github.com/Cananito)
 
-### GitHub
+My **favorite programming language is C** because of its simplicity, performance, portability, and popularity.
 
-[https://github.com/Cananito](https://github.com/Cananito)
+My preferred development environment consists of:
+
+* [Vim](https://www.vim.org/)
+* [Terminal.app](https://en.wikipedia.org/wiki/Terminal_(macOS))
+* [tmux](https://github.com/tmux/tmux/wiki)
+* [Bash 5](https://www.gnu.org/software/bash/)
+* [Make](https://www.gnu.org/software/make/)
+* [Git](https://git-scm.com/)
+* [Stow](https://www.gnu.org/software/stow/)
 
 ## Education
 
@@ -46,7 +53,6 @@ Outside of working, parenting, and doing chores, my interests include:
 * [Working out](fitness.html).
 * Reading [The Economist](https://www.economist.com/). I’ve had the digital + print subscription since Jun 2020 and try to read most of the articles from the weekly issue. I particularly like The Economist because it’s weekly (so easy to keep up with), has global coverage (so big bang for the buck), and aligns with my political views the most.
 * Reading books.
-* Playing [Go](go.html).
 
 ### Why “cananito”?
 

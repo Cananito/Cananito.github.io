@@ -1,7 +1,5 @@
 🙋‍♂️ [About Me](about-me.html) ☝️
 
-👨‍💻 [Software](software.html)
-
 🏌️‍♂️ [Golf](golf.html) ⛳️
 
 🏋️‍♂️ [Fitness](fitness.html) 💪
