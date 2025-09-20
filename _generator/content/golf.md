@@ -3,7 +3,7 @@
 
 # Golf
 
-<span id="last-updated">Last updated: Jul 06, 2025</span>
+<span id="last-updated">Last updated: Sep 19, 2025</span>
 
 ## Current Handicap
 
@@ -62,6 +62,7 @@ My first club set was the [Tour Edge HP25](https://www.touredge.com/hp25mensfull
             <td>42.5"</td>
             <td>Graphite</td>
         </tr>
+<!--
         <tr>
             <td>4 Hybrid</td>
             <td>Tour Edge HP25</td>
@@ -72,7 +73,7 @@ My first club set was the [Tour Edge HP25](https://www.touredge.com/hp25mensfull
             <td>38.75"</td>
             <td>Graphite</td>
         </tr>
-<!--
+-->
         <tr>
             <td>4 Iron</td>
             <td>Takomo 101</td>
@@ -103,7 +104,6 @@ My first club set was the [Tour Edge HP25](https://www.touredge.com/hp25mensfull
             <td>37.5"</td>
             <td>Steel</td>
         </tr>
--->
         <tr>
             <td>7 Iron</td>
             <td>Takomo 101</td>
@@ -166,6 +166,7 @@ My first club set was the [Tour Edge HP25](https://www.touredge.com/hp25mensfull
             <td>35.25"</td>
             <td>Steel</td>
         </tr>
+<!--
         <tr>
             <td>60 Wedge</td>
             <td>Kirkland Signature</td>
@@ -176,6 +177,7 @@ My first club set was the [Tour Edge HP25](https://www.touredge.com/hp25mensfull
             <td>35"</td>
             <td>Steel</td>
         </tr>
+-->
         <tr>
             <td>Putter</td>
             <td>TaylorMade Spider Tour X L-Neck</td>
