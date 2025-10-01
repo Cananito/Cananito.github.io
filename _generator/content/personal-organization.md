@@ -94,5 +94,6 @@ I use a proper calendar (Google Calendar) since—for me—BuJo fell short on ca
 * Harder to visualize time slots.
 * Lack of notifications minutes prior to the event.
 * Harder to share the event with someone.
+* Not practical for rescheduling often, which tends to happen much more nowadays.
 
 I try to capture all significant events in my calendar (appointments, social events and outings, haircuts, flights, birthdays, meetings, etc.).
