@@ -69,7 +69,7 @@ I use my computer, a text editor (vim) and `.txt` files, and a cloud file storag
 The directory and file structure I follow the following example:
 
 <pre><code>
-BuJo/
+notebooks/
 ├── 2020
 │   ├── 00-future-log.txt
 │   ├── 01-january.txt
