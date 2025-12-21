@@ -71,19 +71,18 @@ The directory and file structure I follow the following example:
 <pre><code>
 BuJo/
 ├── 2020
-│   ├── 00-FutureLog.txt
-│   ├── 01-January.txt
+│   ├── 00-future-log.txt
+│   ├── 01-january.txt
 │   ├── ...
-│   └── 12-December.txt
+│   └── 12-december.txt
 ├── 2021
-│   ├── 00-FutureLog.txt
-│   ├── 01-January.txt
+│   ├── 00-future-log.txt
+│   ├── 01-january.txt
 │   ├── ...
-│   └── 12-December.txt
-└── Collections
-    ├── Books.txt
-    ├── Golf.txt
-    └── Wine.txt
+│   └── 12-december.txt
+├── books.txt
+├── golf.txt
+└── recipes.txt
 </code></pre>
 
 ## Calendar
