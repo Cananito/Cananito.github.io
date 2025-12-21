@@ -3,7 +3,7 @@
 
 # Personal Organization
 
-<span id="last-updated">Last updated: Oct 01, 2025</span>
+<span id="last-updated">Last updated: Dec 21, 2025</span>
 
 There are 2 core parts to my personal organization: a [Bullet Journal](https://www.amazon.com/Bullet-Journal-Method-Present-Design/dp/0525533338/) and a calendar.
 
