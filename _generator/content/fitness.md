@@ -3,7 +3,7 @@
 
 # Fitness
 
-<span id="last-updated">Last updated: Dec 20, 2024</span>
+<span id="last-updated">Last updated: Jan 02, 2026</span>
 
 When it comes to exercise, the 3 most important things to me are:
 
@@ -38,10 +38,6 @@ The main lifts I do are:
 
 Less frequently, as assistance, as variations, or just for fun: barbell curls, squat variations, pull variations, press/jerk variations, barbell row, power clean, chin ups.
 
-### Programming
-
-My only goal is to get stronger. Thus I prioritize strength training: 1-5 reps per set with heavy weight, a.k.a. low “volume” high “intensity”. But when I hit a plateau, have an injury, or experience any discomfort, I do incorporate higher “volume” (total reps) and lower “intensity” (weight) to varying degrees.
-
 ### Why strength?
 
 It’s easy to find studies showing that greater muscle mass and/or strength correlates to an increase in longevity. It’s also the case that while muscle mass correlates with strength, [it’s not directly proportional](https://www.strongerbyscience.com/size-vs-strength/), muscle mass is just one of many factors—but likely the biggest one the more trained you are. There's even some evidence of muscle size having no impact on strength[[1](https://www.youtube.com/watch?v=KB0fKTSW3Mw)]. It’s thus hard to say which is more important for longevity: muscle mass or strength. Recent research[[2](https://www.youtube.com/watch?v=CNkfKZPjt5E)][[3](https://www.outsideonline.com/health/training-performance/getting-strong-is-good-for-your-brain-even-if-you-dont-bulk-up/)][[4](https://onlinelibrary.wiley.com/doi/epdf/10.1002/lim2.90)] indicates strength is more important. For convenience, I choose to focus on strength, given that it’s easier and cheaper to increase and maintain than muscle.
@@ -63,4 +59,8 @@ I don't have a particular routine or set of stretches. Instead I focus on findin
 
 ## Running
 
-I do all of my running on a treadmill. Everything else, I'm still trying to figure out.
+Running is my preferred way to train my cardiorespiratory fitness because:
+
+* Can be done almost anywhere.
+* When done on a treadmill, it's easier on average to do a precise workload in a given time frame.
+* Practical usage in life.
