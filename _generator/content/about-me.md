@@ -3,7 +3,7 @@
 
 # About Me
 
-<span id="last-updated">Last updated: Aug 07, 2025</span>
+<span id="last-updated">Last updated: Jan 19, 2026</span>
 
 ![A picture of me.](images/me.jpg)
 
@@ -31,6 +31,7 @@ My preferred development environment consists of:
 * [Make](https://www.gnu.org/software/make/)
 * [Git](https://git-scm.com/)
 * [Stow](https://www.gnu.org/software/stow/)
+* [Nginx](https://nginx.org/)
 
 ## Education
 
@@ -50,9 +51,11 @@ Outside of working, parenting, and doing chores, my interests include:
 
 * Computer science and [software](software.html) engineering.
 * [Golf](golf.html).
+* [Go](go.html).
 * [Working out](fitness.html).
 * Reading [The Economist](https://www.economist.com/). I’ve had the digital + print subscription since Jun 2020 and try to read most of the articles from the weekly issue. I particularly like The Economist because it’s weekly (so easy to keep up with), has global coverage (so big bang for the buck), and aligns with my political views the most.
 * Reading books.
+* Manchester United.
 
 ### Why “cananito”?
 
