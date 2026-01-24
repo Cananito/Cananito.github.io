@@ -61,10 +61,11 @@ Taken from [https://www.youtube.com/watch?v=CkvR-iuTkd4](https://www.youtube.com
 * [OGS](https://online-go.com/). My preferred server to play on. Not the biggest server, but simple and modern website with minimal requirements.
 * [Sensei's Library](https://senseis.xmp.net/). The site witht the most information about Go. Hard to browse around but the search is reliable.
 * [ten minutes to Go](https://tenminutestogo.co.uk/). Neat website with good tips and resources.
-* [Black To Play](https://blacktoplay.com/). Super clean and simple web app to do Go problems.
+* [BadukPop](https://badukpop.com/). Mobile app to play and learn Go.
+* [Black To Play](https://blacktoplay.com/). Simple web app to do Go problems.
 * Tsumego Pro ([Android](https://play.google.com/store/apps/details?id=net.lrstudios.android.tsumego_workshop), [iOS](https://apps.apple.com/us/app/tsumego-pro-go-problems/id892041876)). Another simple app to do Go problems, but have to pay to get beyond the 150 free ones.
 * [Go Magic](https://gomagic.org/). A learning platform with some free content and a Duolingo-style section.
 * [Go4Go](https://www.go4go.net/go/). Useful site to see professional game records.
 * [American Go Association](https://www.usgo.org/).
 * [North American Go Federation](https://nagofed.org/).
-* [The Clossi Approach](https://shawnsgogroup.com/clossi_approach)
+* [The Clossi Approach](https://shawnsgogroup.com/clossi_approach).
