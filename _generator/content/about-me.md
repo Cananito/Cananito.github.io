@@ -3,7 +3,7 @@
 
 # About Me
 
-<span id="last-updated">Last updated: Jan 19, 2026</span>
+<span id="last-updated">Last updated: Mar 27, 2026</span>
 
 ![A picture of me.](images/me.jpg)
 
@@ -25,7 +25,7 @@ My **favorite programming language is C** because of its simplicity, performance
 My preferred development environment consists of:
 
 * [Vim](https://www.vim.org/)
-* [Terminal.app](https://en.wikipedia.org/wiki/Terminal_(macOS))
+* [st](https://st.suckless.org/) on Linux, [iTerm2](https://iterm2.com/) on Mac.
 * [tmux](https://github.com/tmux/tmux/wiki)
 * [Bash 5](https://www.gnu.org/software/bash/)
 * [Make](https://www.gnu.org/software/make/)
