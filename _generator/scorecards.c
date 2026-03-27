@@ -43,7 +43,10 @@ void generate_scorecard_pages(void) {
     if (current_ent == NULL) {
       break;
     }
-    if (current_ent->fts_info != FTS_F) {
+    unsigned short info = current_ent->fts_info;
+    if (info != FTS_F &&
+        info != FTS_NS &&
+        info != FTS_NSOK) {
       // Not a regular file, skip.
       continue;
     }
