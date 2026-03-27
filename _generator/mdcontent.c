@@ -7,6 +7,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <sys/param.h>
+#include <unistd.h>
 #include "utils.h"
 #include "../md4c/src/md4c-html.h"
 
@@ -281,7 +282,13 @@ void generate_from_markdown_content(void) {
   char content_dir_path[MAX_PATH_LENGTH];
   strcpy(content_dir_path, cwd);
   strcat(content_dir_path, "_generator/content");
+#ifdef __linux
+  int fts_options = FTS_PHYSICAL|FTS_NOCHDIR|FTS_NOSTAT;
+#elif __APPLE__
   int fts_options = FTS_PHYSICAL|FTS_NOCHDIR|FTS_NOSTAT|FTS_NOSTAT_TYPE;
+#else
+  int fts_options = FTS_PHYSICAL|FTS_NOCHDIR|FTS_NOSTAT;
+#endif
   char* dirs[] = { content_dir_path, NULL };
   FTS* content_dir_fts = fts_open(dirs, fts_options, NULL);
   if (content_dir_fts == NULL) {
