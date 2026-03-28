@@ -49,7 +49,7 @@ I lived in **Tijuana** from birth to Jun 2012, **Mount Shasta** from Jun 2012 to
 
 Outside of working, parenting, and doing chores, my interests include:
 
-* Computer science and [software](software.html) engineering.
+* Computer science and software engineering.
 * [Golf](golf.html).
 * [Go](go.html).
 * [Working out](fitness.html).
