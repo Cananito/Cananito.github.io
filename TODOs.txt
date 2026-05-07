@@ -1,0 +1,18 @@
+* golf scorecards/stats pages
+* migrate hosting to VPS and change repo name
+* add content
+  * Casio
+  * ThinkPad
+  * Debian
+  * suckless software (dwm, dmenu, st)
+    - suckless > GNOME > C/GTK > ...?
+  * tea
+  * OSC 52 (https://docs.google.com/document/d/1U4srzJQtjvsoEnOLuHxJUTNqqR3cVQ4uToocBC9c2rs)
+  * SD food recommendations (https://docs.google.com/document/d/1jSSd8zNwYk042dw4E8J7fr4e1U54oCzDwuXQaUh1xH4)
+  * lawn care
+  * golf: it should only allow 5 or 6 clubs and my selection of them
+  * how to read The Economist (or print news and/or textbooks)
+  * preferred platforms: CLI > TUI > native GUI > website > web app?
+  * finances (so wife and kids can read, include "no risk or at least calculated risk)
+  * board games (Go, Mahjong, Catan, Avalon, Secret Hitler)
+  * RSS (blogs, YouTube)
