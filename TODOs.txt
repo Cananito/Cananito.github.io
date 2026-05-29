@@ -15,4 +15,5 @@
   * preferred platforms: CLI > TUI > native GUI > website > web app?
   * finances (so wife and kids can read, include "no risk or at least calculated risk)
   * board games (Go, Mahjong, Catan, Avalon, Secret Hitler)
+    - https://www.themahjongproject.com/
   * RSS (blogs, YouTube)
