@@ -3,7 +3,7 @@
 
 # About Me
 
-<span id="last-updated">Last updated: Mar 27, 2026</span>
+<span id="last-updated">Last updated: Jun 22, 2026</span>
 
 ![A picture of me.](images/me.jpg)
 
@@ -16,7 +16,6 @@ I’m a **software engineer** at **Google**.
 * **Google** from Feb 29 2016 to the present.
     * **Google+ iOS** from Feb 29 2016 to Jun 21 2019.
     * **Gmail iOS** from Jun 24 2019 to the present.
-    * **Gmail Multiplat** from Jan 22 2024 to the present.
 
 My GitHub: [https://github.com/Cananito](https://github.com/Cananito)
 
