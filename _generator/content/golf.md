@@ -3,7 +3,7 @@
 
 # Golf
 
-<span id="last-updated">Last updated: May 28, 2026</span>
+<span id="last-updated">Last updated: Jul 07, 2026</span>
 
 ## Current Handicap
 
@@ -32,44 +32,22 @@ My first club set was the [Tour Edge HP25](https://www.touredge.com/hp25mensfull
         </tr>
         <tr>
             <td>Driver</td>
-            <td>Tour Edge HP25</td>
+            <td>SIM 2 Max</td>
             <td>10.5°</td>
             <td>60°</td>
             <td>N/A</td>
-            <td>Tour Edge</td>
-            <td>44.5"</td>
+            <td>Fujikura Ventus Blue Stiff</td>
+            <td>44.75"</td>
             <td>Graphite</td>
         </tr>
-<!--
-        <tr>
-            <td>3 Wood</td>
-            <td>Tour Edge HP25</td>
-            <td>15.0°</td>
-            <td>58°</td>
-            <td>N/A</td>
-            <td>Tour Edge</td>
-            <td>43.5"</td>
-            <td>Graphite</td>
-        </tr>
--->
         <tr>
             <td>5 Wood</td>
-            <td>Tour Edge HP25</td>
-            <td>19.0°</td>
-            <td>59°</td>
+            <td>SIM 2 Max Fairway</td>
+            <td>18.0°</td>
+            <td>59.5°</td>
             <td>N/A</td>
-            <td>Tour Edge</td>
+            <td>Fujikura Ventus Blue Stiff</td>
             <td>42.5"</td>
-            <td>Graphite</td>
-        </tr>
-        <tr>
-            <td>4 Hybrid</td>
-            <td>Tour Edge HP25</td>
-            <td>24.0°</td>
-            <td>60.5°</td>
-            <td>N/A</td>
-            <td>Tour Edge</td>
-            <td>38.75"</td>
             <td>Graphite</td>
         </tr>
 <!--
@@ -166,18 +144,6 @@ My first club set was the [Tour Edge HP25](https://www.touredge.com/hp25mensfull
             <td>35.25"</td>
             <td>Steel</td>
         </tr>
-<!--
-        <tr>
-            <td>60 Wedge</td>
-            <td>Kirkland Signature</td>
-            <td>60°</td>
-            <td>64°</td>
-            <td>8°</td>
-            <td>True Temper</td>
-            <td>35"</td>
-            <td>Steel</td>
-        </tr>
--->
         <tr>
             <td>Putter</td>
             <td>TaylorMade Spider Tour X L-Neck</td>
